@@ -1,0 +1,223 @@
+Synthesis report for project T35SBC_extRAM_6
+Generated at: Jan 22, 2023 17:59:18
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : T35SBC_extRAM_6_top
+### ### File List (begin) ### ### ###
+C:\s100projects\T35SBC_extRAM_6\ctlBusMux.v
+C:\s100projects\T35SBC_extRAM_6\ClockMux.v
+C:\s100projects\T35SBC_extRAM_6\cpuDIMux.v
+C:\s100projects\T35SBC_extRAM_6\cpuHAdrMux.v
+C:\s100projects\T35SBC_extRAM_6\dff2.v
+C:\s100projects\T35SBC_extRAM_6\dff3.v
+C:\s100projects\T35SBC_extRAM_6\ShiftReg.v
+C:\s100projects\T35SBC_extRAM_6\T80.vhd
+C:\s100projects\T35SBC_extRAM_6\portDecoder.v
+C:\s100projects\T35SBC_extRAM_6\Microcomputer.vhd
+C:\s100projects\T35SBC_extRAM_6\ParShiftReg.v
+C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v
+C:\s100projects\T35SBC_extRAM_6\rom.v
+C:\s100projects\T35SBC_extRAM_6\n_bitlatch.v
+C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v
+C:\s100projects\T35SBC_extRAM_6\T80_Pack.vhd
+C:\s100projects\T35SBC_extRAM_6\T80_ALU.vhd
+C:\s100projects\T35SBC_extRAM_6\n_bitReg.v
+C:\s100projects\T35SBC_extRAM_6\T80_MCode.vhd
+C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd
+C:\s100projects\T35SBC_extRAM_6\LEDBarMux.v
+C:\s100projects\T35SBC_extRAM_6\T80s.vhd
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : Zero initialization of uninitialized memory block 'RegsH'. (C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd:79)
+"MEM|SYN-0677" : Zero initialization of uninitialized memory block 'RegsL'. (C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd:80)
+"MEM|SYN-0655" : Mapping into logic memory block 'i140/cpu1/u0/Regs/RegsH'. (C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd:79)
+"MEM|SYN-0655" : Mapping into logic memory block 'i140/cpu1/u0/Regs/RegsL'. (C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd:80)
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 55
+CE signal <i140/cpu1/u0/n202>, number of controlling flip flops: 8
+CE signal <i193/n12>, number of controlling flip flops: 8
+CE signal <i193/n11>, number of controlling flip flops: 8
+CE signal <ceg_net687>, number of controlling flip flops: 16
+CE signal <ceg_net785>, number of controlling flip flops: 8
+CE signal <ceg_net824>, number of controlling flip flops: 8
+CE signal <ceg_net696>, number of controlling flip flops: 2
+CE signal <ceg_net25>, number of controlling flip flops: 2
+CE signal <s100_pHLDA>, number of controlling flip flops: 49
+CE signal <ceg_net328>, number of controlling flip flops: 8
+CE signal <ceg_net1016>, number of controlling flip flops: 1
+CE signal <i140/cpu1/u0/n2918>, number of controlling flip flops: 16
+CE signal <i140/cpu1/u0/n4650>, number of controlling flip flops: 8
+CE signal <ceg_net40>, number of controlling flip flops: 7
+CE signal <ceg_net705>, number of controlling flip flops: 8
+CE signal <i140/cpu1/u0/n2920>, number of controlling flip flops: 1
+CE signal <i140/cpu1/u0/n2917>, number of controlling flip flops: 1
+CE signal <ceg_net708>, number of controlling flip flops: 1
+CE signal <ceg_net55>, number of controlling flip flops: 1
+CE signal <ceg_net556>, number of controlling flip flops: 8
+CE signal <i140/cpu1/u0/n2970>, number of controlling flip flops: 3
+CE signal <i193/n10>, number of controlling flip flops: 8
+CE signal <ceg_net922>, number of controlling flip flops: 3
+CE signal <i140/cpu1/u0/n2972>, number of controlling flip flops: 3
+CE signal <i140/cpu1/u0/n2991>, number of controlling flip flops: 1
+CE signal <i140/cpu1/u0/n2408>, number of controlling flip flops: 1
+CE signal <ceg_net73>, number of controlling flip flops: 1
+CE signal <ceg_net76>, number of controlling flip flops: 1
+CE signal <ceg_net715>, number of controlling flip flops: 1
+CE signal <ceg_net935>, number of controlling flip flops: 8
+CE signal <ceg_net788>, number of controlling flip flops: 8
+CE signal <ceg_net1027>, number of controlling flip flops: 1
+CE signal <ceg_net1042>, number of controlling flip flops: 1
+CE signal <ceg_net1051>, number of controlling flip flops: 2
+CE signal <ceg_net1066>, number of controlling flip flops: 1
+CE signal <ceg_net403>, number of controlling flip flops: 1
+CE signal <ceg_net1080>, number of controlling flip flops: 1
+CE signal <i140/cpu1/u0/n4075>, number of controlling flip flops: 1
+CE signal <ceg_net896>, number of controlling flip flops: 8
+CE signal <ceg_net621>, number of controlling flip flops: 15
+CE signal <spare_P17>, number of controlling flip flops: 23
+CE signal <outFF>, number of controlling flip flops: 8
+CE signal <i193/n9>, number of controlling flip flops: 8
+CE signal <i193/n8>, number of controlling flip flops: 8
+CE signal <i193/n7>, number of controlling flip flops: 8
+CE signal <i193/n6>, number of controlling flip flops: 8
+CE signal <i193/n5>, number of controlling flip flops: 8
+CE signal <i194/n12>, number of controlling flip flops: 8
+CE signal <i194/n11>, number of controlling flip flops: 8
+CE signal <i194/n10>, number of controlling flip flops: 8
+CE signal <i194/n9>, number of controlling flip flops: 8
+CE signal <i194/n8>, number of controlling flip flops: 8
+CE signal <i194/n7>, number of controlling flip flops: 8
+CE signal <i194/n6>, number of controlling flip flops: 8
+CE signal <i194/n5>, number of controlling flip flops: 8
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 6
+SR signal <s100_n_RESET>, number of controlling flip flops: 209
+SR signal <i140/cpuClkCount[2]>, number of controlling flip flops: 3
+SR signal <z80_n_iorq>, number of controlling flip flops: 1
+SR signal <n34_2>, number of controlling flip flops: 1
+SR signal <spare_P1>, number of controlling flip flops: 1
+SR signal <s100_pHLDA>, number of controlling flip flops: 1
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Memory Trimming Report (begin) ### ### ### 
+Memory instance 'test_rom/rom__D$2' WE tied off to 0.
+Memory instance 'test_rom/rom__D$b12' WE tied off to 0.
+Memory instance 'test_rom/rom__D$12' WE tied off to 0.
+Memory instance 'test_rom/rom__D$c1' WE tied off to 0.
+### ### Memory Trimming Report (end) ### ### ### 
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF Output: i140/cpu1/u0/INT_s(=0)
+FF Output: i140/cpu1/u0/NMI_s(=0)
+FF Output: i140/cpu1/u0/NMICycle(=0)
+FF Output: i140/cpu1/u0/IntCycle(=0)
+FF Output: S100adr16_19[2](=0)
+FF Output: S100adr16_19[1](=0)
+FF Output: S100adr16_19[0](=0)
+FF Output: S100adr16_19[3](=0)
+FF Output: iowait/temp[0](=0)
+FF Output: iowait/temp[1](=0)
+FF Output: iowait/temp[2](=0)
+FF Output: iowait/temp[3](=0)
+FF Output: iowait/temp[4](=0)
+FF Output: iowait/temp[5](=0)
+FF Output: iowait/temp[6](=0)
+FF Output: iowait/temp[7](=0)
+FF Output: iowait/temp[8](=0)
+FF Output: romwait/temp[1](=0)
+FF Output: romwait/temp[2](=0)
+FF Output: romwait/temp[3](=0)
+FF Output: romwait/temp[4](=0)
+FF Output: romwait/temp[5](=0)
+FF Output: romwait/temp[6](=0)
+FF Output: romwait/temp[7](=0)
+FF Output: romwait/temp[8](=0)
+FF Output: n_resetLatch(=1)
+FF instance: i140/cpu1/u0/IntE_FF1~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+T35SBC_extRAM_6_top:T35SBC_extRAM_6_top                          413(21)      60(20)    1906(22)      4(0)      0(0)
+ +i140:Microcomputer                                              354(4)       40(2)     1841(1)      0(0)      0(0)
+  +cpu1:T80s                                                     350(12)       38(0)    1840(78)      0(0)      0(0)
+   +u0:T80(iowait=1)                                            338(207)      38(32)  1762(1382)      0(0)      0(0)
+    +mcode:T80_MCode                                                0(0)        0(0)      28(28)      0(0)      0(0)
+    +alu:T80_ALU                                                    3(3)        6(6)      58(58)      0(0)      0(0)
+    +Regs:T80_Reg                                               128(128)        0(0)    294(294)      0(0)      0(0)
+ +cpuInMux:cpuDIMux                                                 0(0)        0(0)        8(8)      0(0)      0(0)
+ +mem_cs:memAdrDecoder                                              0(0)        0(0)        9(9)      0(0)      0(0)
+ +test_rom:rom(ADDR_WIDTH=11,RAM_INIT_FILE="00RAM_TEST.in...        0(0)        0(0)        0(0)      4(4)      0(0)
+ +ports_cs:portDecoder                                              0(0)        0(0)        1(1)      0(0)      0(0)
+ +s100stat:n_bitLatch(N=7)                                          7(7)        0(0)        0(0)      0(0)      0(0)
+ +s100adr:n_bitReg(N=16)                                          16(16)        0(0)        0(0)      0(0)      0(0)
+ +HighAdrMux:cpuHAdrMux                                             0(0)        0(0)      10(10)      0(0)      0(0)
+ +outPortFF:n_bitReg                                                8(8)        0(0)        6(6)      0(0)      0(0)
+ +lmux:LedBarMux                                                    0(0)        0(0)        8(8)      0(0)      0(0)
+ +iorqlatch:dff3                                                    1(1)        0(0)        0(0)      0(0)      0(0)
+ +endpsync:dff3                                                     1(1)        0(0)        0(0)      0(0)      0(0)
+ +readstrobe:dff2                                                   1(1)        0(0)        0(0)      0(0)      0(0)
+ +holdInLatch:dff3                                                  1(1)        0(0)        0(0)      0(0)      0(0)
+ +HLDAoutLatch:dff3                                                 1(1)        0(0)        0(0)      0(0)      0(0)
+ +ctlDisableLatch:dff3                                              1(1)        0(0)        0(0)      0(0)      0(0)
+ +ClkMux:ClockMux                                                   1(1)        0(0)        1(1)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+       Clock     Flip-Flops   Memory Ports    Multipliers
+       -----     ----------   ------------    -----------
+     diagLED            350              0              0
+    s100_PHI             40              4              0
+  s100_CLOCK             21              0              0
+   spare_P17              1              0              0
+ pll0_100MHz              1              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T35F400
+project : T35SBC_extRAM_6
+project-xml : C:/s100projects/T35SBC_extRAM_6/T35SBC_extRAM_6.xml
+root : T35SBC_extRAM_6_top
+I : C:/s100projects/T35SBC_extRAM_6
+output-dir : C:/s100projects/T35SBC_extRAM_6/outflow
+work-dir : C:/s100projects/T35SBC_extRAM_6/work_syn
+write-efx-verilog : C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.map.v
+binary-db : C:/s100projects/T35SBC_extRAM_6/T35SBC_extRAM_6.vdb
+insert-ios : 0
+max-carry-cascade : 480
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	32
+OUTPUT PORTS    : 	119
+
+EFX_ADD         : 	60
+EFX_LUT4        : 	1906
+   1-2  Inputs  : 	257
+   3    Inputs  : 	571
+   4    Inputs  : 	1078
+EFX_FF          : 	413
+EFX_RAM_5K      : 	4
+EFX_GBUFCE      : 	5
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 43s
+Elapsed synthesis time : 43s

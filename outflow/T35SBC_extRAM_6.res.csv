@@ -1,0 +1,30 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Jan 22, 2023 17:59:18
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+T35SBC_extRAM_6_top:T35SBC_extRAM_6_top                     	    413(21)	     60(20)	   1906(22)	     4(0)	     0(0)	
+ +i140:Microcomputer                                        	     354(4)	      40(2)	    1841(1)	     0(0)	     0(0)	
+  +cpu1:T80s                                                	    350(12)	      38(0)	   1840(78)	     0(0)	     0(0)	
+   +u0:T80(iowait=1)                                        	   338(207)	     38(32)	 1762(1382)	     0(0)	     0(0)	
+    +mcode:T80_MCode                                        	       0(0)	       0(0)	     28(28)	     0(0)	     0(0)	
+    +alu:T80_ALU                                            	       3(3)	       6(6)	     58(58)	     0(0)	     0(0)	
+    +Regs:T80_Reg                                           	   128(128)	       0(0)	   294(294)	     0(0)	     0(0)	
+ +cpuInMux:cpuDIMux                                         	       0(0)	       0(0)	       8(8)	     0(0)	     0(0)	
+ +mem_cs:memAdrDecoder                                      	       0(0)	       0(0)	       9(9)	     0(0)	     0(0)	
+ +test_rom:rom(ADDR_WIDTH=11,RAM_INIT_FILE="00RAM_TEST.inithex")	       0(0)	       0(0)	       0(0)	     4(4)	     0(0)	
+ +ports_cs:portDecoder                                      	       0(0)	       0(0)	       1(1)	     0(0)	     0(0)	
+ +s100stat:n_bitLatch(N=7)                                  	       7(7)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +s100adr:n_bitReg(N=16)                                    	     16(16)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +HighAdrMux:cpuHAdrMux                                     	       0(0)	       0(0)	     10(10)	     0(0)	     0(0)	
+ +outPortFF:n_bitReg                                        	       8(8)	       0(0)	       6(6)	     0(0)	     0(0)	
+ +lmux:LedBarMux                                            	       0(0)	       0(0)	       8(8)	     0(0)	     0(0)	
+ +iorqlatch:dff3                                            	       1(1)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +endpsync:dff3                                             	       1(1)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +readstrobe:dff2                                           	       1(1)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +holdInLatch:dff3                                          	       1(1)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +HLDAoutLatch:dff3                                         	       1(1)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +ctlDisableLatch:dff3                                      	       1(1)	       0(0)	       0(0)	     0(0)	     0(0)	
+ +ClkMux:ClockMux                                           	       1(1)	       0(0)	       1(1)	     0(0)	     0(0)	

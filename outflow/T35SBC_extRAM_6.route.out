@@ -1,0 +1,158 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Compiled: Aug 29 2022.
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F400" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2022.1/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2022.1/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2022.1/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 13.1476 seconds.
+	BuildGraph process took 12.7812 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 71.788 MB, end = 702.54 MB, delta = 630.752 MB
+	BuildGraph process peak virtual memory usage = 710.252 MB
+BuildGraph process resident set memory usage: begin = 76.356 MB, end = 690.068 MB, delta = 613.712 MB
+	BuildGraph process peak resident set memory usage = 697.64 MB
+check rr_graph process took 0.262546 seconds.
+	check rr_graph process took 0.25 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 765.608 MB, end = 765.608 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 782.828 MB
+check rr_graph process resident set memory usage: begin = 753.024 MB, end = 753.084 MB, delta = 0.06 MB
+	check rr_graph process peak resident set memory usage = 770.26 MB
+Generated 1952833 RR nodes and 7299317 RR edges
+This design has 0 global control net(s). See C:/s100projects/T35SBC_extRAM_6/outflow\T35SBC_extRAM_6.route.rpt for details.
+Routing graph took 13.625 seconds.
+	Routing graph took 13.2031 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 70.088 MB, end = 699.576 MB, delta = 629.488 MB
+	Routing graph peak virtual memory usage = 782.828 MB
+Routing graph resident set memory usage: begin = 75.344 MB, end = 687.272 MB, delta = 611.928 MB
+	Routing graph peak resident set memory usage = 770.26 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+Found potential clock source s100_PHI
+Found potential clock source z80_n_mreq
+Found potential clock source z80_n_rfsh
+Found potential clock source liorq
+Found potential clock source psyncend
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1         7066              13.53              0.872
+         2         1823              13.64              0.958
+         3          857               13.6              0.808
+         4          324              13.64               0.68
+         5          153              13.64              0.969
+         6           78               13.8               0.83
+         7           32              13.89                  1
+         8           21              13.83               2.14
+         9            9              14.62               1.83
+        10            4              14.82              0.325
+        11            1              14.59              0.295
+        12            0              14.59              0.283
+
+Successfully routed netlist after 12 routing iterations and 16413631 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 312482985
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.route'
+Routing took 11.7716 seconds.
+	Routing took 11.75 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 699.576 MB, end = 710.32 MB, delta = 10.744 MB
+	Routing peak virtual memory usage = 864.864 MB
+Routing resident set memory usage: begin = 687.276 MB, end = 698.448 MB, delta = 11.172 MB
+	Routing peak resident set memory usage = 818.168 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+Cross clock domain timing relationship was detected. Refer to the clocks section of the timing report for more details. You can use set_clock_groups to control how clocks are analyzed.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+ diagLED        14.710        67.981         (R-R)
+ s100_PHI       12.948        77.232         (R-F)
+ pll0_2MHz       2.997       333.667         (R-R)
+
+Geomean max period: 8.295
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   diagLED         diagLED             1.000           -13.710           (R-R)
+   diagLED         s100_PHI            1.000            -5.609           (R-R)
+   diagLED         s100_PHI            0.500            -6.989           (R-F)
+   s100_PHI        diagLED             1.000            -7.591           (R-R)
+   s100_PHI        s100_PHI            1.000            -4.176           (R-R)
+   s100_PHI        s100_PHI            0.500            -5.974           (R-F)
+   s100_PHI        s100_PHI            0.500            -0.624           (F-R)
+   pll0_2MHz       pll0_2MHz           1.000            -1.997           (R-R)
+   pll0_2MHz       pll0_100MHz         1.000            -2.984           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+   diagLED         diagLED              0.000           0.307            (R-R)
+   diagLED         s100_PHI             0.000           0.238            (R-R)
+   diagLED         s100_PHI            -0.500           0.797            (R-F)
+   s100_PHI        diagLED              0.000           0.977            (R-R)
+   s100_PHI        s100_PHI             0.000           0.307            (R-R)
+   s100_PHI        s100_PHI            -0.500           2.778            (R-F)
+   s100_PHI        s100_PHI            -0.500           0.883            (F-R)
+   pll0_2MHz       pll0_2MHz            0.000           0.307            (R-R)
+   pll0_2MHz       pll0_100MHz          0.000           0.848            (R-R)
+
+WARNING(1): Clock domain between diagLED (rising) and diagLED (rising) may not meet (slack: -13.710 ns) the setup (max) timing requirement
+WARNING(2): Clock domain between diagLED (rising) and s100_PHI (rising) may not meet (slack: -5.609 ns) the setup (max) timing requirement
+WARNING(3): Clock domain between diagLED (rising) and s100_PHI (falling) may not meet (slack: -6.989 ns) the setup (max) timing requirement
+WARNING(4): Clock domain between s100_PHI (rising) and diagLED (rising) may not meet (slack: -7.591 ns) the setup (max) timing requirement
+WARNING(5): Clock domain between s100_PHI (rising) and s100_PHI (rising) may not meet (slack: -4.176 ns) the setup (max) timing requirement
+WARNING(6): Clock domain between s100_PHI (rising) and s100_PHI (falling) may not meet (slack: -5.974 ns) the setup (max) timing requirement
+WARNING(7): Clock domain between s100_PHI (falling) and s100_PHI (rising) may not meet (slack: -0.624 ns) the setup (max) timing requirement
+WARNING(8): Clock domain between pll0_2MHz (rising) and pll0_2MHz (rising) may not meet (slack: -1.997 ns) the setup (max) timing requirement
+WARNING(9): Clock domain between pll0_2MHz (rising) and pll0_100MHz (rising) may not meet (slack: -2.984 ns) the setup (max) timing requirement
+
+Write Timing Report to "C:/s100projects/T35SBC_extRAM_6/outflow\T35SBC_extRAM_6.timing.rpt" ...
+final timing analysis took 0.423056 seconds.
+	final timing analysis took 0.40625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 710.344 MB, end = 712.516 MB, delta = 2.172 MB
+	final timing analysis peak virtual memory usage = 864.864 MB
+final timing analysis resident set memory usage: begin = 698.456 MB, end = 700.292 MB, delta = 1.836 MB
+	final timing analysis peak resident set memory usage = 818.168 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.interface.csv'.
+Successfully processed interface constraints file "C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.interface.csv".
+Finished writing bitstream file C:/s100projects/T35SBC_extRAM_6/work_pnr\T35SBC_extRAM_6.lbf.
+Bitstream generation took 1.38054 seconds.
+	Bitstream generation took 1.375 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 712.516 MB, end = 764.324 MB, delta = 51.808 MB
+	Bitstream generation peak virtual memory usage = 864.864 MB
+Bitstream generation resident set memory usage: begin = 700.332 MB, end = 750.16 MB, delta = 49.828 MB
+	Bitstream generation peak resident set memory usage = 818.168 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 51.087 seconds.
+	The entire flow of EFX_PNR took 48.3125 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.296 MB, end = 105.84 MB, delta = 100.544 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 864.864 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 11.404 MB, end = 106.656 MB, delta = 95.252 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 818.168 MB

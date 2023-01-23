@@ -1,0 +1,75 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 22, 2023 17:59:18
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] latch inferred for net 'selectedData[7]' (VERI-2580) (C:\s100projects\T35SBC_extRAM_6\cpuDIMux.v:34)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\s100projects\T35SBC_extRAM_6\dff2.v:14)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v:399)
+[EFX-0011 VERI-WARNING] net 'rom' does not have a driver (VDB-1002) (C:\s100projects\T35SBC_extRAM_6\rom.v:30)
+[EFX-0011 VERI-WARNING] net 'inta' does not have a driver (VDB-1002) (C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v:210)
+[EFX-0011 VERI-WARNING] net 'pHLDA' does not have a driver (VDB-1002) (C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v:229)
+[EFX-0008 WARNING] Top module not specified. 'T35SBC_extRAM_6_top' is used as top module for the design.
+[EFX-0256 WARNING] The primary output port 'test_OUT' wire 'test_OUT' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : F[5]. (C:\s100projects\T35SBC_extRAM_6\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[4]. (C:\s100projects\T35SBC_extRAM_6\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[3]. (C:\s100projects\T35SBC_extRAM_6\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : F[1]. (C:\s100projects\T35SBC_extRAM_6\T80_MCode.vhd:84)
+[EFX-0200 WARNING] Removing redundant signal : address[8]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[7]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[6]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[5]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[4]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[3]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[2]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[1]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0200 WARNING] Removing redundant signal : address[0]. (C:\s100projects\T35SBC_extRAM_6\memAdrDecoder.v:11)
+[EFX-0266 WARNING] Module Instance 'i140' input pin tied to constant (n_int=1).
+[EFX-0266 WARNING] Module Instance 'i140' input pin tied to constant (n_nmi=1).
+[EFX-0266 WARNING] Module Instance 's100adr' input pin tied to constant (clr=0).
+[EFX-0266 WARNING] Module Instance 's100adr16_19' input pin tied to constant (clr=0).
+[EFX-0266 WARNING] Module Instance 's100adr16_19' input pin tied to constant (inData[0]=0).
+[EFX-0266 WARNING] Module Instance 's100adr16_19' input pin tied to constant (inData[1]=0).
+[EFX-0266 WARNING] Module Instance 's100adr16_19' input pin tied to constant (inData[2]=0).
+[EFX-0266 WARNING] Module Instance 's100adr16_19' input pin tied to constant (inData[3]=0).
+[EFX-0266 WARNING] Module Instance 'iorqlatch' input pin tied to constant (pst_n=1).
+[EFX-0266 WARNING] Module Instance 'endpsync' input pin tied to constant (clr_n=1).
+[EFX-0266 WARNING] Module Instance 'resetLatch' input pin tied to constant (clr_n=1).
+[EFX-0266 WARNING] Module Instance 'resetLatch' input pin tied to constant (din=1).
+[EFX-0266 WARNING] Module Instance 'holdInLatch' input pin tied to constant (pst_n=1).
+[EFX-0266 WARNING] Module Instance 'holdInLatch' input pin tied to constant (clr_n=1).
+[EFX-0266 WARNING] Module Instance 'HLDAoutLatch' input pin tied to constant (pst_n=1).
+[EFX-0266 WARNING] Module Instance 'ctlDisableLatch' input pin tied to constant (pst_n=1).
+[EFX-0266 WARNING] Module Instance 'ctlDisableLatch' input pin tied to constant (clr_n=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (clr=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (SerIn=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[0]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[1]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[2]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[3]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[4]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[5]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[6]=1).
+[EFX-0266 WARNING] Module Instance 'romwait' input pin tied to constant (ParIn[7]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (clr=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (SerIn=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[0]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[1]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[2]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[3]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[4]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[5]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[6]=1).
+[EFX-0266 WARNING] Module Instance 'iowait' input pin tied to constant (ParIn[7]=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'test_OUT'. (C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v:155)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'inta'. (C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v:210)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'pHLDA'. (C:\s100projects\T35SBC_extRAM_6\T35SBC_extRAM_6_top.v:229)
+[EFX-0655 WARNING] Mapping into logic memory block 'i140/cpu1/u0/Regs/RegsH'. (C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd:79)
+[EFX-0655 WARNING] Mapping into logic memory block 'i140/cpu1/u0/Regs/RegsL'. (C:\s100projects\T35SBC_extRAM_6\T80_Reg.vhd:80)
+[EFX-0011 VERI-WARNING] Input/Inout Port pll0_LOCKED is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port sw_IOBYTE[3] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port sw_IOBYTE[2] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port sw_IOBYTE[1] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port sw_IOBYTE[0] is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port test_IN is unconnected and will be removed 

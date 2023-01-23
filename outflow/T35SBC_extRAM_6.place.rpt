@@ -1,0 +1,74 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Date: Sun Jan 22 18:00:46 2023
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T35F400
+Top-level Entity Name: T35SBC_extRAM_6
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 26 / 908 (2.86%)
+Outputs: 119 / 1184 (10.05%)
+Clocks: 5 / 16 (31.25%)
+Logic Elements: 2135 / 31680 (6.74%)
+	LE: LUTs/Adders: 1968 / 31680 (6.21%)
+	LE: Registers: 413 / 30720 (1.34%)
+Memory Blocks: 4 / 288 (1.39%)
+Multipliers: 0 / 120 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++---------------------+------+------------+-------------+--------------+------------+
+|        NAME         | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++---------------------+------+------------+-------------+--------------+------------+
+|  test_rom/rom__D$2  | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| test_rom/rom__D$b12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| test_rom/rom__D$12  | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| test_rom/rom__D$c1  | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
++---------------------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|        test_IN         |    Input     |
+|      sw_IOBYTE[0]      |    Input     |
+|      sw_IOBYTE[1]      |    Input     |
+|      sw_IOBYTE[2]      |    Input     |
+|      sw_IOBYTE[3]      |    Input     |
+|       in_n_INTA        |    Input     |
+|       in_n_INTB        |    Input     |
+|       inPrnBusy        |    Input     |
+|       FspareIN2        |    Input     |
+|       FspareOut1       |    Output    |
+|       rtc_n_INT        |    Input     |
+|       rtcSpiClk        |    Output    |
+|       in_n_INTC        |    Input     |
+|       in_n_INTD        |    Input     |
+|        rtcSpiSI        |    Output    |
+|        rtcSpiCS        |    Output    |
+|       FspareOut2       |    Output    |
+|      inEnableINTA      |    Input     |
+|       FspareIN1        |    Input     |
+|       rtcIntLED        |    Output    |
+|        rtcSpiSO        |    Input     |
+|        inPrnAck        |    Input     |
+|       rtcPwrFail       |    Input     |
+|       s100_n_INT       |    Input     |
+|      pll0_LOCKED       |    Input     |
+|       s100_n_NMI       |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 14 seconds

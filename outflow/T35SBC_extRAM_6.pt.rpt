@@ -1,0 +1,673 @@
+
+Efinity Interface Designer Report
+Version: 2022.1.226
+Date: 2023-01-22 18:00
+
+Copyright (C) 2017 - 2022 Efinix Inc. All rights reserved.
+
+Device: T35F400
+Project: T35SBC_extRAM_6
+
+Package: 400-ball FBGA (final)
+Timing Model: C4 (final)
+Configuration Mode: active (x4)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. LVDS Rx Usage Summary
+   10. LVDS Tx Usage Summary
+   11. Clock Mux Usage Summary
+   12. Configuration Control Usage Summary
+   13. JTAG Usage Summary
+   14. DDR Usage Summary
+   15. Design Issues
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+clkmux: 2 / 2 (100.0%)
+control: 0 / 1 (0.0%)
+ddr: 0 / 1 (0.0%)
+gpio: 73 / 138 (52.9%)
+jtag: 0 / 4 (0.0%)
+lvds_bg: 0 / 2 (0.0%)
+lvds_rx: 20.0 / 26 (76.92%)
+	gpio: 40
+lvds_tx: 19.0 / 20 (95.0%)
+	gpio: 38
+pll: 1 / 7 (14.29%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: T35SBC_extRAM_6.interface.csv
+Peripheral Block Configuration: T35SBC_extRAM_6.lpf
+Pinout Report: T35SBC_extRAM_6.pinout.rpt
+Pinout CSV: T35SBC_extRAM_6.pinout.csv
+Timing Report: T35SBC_extRAM_6.pt_timing.rpt
+Timing SDC Template: T35SBC_extRAM_6.pt.sdc
+Verilog Template: T35SBC_extRAM_6_template.v
+Option Register File: T35SBC_extRAM_6_or.ini
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++----------+-------------+
+| I/O Bank | I/O Voltage |
++----------+-------------+
+|    1A    |    3.3 V    |
+|    1B    |    3.3 V    |
+|    1C    |    3.3 V    |
+|    1D    |    3.3 V    |
+|    1E    |    3.3 V    |
+|    2A    |    3.3 V    |
+|    2B    |    3.3 V    |
+|    2C    |    3.3 V    |
+|  3C_TR   |    3.3 V    |
+|    4A    |    3.3 V    |
+|    4B    |    3.3 V    |
+|    BL    |    1.2 V    |
+|    BR    |    3.3 V    |
++----------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++-------------+-----------------+-------+
+|   Pin Name  |     Resource    |  Type |
++-------------+-----------------+-------+
+|  pll0_2MHz  | PLL_BR0.CLKOUT1 |  GCLK |
+| pll0_100MHz | PLL_BR0.CLKOUT0 |  GCLK |
+|   s100_rdy  |  GPIOR_124.ALT  | GCTRL |
+|  s100_xrdy  |  GPIOR_135.ALT  | GCTRL |
++-------------+-----------------+-------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      B       |      0/16      |
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      L2      |      0/4       |
+|      L3      |      0/4       |
+|      L4      |      0/4       |
+|      L5      |      0/4       |
+|      R0      |      0/4       |
+|      R1      |      0/4       |
+|      R3      |      0/4       |
+|      R5      |      0/4       |
+|      T       |      0/16      |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
++-----------------+----------+
+|  Instance Name  | Function |
++-----------------+----------+
+|    biData[0]    |   CDI5   |
+|    biData[1]    |   CDI4   |
+|    biData[6]    |  CDI28   |
+|    biData[7]    |  CDI20   |
+|     F_add_oe    |  CDI10   |
+|    outPrn[1]    |  CDI15   |
+|    outPrn[3]    |  CDI11   |
+|    outPrn[4]    |   CDI9   |
+|     ram_A17     |  CDI12   |
+|     ram_n_oe    |  CDI18   |
+|     ram_n_wr    |  CDI30   |
+|    rtcPwrFail   |   CDI8   |
+|     rtcSpiCS    |  CDI22   |
+|     rtcSpiSI    |  CDI26   |
+|     rtcSpiSO    |  CDI16   |
+|    s100_CDSB    |  CDI14   |
+|  S100adr0_15[6] |  CDI29   |
+|  S100adr0_15[7] |  CDI21   |
+|  S100adr0_15[9] |  CDI13   |
+| S100adr0_15[11] |  CDI19   |
+| S100adr0_15[12] |  CDI31   |
+| S100adr0_15[15] |  CDI17   |
+| S100adr16_19[0] |  CDI27   |
+| S100adr16_19[1] |  CDI23   |
+| S100adr16_19[2] |  CDI25   |
+|       test      |   CCK    |
++-----------------+----------+
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++-----------------+-------------+--------+----------+--------------+----------+----------------------+--------------------------+-------------+
+|  Instance Name  |   Resource  |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |         Pad Name         | Package Pin |
++-----------------+-------------+--------+----------+--------------+----------+----------------------+--------------------------+-------------+
+|    biData[0]    |   GPIOL_20  | inout  |          |              |    1B    | 3.3 V LVTTL / LVCMOS |      GPIOL_20_CDI5       |     N15     |
+|    biData[1]    |   GPIOL_18  | inout  |          |              |    1B    | 3.3 V LVTTL / LVCMOS |      GPIOL_18_CDI4       |     R18     |
+|    biData[2]    |   GPIOL_15  | inout  |          |              |    1B    | 3.3 V LVTTL / LVCMOS |     GPIOL_15_PLLIN0      |     R16     |
+|    biData[3]    |   GPIOL_07  | inout  |          |              |    1A    | 3.3 V LVTTL / LVCMOS |         GPIOL_07         |     V17     |
+|    biData[4]    |   GPIOL_03  | inout  |          |              |    1A    | 3.3 V LVTTL / LVCMOS |         GPIOL_03         |     R14     |
+|    biData[5]    | GPIOB_TXN01 | inout  |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN01        |     Y15     |
+|    biData[6]    | GPIOB_TXN04 | inout  |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN04_CDI28     |     W14     |
+|    biData[7]    | GPIOB_TXN08 | inout  |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN08_CDI20     |     W13     |
+|   boardActive   | GPIOT_RXN20 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN20        |      E3     |
+|     clockIn     |  GPIOR_138  | input  |          |              |    BR    | 3.3 V LVTTL / LVCMOS |     GPIOR_138_PLLIN0     |      T8     |
+|  cpuClkOut_P19  | GPIOT_RXP09 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP09        |      D8     |
+|     diagLED     |  GPIOL_111  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_111         |     C12     |
+|     F_add_oe    | GPIOB_TXN17 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN17_CDI10     |      U6     |
+|   F_bus_ctl_oe  |  GPIOR_120  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_120_PLLIN2     |      G7     |
+|  F_bus_stat_oe  | GPIOB_TXN19 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN19        |      V8     |
+|   F_out_DI_oe   |  GPIOL_116  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_116         |     E12     |
+|   F_out_DO_oe   |  GPIOL_114  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_114         |     D13     |
+|    FspareIN1    | GPIOT_RXP15 | input  |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP15        |      C3     |
+|    FspareIN2    |  GPIOL_113  | input  |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_113         |     D12     |
+|    FspareOut1   | GPIOT_RXP00 | output |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP00        |     B11     |
+|    FspareOut2   | GPIOT_RXP11 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP11        |      D6     |
+|    highRamLED   |  GPIOR_131  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_131_CLK10      |      H2     |
+|    highRomLED   |  GPIOL_105  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_105         |     A15     |
+|  idePorts_n_rd  | GPIOT_RXN16 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN16_EXTFB1    |      B1     |
+|  idePorts_n_wr  | GPIOT_RXN25 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN25_CLKN2     |      G1     |
+|    in_n_INTA    |   GPIOL_49  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_49         |     K14     |
+|    in_n_INTB    |   GPIOL_51  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_51         |     J16     |
+|    in_n_INTC    | GPIOT_RXP04 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP04        |      B9     |
+|    in_n_INTD    | GPIOT_RXP05 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP05        |      A5     |
+|   inEnableINTA  | GPIOT_RXP13 | input  |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP13        |      A3     |
+|     inPrnAck    | GPIOT_RXN18 | input  |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN18        |      C1     |
+|    inPrnBusy    |   GPIOL_53  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_53         |     H20     |
+|    lowRomLED    |  GPIOL_107  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_107         |     A14     |
+|   out8255_n_cs  | GPIOT_RXN19 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN19        |      E7     |
+|   outIDE_n_rd   | GPIOT_RXN22 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN22        |      F3     |
+|   outIDE_n_wr   | GPIOT_RXP19 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP19        |      E6     |
+|    outPrn[0]    | GPIOB_TXP11 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP11        |     W11     |
+|    outPrn[1]    | GPIOB_TXP15 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |  GPIOB_TXP15_CLK1_CDI15  |     V10     |
+|    outPrn[2]    | GPIOB_TXP19 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |     GPIOB_TXP19_CLK2     |      V9     |
+|    outPrn[3]    | GPIOB_TXP17 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP17_CDI11     |      U7     |
+|    outPrn[4]    | GPIOB_TXP18 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP18_EXTFB2_CDI9  |      V6     |
+|    outPrn[5]    |   GPIOL_67  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |      GPIOL_67_CLK1       |     E20     |
+|    outPrn[6]    |   GPIOL_68  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |      GPIOL_68_CLK2       |     E18     |
+|    outPrn[7]    |   GPIOL_69  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |      GPIOL_69_CLK3       |     F18     |
+|   outPrnStrobe  |   GPIOL_70  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_70_CLK4       |     G17     |
+|    prnAckLED    |   GPIOL_99  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |         GPIOL_99         |     E15     |
+|     ram_A16     | GPIOB_TXN12 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN12        |      Y9     |
+|     ram_A17     | GPIOB_TXN16 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN16_CDI12     |      W8     |
+|     ram_A18     | GPIOB_TXN09 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN09        |     Y12     |
+|     ram_n_cs    |  GPIOR_130  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_130_CLK11      |      H1     |
+|     ram_n_oe    | GPIOB_TXN13 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN13_CDI18     |      Y8     |
+|     ram_n_wr    | GPIOB_TXN03 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN03_CDI30     |     V16     |
+|    rtc_n_INT    | GPIOB_TXN00 | input  |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN00        |     U15     |
+|    rtcIntLED    | GPIOT_RXN17 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN17_CLKN1     |      D3     |
+|    rtcPwrFail   | GPIOB_TXN18 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |     GPIOB_TXN18_CDI8     |      V7     |
+|    rtcSpiClk    | GPIOB_TXN02 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN02        |     V14     |
+|     rtcSpiCS    | GPIOB_TXN07 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN07_CDI22     |     V13     |
+|     rtcSpiSI    | GPIOB_TXN05 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN05_CDI26     |     T12     |
+|     rtcSpiSO    | GPIOB_TXN14 | input  |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN14_CDI16     |      W6     |
+|    s100_ADSB    | GPIOB_TXN11 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXN11        |     V11     |
+|    s100_CDSB    | GPIOB_TXN15 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXN15_CDI14     |     U10     |
+|    s100_CLOCK   | GPIOT_RXN15 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN15        |      B3     |
+|    s100_DI[0]   | GPIOT_RXN00 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN00        |     C11     |
+|    s100_DI[1]   | GPIOT_RXN01 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN01        |     D10     |
+|    s100_DI[2]   | GPIOT_RXN02 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN02        |     A10     |
+|    s100_DI[3]   | GPIOT_RXN03 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN03        |      B8     |
+|    s100_DI[4]   | GPIOT_RXN06 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN06        |      A6     |
+|    s100_DI[5]   | GPIOT_RXN05 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN05        |      A4     |
+|    s100_DI[6]   | GPIOT_RXN04 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN04        |      C9     |
+|    s100_DI[7]   | GPIOT_RXN07 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN07_EXTFB0    |     E11     |
+|    s100_DO[0]   |   GPIOL_94  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |         GPIOL_94         |     C15     |
+|    s100_DO[1]   |   GPIOL_96  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |         GPIOL_96         |     B15     |
+|    s100_DO[2]   |   GPIOL_98  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |         GPIOL_98         |     F15     |
+|    s100_DO[3]   |  GPIOL_100  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_100         |     D14     |
+|    s100_DO[4]   |  GPIOL_104  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_104         |     E14     |
+|    s100_DO[5]   |  GPIOL_106  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_106         |     A13     |
+|    s100_DO[6]   |  GPIOL_110  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_110         |     C13     |
+|    s100_DO[7]   |  GPIOL_112  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_112         |     B13     |
+|    s100_HOLD    | GPIOT_RXN23 | input  |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN23        |      F1     |
+|    s100_n_INT   | GPIOT_RXN24 | input  |          |              |    2C    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN24_EXTFB2    |      F5     |
+|    s100_n_NMI   |  GPIOR_118  | input  |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_118_PLLIN0     |      F7     |
+|    s100_n_pWR   | GPIOT_RXP20 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP20        |      E4     |
+|   s100_n_RESET  | GPIOT_RXP12 | input  |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP12        |      D9     |
+|    s100_n_sWO   | GPIOT_RXN12 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN12        |      E9     |
+|    s100_pDBIN   | GPIOT_RXP21 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP21        |      E2     |
+|   s100_PHANTOM  |  GPIOR_134  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_134_CTRL11     |      J1     |
+|     s100_PHI    | GPIOT_RXP16 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXP16_EXTFB1    |      B2     |
+|    s100_pHLDA   | GPIOT_RXP14 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP14        |      C4     |
+|   s100_pSTVAL   | GPIOT_RXN21 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN21        |      D2     |
+|    s100_pSYNC   | GPIOT_RXP18 | output |          |              |    2C    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXP18        |      D1     |
+|     s100_rdy    |  GPIOR_124  | input  |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_124_CTRL13     |      H3     |
+|    s100_sHLTA   | GPIOT_RXN08 | output |          |              |    2A    | 3.3 V LVTTL / LVCMOS |    GPIOT_RXN08_CLKN0     |      B5     |
+|    s100_sINP    | GPIOT_RXN10 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN10        |      C7     |
+|    s100_sINTA   | GPIOT_RXN14 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN14        |      C5     |
+|     s100_sM1    | GPIOT_RXN13 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN13        |      A2     |
+|    s100_sMEMR   | GPIOT_RXN11 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN11        |      D5     |
+|    s100_sMWRT   |  GPIOR_121  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |    GPIOR_121_MREFCLK     |      F6     |
+|    s100_sOUT    | GPIOT_RXN09 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |       GPIOT_RXN09        |      D7     |
+|    s100_xrdy    |  GPIOR_135  | input  |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_135_CTRL10     |      J3     |
+|  S100adr0_15[0] |   GPIOL_19  | output |          |              |    1B    | 3.3 V LVTTL / LVCMOS |     GPIOL_19_PLLIN1      |     P16     |
+|  S100adr0_15[1] |   GPIOL_17  | output |          |              |    1B    | 3.3 V LVTTL / LVCMOS |     GPIOL_17_EXTFB0      |     N14     |
+|  S100adr0_15[2] |   GPIOL_10  | output |          |              |    1A    | 3.3 V LVTTL / LVCMOS |         GPIOL_10         |     P14     |
+|  S100adr0_15[3] |   GPIOL_06  | output |          |              |    1A    | 3.3 V LVTTL / LVCMOS |         GPIOL_06         |     U17     |
+|  S100adr0_15[4] |   GPIOL_02  | output |          |              |    1A    | 3.3 V LVTTL / LVCMOS |         GPIOL_02         |     T15     |
+|  S100adr0_15[5] | GPIOB_TXP01 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP01        |     Y16     |
+|  S100adr0_15[6] | GPIOB_TXP04 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP04_CDI29     |     Y14     |
+|  S100adr0_15[7] | GPIOB_TXP08 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP08_EXTFB0_CDI21 |     Y13     |
+|  S100adr0_15[8] | GPIOB_TXP09 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |     GPIOB_TXP09_CLK0     |     Y11     |
+|  S100adr0_15[9] | GPIOB_TXP16 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP16_CDI13     |      W9     |
+| S100adr0_15[10] | GPIOB_TXP12 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP12        |     Y10     |
+| S100adr0_15[11] | GPIOB_TXP13 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP13_CDI19     |      Y7     |
+| S100adr0_15[12] | GPIOB_TXP03 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP03_CDI31     |     W16     |
+| S100adr0_15[13] | GPIOB_TXP00 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP00        |     V15     |
+| S100adr0_15[14] | GPIOB_TXP02 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP02        |     U14     |
+| S100adr0_15[15] | GPIOB_TXP14 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS | GPIOB_TXP14_EXTFB1_CDI17 |      Y6     |
+| S100adr16_19[0] | GPIOB_TXP05 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP05_CDI27     |     T13     |
+| S100adr16_19[1] | GPIOB_TXP07 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP07_CDI23     |     U13     |
+| S100adr16_19[2] | GPIOB_TXP06 | output |          |              |    4B    | 3.3 V LVTTL / LVCMOS |    GPIOB_TXP06_CDI25     |     V12     |
+| S100adr16_19[3] | GPIOB_TXP10 | output |          |              |    4A    | 3.3 V LVTTL / LVCMOS |       GPIOB_TXP10        |     T11     |
+|  s100PhantomLED |  GPIOL_101  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |        GPIOL_101         |     G14     |
+|   SBC_LEDs[0]   |   GPIOL_59  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_59         |     J14     |
+|   SBC_LEDs[1]   |   GPIOL_62  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |      GPIOL_62_CTRL0      |     H18     |
+|   SBC_LEDs[2]   |   GPIOL_64  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |      GPIOL_64_CTRL2      |     F19     |
+|   SBC_LEDs[3]   |   GPIOL_66  | output |          |              |    1C    | 3.3 V LVTTL / LVCMOS |      GPIOL_66_CLK0       |     D20     |
+|   SBC_LEDs[4]   |  GPIOR_139  | output |          |              |    BR    | 3.3 V LVTTL / LVCMOS |     GPIOR_139_PLLIN1     |      T9     |
+|   SBC_LEDs[5]   |  GPIOR_140  | output |          |              |    BR    | 3.3 V LVTTL / LVCMOS |     GPIOR_140_PLLIN2     |      U9     |
+|   SBC_LEDs[6]   |  GPIOR_141  | output |          |              |    BR    | 3.3 V LVTTL / LVCMOS |        GPIOR_141         |      T7     |
+|   SBC_LEDs[7]   |   GPIOL_71  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_71_CLK5       |     B20     |
+|     seg7[0]     |   GPIOL_72  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_72_CLK6       |     D18     |
+|     seg7[1]     |   GPIOL_73  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_73_CLK7       |     B18     |
+|     seg7[2]     |   GPIOL_74  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_74_CTRL4      |     C20     |
+|     seg7[3]     |   GPIOL_75  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_75_CTRL5      |     E17     |
+|     seg7[4]     |   GPIOL_76  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_76_CTRL6      |     C18     |
+|     seg7[5]     |   GPIOL_77  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |      GPIOL_77_CTRL7      |     B19     |
+|     seg7[6]     |   GPIOL_79  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |         GPIOL_79         |     D17     |
+|     seg7_dp     |   GPIOL_81  | output |          |              |    1D    | 3.3 V LVTTL / LVCMOS |         GPIOL_81         |     H15     |
+|     spare_P1    |  GPIOR_133  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |      GPIOR_133_CLK8      |      J5     |
+|    spare_P17    |  GPIOR_132  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |      GPIOR_132_CLK9      |      J4     |
+|    spare_P32    |  GPIOR_123  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_123_CTRL14     |      G5     |
+|    spare_P33    |  GPIOR_125  | output |          |              |  3C_TR   | 3.3 V LVTTL / LVCMOS |     GPIOR_125_CTRL12     |      H4     |
+|   sw_IOBYTE[0]  |   GPIOL_42  | input  |          |              |    1B    | 3.3 V LVTTL / LVCMOS |         GPIOL_42         |     K18     |
+|   sw_IOBYTE[1]  |   GPIOL_44  | input  |          |              |    1B    | 3.3 V LVTTL / LVCMOS |         GPIOL_44         |     K16     |
+|   sw_IOBYTE[2]  |   GPIOL_46  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_46         |     K19     |
+|   sw_IOBYTE[3]  |   GPIOL_48  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_48         |     K20     |
+|   sw_IOBYTE[4]  |   GPIOL_50  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_50         |     J20     |
+|   sw_IOBYTE[5]  |   GPIOL_52  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_52         |     J17     |
+|   sw_IOBYTE[6]  |   GPIOL_54  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_54         |     H19     |
+|   sw_IOBYTE[7]  |   GPIOL_57  | input  |          |              |    1C    | 3.3 V LVTTL / LVCMOS |         GPIOL_57         |     J15     |
+|       test      |   GPIOL_01  | inout  |          |              |    1A    | 3.3 V LVTTL / LVCMOS |       GPIOL_01_CCK       |     W19     |
+|   usbRXbusyLED  |   GPIOL_95  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |         GPIOL_95         |     D15     |
+|   usbTXbusyLED  |   GPIOL_97  | output |          |              |    1E    | 3.3 V LVTTL / LVCMOS |         GPIOL_97         |     A16     |
++-----------------+-------------+--------+----------+--------------+----------+----------------------+--------------------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+| Instance Name |  Input Pin   | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | DDIO |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+|    clockIn    |              |       clockIn       |                 |     none     |     Disable     | none |
+|   FspareIN1   |  FspareIN1   |                     |                 | weak pullup  |     Disable     |      |
+|   FspareIN2   |  FspareIN2   |                     |                 | weak pullup  |     Disable     | none |
+|   in_n_INTA   |  in_n_INTA   |                     |                 | weak pullup  |     Disable     | none |
+|   in_n_INTB   |  in_n_INTB   |                     |                 | weak pullup  |     Disable     | none |
+|   in_n_INTC   |  in_n_INTC   |                     |                 | weak pullup  |     Disable     |      |
+|   in_n_INTD   |  in_n_INTD   |                     |                 | weak pullup  |     Disable     |      |
+|  inEnableINTA | inEnableINTA |                     |                 | weak pullup  |     Disable     |      |
+|    inPrnAck   |   inPrnAck   |                     |                 | weak pullup  |     Disable     |      |
+|   inPrnBusy   |  inPrnBusy   |                     |                 | weak pullup  |     Disable     | none |
+|   rtc_n_INT   |  rtc_n_INT   |                     |                 | weak pullup  |     Disable     |      |
+|   rtcPwrFail  |  rtcPwrFail  |                     |                 | weak pullup  |     Disable     |      |
+|    rtcSpiSO   |   rtcSpiSO   |                     |                 | weak pullup  |     Disable     |      |
+|   s100_DI[0]  |  s100_DI[0]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[1]  |  s100_DI[1]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[2]  |  s100_DI[2]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[3]  |  s100_DI[3]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[4]  |  s100_DI[4]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[5]  |  s100_DI[5]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[6]  |  s100_DI[6]  |                     |                 |     none     |     Disable     |      |
+|   s100_DI[7]  |  s100_DI[7]  |                     |                 |     none     |     Disable     |      |
+|   s100_HOLD   |  s100_HOLD   |                     |                 |     none     |     Disable     |      |
+|   s100_n_INT  |  s100_n_INT  |                     |                 | weak pullup  |     Disable     |      |
+|   s100_n_NMI  |  s100_n_NMI  |                     |                 | weak pullup  |     Disable     | none |
+|  s100_n_RESET | s100_n_RESET |                     |                 |     none     |     Disable     |      |
+|    s100_rdy   |   s100_rdy   |                     |                 | weak pullup  |     Disable     | none |
+|   s100_xrdy   |  s100_xrdy   |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[0] | sw_IOBYTE[0] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[1] | sw_IOBYTE[1] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[2] | sw_IOBYTE[2] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[3] | sw_IOBYTE[3] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[4] | sw_IOBYTE[4] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[5] | sw_IOBYTE[5] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[6] | sw_IOBYTE[6] |                     |                 | weak pullup  |     Disable     | none |
+|  sw_IOBYTE[7] | sw_IOBYTE[7] |                     |                 | weak pullup  |     Disable     | none |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------+
+
+Output GPIO Configuration:
+==========================
+
++-----------------+-----------------+------------------+----------------+-----------+------+
+|  Instance Name  |    Output Pin   | Output Clock Pin | Drive Strength | Slew Rate | DDIO |
++-----------------+-----------------+------------------+----------------+-----------+------+
+|   boardActive   |   boardActive   |                  |       3        |  Disable  |      |
+|  cpuClkOut_P19  |  cpuClkOut_P19  |                  |       3        |  Disable  |      |
+|     diagLED     |     diagLED     |                  |       3        |  Disable  | none |
+|     F_add_oe    |     F_add_oe    |                  |       2        |  Disable  |      |
+|   F_bus_ctl_oe  |   F_bus_ctl_oe  |                  |       1        |  Disable  | none |
+|  F_bus_stat_oe  |  F_bus_stat_oe  |                  |       1        |  Disable  |      |
+|   F_out_DI_oe   |   F_out_DI_oe   |                  |       1        |  Disable  | none |
+|   F_out_DO_oe   |   F_out_DO_oe   |                  |       1        |  Disable  | none |
+|    FspareOut1   |    FspareOut1   |                  |       2        |  Disable  |      |
+|    FspareOut2   |    FspareOut2   |                  |       2        |  Disable  |      |
+|    highRamLED   |    highRamLED   |                  |       3        |  Disable  | none |
+|    highRomLED   |    highRomLED   |                  |       3        |  Disable  | none |
+|  idePorts_n_rd  |  idePorts_n_rd  |                  |       1        |  Disable  |      |
+|  idePorts_n_wr  |  idePorts_n_wr  |                  |       1        |  Disable  |      |
+|    lowRomLED    |    lowRomLED    |                  |       3        |  Disable  | none |
+|   out8255_n_cs  |   out8255_n_cs  |                  |       1        |  Disable  |      |
+|   outIDE_n_rd   |   outIDE_n_rd   |                  |       1        |  Disable  |      |
+|   outIDE_n_wr   |   outIDE_n_wr   |                  |       1        |  Disable  |      |
+|    outPrn[0]    |    outPrn[0]    |                  |       1        |  Disable  |      |
+|    outPrn[1]    |    outPrn[1]    |                  |       1        |  Disable  |      |
+|    outPrn[2]    |    outPrn[2]    |                  |       1        |  Disable  |      |
+|    outPrn[3]    |    outPrn[3]    |                  |       1        |  Disable  |      |
+|    outPrn[4]    |    outPrn[4]    |                  |       1        |  Disable  |      |
+|    outPrn[5]    |    outPrn[5]    |                  |       1        |  Disable  | none |
+|    outPrn[6]    |    outPrn[6]    |                  |       1        |  Disable  | none |
+|    outPrn[7]    |    outPrn[7]    |                  |       1        |  Disable  | none |
+|   outPrnStrobe  |   outPrnStrobe  |                  |       1        |  Disable  | none |
+|    prnAckLED    |    prnAckLED    |                  |       1        |  Disable  | none |
+|     ram_A16     |     ram_A16     |                  |       1        |  Disable  |      |
+|     ram_A17     |     ram_A17     |                  |       1        |  Disable  |      |
+|     ram_A18     |     ram_A18     |                  |       1        |  Disable  |      |
+|     ram_n_cs    |     ram_n_cs    |                  |       2        |  Disable  | none |
+|     ram_n_oe    |     ram_n_oe    |                  |       2        |  Disable  |      |
+|     ram_n_wr    |     ram_n_wr    |                  |       2        |  Disable  |      |
+|    rtcIntLED    |    rtcIntLED    |                  |       3        |  Disable  |      |
+|    rtcSpiClk    |    rtcSpiClk    |                  |       1        |  Disable  |      |
+|     rtcSpiCS    |     rtcSpiCS    |                  |       1        |  Disable  |      |
+|     rtcSpiSI    |     rtcSpiSI    |                  |       1        |  Disable  |      |
+|    s100_ADSB    |    s100_ADSB    |                  |       2        |  Disable  |      |
+|    s100_CDSB    |    s100_CDSB    |                  |       1        |  Disable  |      |
+|    s100_CLOCK   |    s100_CLOCK   |                  |       1        |  Disable  |      |
+|    s100_DO[0]   |    s100_DO[0]   |                  |       2        |  Disable  | none |
+|    s100_DO[1]   |    s100_DO[1]   |                  |       2        |  Disable  | none |
+|    s100_DO[2]   |    s100_DO[2]   |                  |       2        |  Disable  | none |
+|    s100_DO[3]   |    s100_DO[3]   |                  |       2        |  Disable  | none |
+|    s100_DO[4]   |    s100_DO[4]   |                  |       2        |  Disable  | none |
+|    s100_DO[5]   |    s100_DO[5]   |                  |       2        |  Disable  | none |
+|    s100_DO[6]   |    s100_DO[6]   |                  |       2        |  Disable  | none |
+|    s100_DO[7]   |    s100_DO[7]   |                  |       2        |  Disable  | none |
+|    s100_n_pWR   |    s100_n_pWR   |                  |       1        |  Disable  |      |
+|    s100_n_sWO   |    s100_n_sWO   |                  |       1        |  Disable  |      |
+|    s100_pDBIN   |    s100_pDBIN   |                  |       1        |  Disable  |      |
+|   s100_PHANTOM  |   s100_PHANTOM  |                  |       1        |  Disable  | none |
+|     s100_PHI    |     s100_PHI    |                  |       2        |  Disable  |      |
+|    s100_pHLDA   |    s100_pHLDA   |                  |       1        |  Disable  |      |
+|   s100_pSTVAL   |   s100_pSTVAL   |                  |       1        |  Disable  |      |
+|    s100_pSYNC   |    s100_pSYNC   |                  |       1        |  Disable  |      |
+|    s100_sHLTA   |    s100_sHLTA   |                  |       1        |  Disable  |      |
+|    s100_sINP    |    s100_sINP    |                  |       1        |  Disable  |      |
+|    s100_sINTA   |    s100_sINTA   |                  |       1        |  Disable  |      |
+|     s100_sM1    |     s100_sM1    |                  |       1        |  Disable  |      |
+|    s100_sMEMR   |    s100_sMEMR   |                  |       1        |  Disable  |      |
+|    s100_sMWRT   |    s100_sMWRT   |                  |       1        |  Disable  | none |
+|    s100_sOUT    |    s100_sOUT    |                  |       1        |  Disable  |      |
+|  S100adr0_15[0] |  S100adr0_15[0] |                  |       2        |  Disable  | none |
+|  S100adr0_15[1] |  S100adr0_15[1] |                  |       2        |  Disable  | none |
+|  S100adr0_15[2] |  S100adr0_15[2] |                  |       2        |  Disable  | none |
+|  S100adr0_15[3] |  S100adr0_15[3] |                  |       2        |  Disable  | none |
+|  S100adr0_15[4] |  S100adr0_15[4] |                  |       2        |  Disable  | none |
+|  S100adr0_15[5] |  S100adr0_15[5] |                  |       2        |  Disable  |      |
+|  S100adr0_15[6] |  S100adr0_15[6] |                  |       2        |  Disable  |      |
+|  S100adr0_15[7] |  S100adr0_15[7] |                  |       2        |  Disable  |      |
+|  S100adr0_15[8] |  S100adr0_15[8] |                  |       2        |  Disable  |      |
+|  S100adr0_15[9] |  S100adr0_15[9] |                  |       2        |  Disable  |      |
+| S100adr0_15[10] | S100adr0_15[10] |                  |       2        |  Disable  |      |
+| S100adr0_15[11] | S100adr0_15[11] |                  |       2        |  Disable  |      |
+| S100adr0_15[12] | S100adr0_15[12] |                  |       2        |  Disable  |      |
+| S100adr0_15[13] | S100adr0_15[13] |                  |       2        |  Disable  |      |
+| S100adr0_15[14] | S100adr0_15[14] |                  |       2        |  Disable  |      |
+| S100adr0_15[15] | S100adr0_15[15] |                  |       2        |  Disable  |      |
+| S100adr16_19[0] | S100adr16_19[0] |                  |       2        |  Disable  |      |
+| S100adr16_19[1] | S100adr16_19[1] |                  |       2        |  Disable  |      |
+| S100adr16_19[2] | S100adr16_19[2] |                  |       2        |  Disable  |      |
+| S100adr16_19[3] | S100adr16_19[3] |                  |       2        |  Disable  |      |
+|  s100PhantomLED |  s100PhantomLED |                  |       1        |  Disable  | none |
+|   SBC_LEDs[0]   |   SBC_LEDs[0]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[1]   |   SBC_LEDs[1]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[2]   |   SBC_LEDs[2]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[3]   |   SBC_LEDs[3]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[4]   |   SBC_LEDs[4]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[5]   |   SBC_LEDs[5]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[6]   |   SBC_LEDs[6]   |                  |       3        |  Disable  | none |
+|   SBC_LEDs[7]   |   SBC_LEDs[7]   |                  |       3        |  Disable  | none |
+|     seg7[0]     |     seg7[0]     |                  |       3        |  Disable  | none |
+|     seg7[1]     |     seg7[1]     |                  |       3        |  Disable  | none |
+|     seg7[2]     |     seg7[2]     |                  |       3        |  Disable  | none |
+|     seg7[3]     |     seg7[3]     |                  |       3        |  Disable  | none |
+|     seg7[4]     |     seg7[4]     |                  |       3        |  Disable  | none |
+|     seg7[5]     |     seg7[5]     |                  |       3        |  Disable  | none |
+|     seg7[6]     |     seg7[6]     |                  |       3        |  Disable  | none |
+|     seg7_dp     |     seg7_dp     |                  |       3        |  Disable  | none |
+|     spare_P1    |     spare_P1    |                  |       3        |  Disable  | none |
+|    spare_P17    |    spare_P17    |                  |       3        |  Disable  | none |
+|    spare_P32    |    spare_P32    |                  |       1        |  Disable  | none |
+|    spare_P33    |    spare_P33    |                  |       3        |  Disable  | none |
+|   usbRXbusyLED  |   usbRXbusyLED  |                  |       3        |  Disable  | none |
+|   usbTXbusyLED  |   usbTXbusyLED  |                  |       3        |  Disable  | none |
++-----------------+-----------------+------------------+----------------+-----------+------+
+
+Inout GPIO Configuration:
+=========================
+
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------------+---------------+--------------+------------------+----------------+-----------+-------------+
+| Instance Name |  Input Pin   | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger | Input DDIO |   Output Pin  |    OE Pin    | Output Clock Pin | Drive Strength | Slew Rate | Output DDIO |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------------+---------------+--------------+------------------+----------------+-----------+-------------+
+|   biData[0]   | biData_IN[0] |                     |                 | weak pullup  |     Disable     |    none    | biData_OUT[0] | biData_OE[0] |                  |       2        |  Disable  |     none    |
+|   biData[1]   | biData_IN[1] |                     |                 | weak pullup  |     Disable     |    none    | biData_OUT[1] | biData_OE[1] |                  |       2        |  Disable  |     none    |
+|   biData[2]   | biData_IN[2] |                     |                 | weak pullup  |     Disable     |    none    | biData_OUT[2] | biData_OE[2] |                  |       2        |  Disable  |     none    |
+|   biData[3]   | biData_IN[3] |                     |                 | weak pullup  |     Disable     |    none    | biData_OUT[3] | biData_OE[3] |                  |       2        |  Disable  |     none    |
+|   biData[4]   | biData_IN[4] |                     |                 | weak pullup  |     Disable     |    none    | biData_OUT[4] | biData_OE[4] |                  |       2        |  Disable  |     none    |
+|   biData[5]   | biData_IN[5] |                     |                 | weak pullup  |     Disable     |            | biData_OUT[5] | biData_OE[5] |                  |       2        |  Disable  |             |
+|   biData[6]   | biData_IN[6] |                     |                 | weak pullup  |     Disable     |            | biData_OUT[6] | biData_OE[6] |                  |       2        |  Disable  |             |
+|   biData[7]   | biData_IN[7] |                     |                 | weak pullup  |     Disable     |            | biData_OUT[7] | biData_OE[7] |                  |       2        |  Disable  |             |
+|      test     |   test_IN    |                     |                 |     none     |     Disable     |    none    |    test_OUT   |   test_OE    |                  |       1        |  Disable  |     none    |
++---------------+--------------+---------------------+-----------------+--------------+-----------------+------------+---------------+--------------+------------------+----------------+-----------+-------------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+-------------+-----------+---------+
+| Instance Name | Resource | Clock Region | Ref Clock Mode | Reference Clock | Feedback Mode | Feedback Clock |   Clkout0   |  Clkout1  | Clkout2 |
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+-------------+-----------+---------+
+|   pll_inst1   | PLL_BR0  |              |    external    |     clockIn     |    internal   |                | pll0_100MHz | pll0_2MHz |         |
++---------------+----------+--------------+----------------+-----------------+---------------+----------------+-------------+-----------+---------+
+
+Instance Name                 : pll_inst1
+Resource                      : PLL_BR0
+Locked Pin Name               : pll0_LOCKED
+Reference Clock Mode          : external
+Reference Clock Resource      : GPIOR_138
+Reference Clock               : clockIn
+Feedback Mode                 : internal
+
+Reference Clock Frequency     : 50.0000 MHz
+Reference Clock Period        : 20.0000 ns
+Multiplier (M)                : 32
+Pre-Divider (N)               : 1
+VCO Frequency                 : 1600.0000 MHz
+Post-Divider (O)              : 8
+PLL Frequency                 : 200.0000 MHz
+
+Output Clock 0
+Clock Pin Name                : pll0_100MHz
+Output Divider                : 8
+Output Phase Shift            : 0
+Output Frequency              : 25.0000 MHz
+Output Period                 : 40.0000 ns
+
+Output Clock 1
+Clock Pin Name                : pll0_2MHz
+Output Divider                : 100
+Output Phase Shift            : 0
+Output Frequency              : 2.0000 MHz
+Output Period                 : 500.0000 ns
+
+Frequency calculations:
+	VCO = REFCLK * (M/N)
+	    = 50.0000 MHz * (32/1)
+	    = 1600.0000 MHz
+	PLL = VCO / O
+	    = 1600.0000 MHz / 8
+	    = 200.0000 MHz
+
+	CLKOUT0 = PLL / CLKOUT0_DIV
+	        = 200.0000 MHz / 8
+	        = 25.0000 MHz
+	CLKOUT1 = PLL / CLKOUT1_DIV
+	        = 200.0000 MHz / 100
+	        = 2.0000 MHz
+
+SDC Constraints:
+	create_clock -period 40.0000 pll0_100MHz
+	create_clock -period 500.0000 pll0_2MHz
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. LVDS Rx Usage Summary (begin) ----------
+
+No LVDS Rx was configured
+
+---------- LVDS Rx Usage Summary (end) ----------
+
+---------- 10. LVDS Tx Usage Summary (begin) ----------
+
+No LVDS Tx was configured
+
+---------- LVDS Tx Usage Summary (end) ----------
+
+---------- 11. Clock Mux Usage Summary (begin) ----------
+
++----------+-----------------+
+| Resource | Output Assigned |
++----------+-----------------+
+| CLKMUX_R |        2        |
++----------+-----------------+
+
+Resource: CLKMUX_R
+
+Clock mux assignment:
+
++-----------------+-------------+----------+---------+---------+---------+-------------+-----------+---------+---------+---------+
+|  Input Resource |  Clock Pin  |  Status  | RCLK[0] | RCLK[1] | RCLK[2] |   RCLK[3]   |  RCLK[4]  | RCLK[5] | RCLK[6] | RCLK[7] |
++-----------------+-------------+----------+---------+---------+---------+-------------+-----------+---------+---------+---------+
+|                 |             | Selected |         |         |         | pll0_100MHz | pll0_2MHz |         |         |         |
+|   GPIOR_133.IN  |             |          |    O    |         |         |             |           |         |         |         |
+|   GPIOR_132.IN  |             |          |         |    O    |         |             |           |         |         |         |
+|   GPIOR_131.IN  |             |          |         |         |    O    |             |           |         |         |         |
+|   GPIOR_130.IN  |             |          |         |         |         |      -      |           |         |         |         |
+|   GPIOR_129.IN  |             |          |         |         |         |             |     -     |         |         |         |
+|   GPIOR_128.IN  |             |          |         |         |         |             |           |    O    |         |         |
+|   GPIOR_127.IN  |             |          |         |         |         |             |           |         |    O    |         |
+|   GPIOR_126.IN  |             |          |         |         |         |             |           |         |         |    O    |
+| PLL_TR0.CLKOUT0 |             |          |    O    |         |         |             |           |         |    O    |         |
+| PLL_TR0.CLKOUT1 |             |          |         |    O    |    O    |             |           |         |         |         |
+| PLL_TR0.CLKOUT2 |             |          |         |    O    |    O    |             |           |         |         |         |
+| PLL_TR1.CLKOUT0 |             |          |    O    |         |         |      -      |           |         |         |         |
+| PLL_TR1.CLKOUT1 |             |          |         |         |         |             |     -     |    O    |         |         |
+| PLL_TR1.CLKOUT2 |             |          |         |         |         |             |     -     |    O    |         |         |
+| PLL_TR2.CLKOUT0 |             |          |    O    |         |         |             |           |         |         |    O    |
+| PLL_TR2.CLKOUT1 |             |          |         |    O    |    O    |             |           |         |         |         |
+| PLL_TR2.CLKOUT2 |             |          |         |    O    |    O    |             |           |         |         |         |
+| PLL_BR0.CLKOUT0 | pll0_100MHz |  Routed  |         |         |         |      ^      |           |         |         |    O    |
+| PLL_BR0.CLKOUT1 |  pll0_2MHz  |  Routed  |         |         |         |             |     ^     |    O    |         |         |
+| PLL_BR0.CLKOUT2 |             |          |         |         |         |             |     -     |    O    |         |         |
+| PLL_BR1.CLKOUT0 |             |          |         |         |    O    |             |           |         |    O    |         |
+| PLL_BR1.CLKOUT1 |             |          |         |         |         |      -      |     -     |         |         |         |
+| PLL_BR1.CLKOUT2 |             |          |         |         |         |      -      |     -     |         |         |         |
+| PLL_BR2.CLKOUT0 |             |          |         |         |         |             |           |    O    |         |         |
+| PLL_BR2.CLKOUT1 |             |          |         |    O    |         |             |           |         |    O    |         |
+| PLL_BR2.CLKOUT2 |             |          |         |         |         |             |           |         |         |    O    |
++-----------------+-------------+----------+---------+---------+---------+-------------+-----------+---------+---------+---------+
+
+*NOTE
+ : No connection from input to mux output
+O: Available input to mux output connection
+^: Input assigned to mux output
+-: Unavailable (used) input to mux output connection
+
+---------- Clock Mux Usage Summary (end) ----------
+
+---------- 12. Configuration Control Usage Summary (begin) ----------
+
+No Configuration Control was configured
+
+---------- Configuration Control Usage Summary (end) ----------
+
+---------- 13. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
+
+---------- 14. DDR Usage Summary (begin) ----------
+
+No DDR was configured
+
+---------- DDR Usage Summary (end) ----------
+
+---------- 15. Design Issues (begin) ----------
+
++-----------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|  Instance Name  | Instance Type | Severity |             Rule            |                                                           Description                                                            |
++-----------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|     F_add_oe    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  F_bus_stat_oe  |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr0_15[10] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr0_15[11] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr0_15[12] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr0_15[13] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr0_15[14] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr0_15[15] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  S100adr0_15[5] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  S100adr0_15[6] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  S100adr0_15[7] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  S100adr0_15[8] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|  S100adr0_15[9] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr16_19[0] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr16_19[1] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr16_19[2] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+| S100adr16_19[3] |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    biData[5]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    biData[6]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    biData[7]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    outPrn[0]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    outPrn[1]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    outPrn[2]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    outPrn[3]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    outPrn[4]    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     ram_A16     |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     ram_A17     |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     ram_A18     |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     ram_n_oe    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     ram_n_wr    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    rtcPwrFail   |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     rtcSpiCS    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    rtcSpiClk    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     rtcSpiSI    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|     rtcSpiSO    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    rtc_n_INT    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4B has 18 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    s100_ADSB    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
+|    s100_CDSB    |      gpio     | warning  | gpio_rule_transmit_toggling | Bank 4A has 17 LVDS GPIO in inout/output mode that exceed max limit of 14 which can result in LVTTL simultaneous switching noise |
++-----------------+---------------+----------+-----------------------------+----------------------------------------------------------------------------------------------------------------------------------+
+
+---------- Design Issues (end) ----------

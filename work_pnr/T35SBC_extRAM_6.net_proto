@@ -1,0 +1,7259 @@
+
+m
+z80_n_mreq~FFeftlogic"%
+z80_n_mreq~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1887eft(0)/lut4(0)/lut(1)"names
+m
+z80_n_iorq~FFeftlogic"%
+z80_n_iorq~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1888eft(0)/lut4(0)/lut(1)"names
+i
+z80_n_wr~FFeftlogic"#
+z80_n_wr~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1848eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[0]~FFeftlogic".
+i140/cpu1/DI_Reg[0]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i1eft(0)/lut4(0)/lut(1)"names
+g
+
+diagLED~FFeftlogic""
+
+diagLED~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1890eft(0)/lut4(0)/lut(1)"names
+T
+i140/cpuClkCount[0]~FFeftlogic".
+i140/cpuClkCount[0]~FFeft(0)/ff(0)"EFX_FF
+
+%i193/i140/cpu1/u0/Regs/RegsH[0][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2070eft(0)/lut4(0)/lut(1)"names
+
+%i193/i140/cpu1/u0/Regs/RegsH[0][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2112eft(0)/lut4(0)/lut(1)"names
+r
+%i193/i140/cpu1/u0/Regs/RegsH[1][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][2]~FFeft(0)/ff(0)"EFX_FF
+
+%i193/i140/cpu1/u0/Regs/RegsH[0][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2135eft(0)/lut4(0)/lut(1)"names
+i
+z80_n_rd~FFeftlogic"#
+z80_n_rd~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1876eft(0)/lut4(0)/lut(1)"names
+r
+%i193/i140/cpu1/u0/Regs/RegsH[1][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][1]~FFeft(0)/ff(0)"EFX_FF
+
+%i193/i140/cpu1/u0/Regs/RegsH[0][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2184eft(0)/lut4(0)/lut(1)"names
+
+%i193/i140/cpu1/u0/Regs/RegsH[0][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2206eft(0)/lut4(0)/lut(1)"names
+B
+counter[0]~FFeftlogic"%
+counter[0]~FFeft(0)/ff(0)"EFX_FF
+s
+cpuAddress[0]~FFeftlogic"(
+cpuAddress[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2284eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[0]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2353eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[0]~FFeftlogic"-
+i140/cpu1/u0/IR[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2357eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/ISet[0]~FFeftlogic"/
+i140/cpu1/u0/ISet[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2361eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/XY_State[0]~FFeftlogic"3
+i140/cpu1/u0/XY_State[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2364eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/MCycles[0]~FFeftlogic"2
+i140/cpu1/u0/MCycles[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2376eft(0)/lut4(0)/lut(1)"names
+s
+biData_OUT[0]~FFeftlogic"(
+biData_OUT[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2382eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[0]~FFeftlogic",
+i140/cpu1/u0/F[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2402eft(0)/lut4(0)/lut(1)"names
+R
+i140/cpu1/u0/Ap[0]~FFeftlogic"-
+i140/cpu1/u0/Ap[0]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[0]~FFeftlogic"-
+i140/cpu1/u0/Fp[0]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[0]~FFeftlogic",
+i140/cpu1/u0/I[0]~FFeft(0)/ff(0)"EFX_FF
+{
+i140/cpu1/u0/R[0]~FFeftlogic",
+i140/cpu1/u0/R[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2412eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[0]~FFeftlogic"-
+i140/cpu1/u0/SP[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2417eft(0)/lut4(0)/lut(1)"names
+“
+ i140/cpu1/u0/Read_To_Reg_r[0]~FFeftlogic"8
+ i140/cpu1/u0/Read_To_Reg_r[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2447eft(0)/lut4(0)/lut(1)"names
+Z
+i140/cpu1/u0/Alternate~FFeftlogic"1
+i140/cpu1/u0/Alternate~FFeft(0)/ff(0)"EFX_FF
+‰
+i140/cpu1/u0/ALU_Op_r[0]~FFeftlogic"3
+i140/cpu1/u0/ALU_Op_r[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2460eft(0)/lut4(0)/lut(1)"names
+…
+i140/cpu1/u0/Arith16_r~FFeftlogic"1
+i140/cpu1/u0/Arith16_r~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1872eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/BTR_r~FFeftlogic"-
+i140/cpu1/u0/BTR_r~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2463eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/Z16_r~FFeftlogic"-
+i140/cpu1/u0/Z16_r~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2467eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegAddrA_r[0]~FFeftlogic"5
+i140/cpu1/u0/RegAddrA_r[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2501eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/Save_ALU_r~FFeftlogic"2
+i140/cpu1/u0/Save_ALU_r~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2511eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/PreserveC_r~FFeftlogic"3
+i140/cpu1/u0/PreserveC_r~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2513eft(0)/lut4(0)/lut(1)"names
+T
+i140/cpu1/u0/XY_Ind~FFeftlogic".
+i140/cpu1/u0/XY_Ind~FFeft(0)/ff(0)"EFX_FF
+
+i140/cpu1/u0/RegAddrB_r[0]~FFeftlogic"5
+i140/cpu1/u0/RegAddrB_r[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2560eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/RegAddrC[0]~FFeftlogic"3
+i140/cpu1/u0/RegAddrC[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2563eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[0]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2564eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/IncDecZ~FFeftlogic"/
+i140/cpu1/u0/IncDecZ~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2643eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[0]~FFeftlogic"/
+i140/cpu1/u0/BusB[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2689eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[0]~FFeftlogic"/
+i140/cpu1/u0/BusA[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2698eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/MCycle[0]~FFeftlogic".
+i140/cpu1/MCycle[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2708eft(0)/lut4(0)/lut(1)"names
+m
+z80_n_rfsh~FFeftlogic"%
+z80_n_rfsh~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2710eft(0)/lut4(0)/lut(1)"names
+X
+i140/cpu1/u0/BusReq_s~FFeftlogic"0
+i140/cpu1/u0/BusReq_s~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][0]~FFeft(0)/ff(0)"EFX_FF
+
+i140/cpu1/TState[0]~FFeftlogic".
+i140/cpu1/TState[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2712eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/Pre_XY_F_M[0]~FFeftlogic"5
+i140/cpu1/u0/Pre_XY_F_M[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1852eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/Halt_FF~FFeftlogic"/
+i140/cpu1/u0/Halt_FF~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2720eft(0)/lut4(0)/lut(1)"names
+m
+s100_pHLDA~FFeftlogic"%
+s100_pHLDA~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2714eft(0)/lut4(0)/lut(1)"names
+X
+i140/cpu1/u0/IntE_FF2~FFeftlogic"0
+i140/cpu1/u0/IntE_FF2~FFeft(0)/ff(0)"EFX_FF
+
+i140/cpu1/u0/No_BTR~FFeftlogic".
+i140/cpu1/u0/No_BTR~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2727eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/Auto_Wait_t1~FFeftlogic"4
+i140/cpu1/u0/Auto_Wait_t1~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2713eft(0)/lut4(0)/lut(1)"names
+>
+z80_n_m1~FFeftlogic"#
+z80_n_m1~FFeft(0)/ff(0)"EFX_FF
+}
+i140/cpu1/u0/PC[0]~FFeftlogic"-
+i140/cpu1/u0/PC[0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2749eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[0]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[0]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2758eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[1]~FFeftlogic"(
+cpuAddress[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2775eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[2]~FFeftlogic"(
+cpuAddress[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2789eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[3]~FFeftlogic"(
+cpuAddress[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2803eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[4]~FFeftlogic"(
+cpuAddress[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2819eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[5]~FFeftlogic"(
+cpuAddress[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2834eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[6]~FFeftlogic"(
+cpuAddress[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2848eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[7]~FFeftlogic"(
+cpuAddress[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2862eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[8]~FFeftlogic"(
+cpuAddress[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2879eft(0)/lut4(0)/lut(1)"names
+s
+cpuAddress[9]~FFeftlogic"(
+cpuAddress[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2895eft(0)/lut4(0)/lut(1)"names
+u
+cpuAddress[10]~FFeftlogic")
+cpuAddress[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2911eft(0)/lut4(0)/lut(1)"names
+u
+cpuAddress[11]~FFeftlogic")
+cpuAddress[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2927eft(0)/lut4(0)/lut(1)"names
+u
+cpuAddress[12]~FFeftlogic")
+cpuAddress[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2943eft(0)/lut4(0)/lut(1)"names
+u
+cpuAddress[13]~FFeftlogic")
+cpuAddress[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2959eft(0)/lut4(0)/lut(1)"names
+u
+cpuAddress[14]~FFeftlogic")
+cpuAddress[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2975eft(0)/lut4(0)/lut(1)"names
+u
+cpuAddress[15]~FFeftlogic")
+cpuAddress[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2991eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[1]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2992eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[2]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2993eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[3]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2995eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[4]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2997eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[5]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2999eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[6]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3000eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[7]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3001eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[8]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3004eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/TmpAddr[9]~FFeftlogic"2
+i140/cpu1/u0/TmpAddr[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3006eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/TmpAddr[10]~FFeftlogic"3
+i140/cpu1/u0/TmpAddr[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3007eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/TmpAddr[11]~FFeftlogic"3
+i140/cpu1/u0/TmpAddr[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3008eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/TmpAddr[12]~FFeftlogic"3
+i140/cpu1/u0/TmpAddr[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3009eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/TmpAddr[13]~FFeftlogic"3
+i140/cpu1/u0/TmpAddr[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3010eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/TmpAddr[14]~FFeftlogic"3
+i140/cpu1/u0/TmpAddr[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3011eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/TmpAddr[15]~FFeftlogic"3
+i140/cpu1/u0/TmpAddr[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3012eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[1]~FFeftlogic"-
+i140/cpu1/u0/IR[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3013eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[2]~FFeftlogic"-
+i140/cpu1/u0/IR[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3014eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[3]~FFeftlogic"-
+i140/cpu1/u0/IR[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3015eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[4]~FFeftlogic"-
+i140/cpu1/u0/IR[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3016eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[5]~FFeftlogic"-
+i140/cpu1/u0/IR[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3017eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[6]~FFeftlogic"-
+i140/cpu1/u0/IR[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3018eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/IR[7]~FFeftlogic"-
+i140/cpu1/u0/IR[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3019eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/ISet[1]~FFeftlogic"/
+i140/cpu1/u0/ISet[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3020eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/XY_State[1]~FFeftlogic"3
+i140/cpu1/u0/XY_State[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3021eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/MCycles[1]~FFeftlogic"2
+i140/cpu1/u0/MCycles[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3035eft(0)/lut4(0)/lut(1)"names
+‡
+i140/cpu1/u0/MCycles[2]~FFeftlogic"2
+i140/cpu1/u0/MCycles[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3041eft(0)/lut4(0)/lut(1)"names
+s
+biData_OUT[1]~FFeftlogic"(
+biData_OUT[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3043eft(0)/lut4(0)/lut(1)"names
+m
+s100_DO[2]~FFeftlogic"%
+s100_DO[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3045eft(0)/lut4(0)/lut(1)"names
+m
+s100_DO[3]~FFeftlogic"%
+s100_DO[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3047eft(0)/lut4(0)/lut(1)"names
+m
+s100_DO[4]~FFeftlogic"%
+s100_DO[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3057eft(0)/lut4(0)/lut(1)"names
+m
+s100_DO[5]~FFeftlogic"%
+s100_DO[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3066eft(0)/lut4(0)/lut(1)"names
+m
+s100_DO[6]~FFeftlogic"%
+s100_DO[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3068eft(0)/lut4(0)/lut(1)"names
+m
+s100_DO[7]~FFeftlogic"%
+s100_DO[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3077eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[1]~FFeftlogic",
+i140/cpu1/u0/F[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3085eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[2]~FFeftlogic",
+i140/cpu1/u0/F[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3116eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[3]~FFeftlogic",
+i140/cpu1/u0/F[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3129eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[4]~FFeftlogic",
+i140/cpu1/u0/F[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3139eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[5]~FFeftlogic",
+i140/cpu1/u0/F[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3150eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[6]~FFeftlogic",
+i140/cpu1/u0/F[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3156eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/F[7]~FFeftlogic",
+i140/cpu1/u0/F[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3164eft(0)/lut4(0)/lut(1)"names
+R
+i140/cpu1/u0/Ap[1]~FFeftlogic"-
+i140/cpu1/u0/Ap[1]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Ap[2]~FFeftlogic"-
+i140/cpu1/u0/Ap[2]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Ap[3]~FFeftlogic"-
+i140/cpu1/u0/Ap[3]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Ap[4]~FFeftlogic"-
+i140/cpu1/u0/Ap[4]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Ap[5]~FFeftlogic"-
+i140/cpu1/u0/Ap[5]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Ap[6]~FFeftlogic"-
+i140/cpu1/u0/Ap[6]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Ap[7]~FFeftlogic"-
+i140/cpu1/u0/Ap[7]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[1]~FFeftlogic"-
+i140/cpu1/u0/Fp[1]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[2]~FFeftlogic"-
+i140/cpu1/u0/Fp[2]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[3]~FFeftlogic"-
+i140/cpu1/u0/Fp[3]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[4]~FFeftlogic"-
+i140/cpu1/u0/Fp[4]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[5]~FFeftlogic"-
+i140/cpu1/u0/Fp[5]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[6]~FFeftlogic"-
+i140/cpu1/u0/Fp[6]~FFeft(0)/ff(0)"EFX_FF
+R
+i140/cpu1/u0/Fp[7]~FFeftlogic"-
+i140/cpu1/u0/Fp[7]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[1]~FFeftlogic",
+i140/cpu1/u0/I[1]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[2]~FFeftlogic",
+i140/cpu1/u0/I[2]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[3]~FFeftlogic",
+i140/cpu1/u0/I[3]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[4]~FFeftlogic",
+i140/cpu1/u0/I[4]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[5]~FFeftlogic",
+i140/cpu1/u0/I[5]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[6]~FFeftlogic",
+i140/cpu1/u0/I[6]~FFeft(0)/ff(0)"EFX_FF
+P
+i140/cpu1/u0/I[7]~FFeftlogic",
+i140/cpu1/u0/I[7]~FFeft(0)/ff(0)"EFX_FF
+{
+i140/cpu1/u0/R[1]~FFeftlogic",
+i140/cpu1/u0/R[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3167eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/R[2]~FFeftlogic",
+i140/cpu1/u0/R[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3169eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/R[3]~FFeftlogic",
+i140/cpu1/u0/R[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3171eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/R[4]~FFeftlogic",
+i140/cpu1/u0/R[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3173eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/R[5]~FFeftlogic",
+i140/cpu1/u0/R[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3175eft(0)/lut4(0)/lut(1)"names
+{
+i140/cpu1/u0/R[6]~FFeftlogic",
+i140/cpu1/u0/R[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3177eft(0)/lut4(0)/lut(1)"names
+P
+i140/cpu1/u0/R[7]~FFeftlogic",
+i140/cpu1/u0/R[7]~FFeft(0)/ff(0)"EFX_FF
+}
+i140/cpu1/u0/SP[1]~FFeftlogic"-
+i140/cpu1/u0/SP[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3181eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[2]~FFeftlogic"-
+i140/cpu1/u0/SP[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3186eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[3]~FFeftlogic"-
+i140/cpu1/u0/SP[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3189eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[4]~FFeftlogic"-
+i140/cpu1/u0/SP[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3194eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[5]~FFeftlogic"-
+i140/cpu1/u0/SP[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3199eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[6]~FFeftlogic"-
+i140/cpu1/u0/SP[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3204eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[7]~FFeftlogic"-
+i140/cpu1/u0/SP[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3207eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[8]~FFeftlogic"-
+i140/cpu1/u0/SP[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3214eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/SP[9]~FFeftlogic"-
+i140/cpu1/u0/SP[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3218eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/SP[10]~FFeftlogic".
+i140/cpu1/u0/SP[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3224eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/SP[11]~FFeftlogic".
+i140/cpu1/u0/SP[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3227eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/SP[12]~FFeftlogic".
+i140/cpu1/u0/SP[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3232eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/SP[13]~FFeftlogic".
+i140/cpu1/u0/SP[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3237eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/SP[14]~FFeftlogic".
+i140/cpu1/u0/SP[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3240eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/SP[15]~FFeftlogic".
+i140/cpu1/u0/SP[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3243eft(0)/lut4(0)/lut(1)"names
+“
+ i140/cpu1/u0/Read_To_Reg_r[1]~FFeftlogic"8
+ i140/cpu1/u0/Read_To_Reg_r[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3244eft(0)/lut4(0)/lut(1)"names
+“
+ i140/cpu1/u0/Read_To_Reg_r[2]~FFeftlogic"8
+ i140/cpu1/u0/Read_To_Reg_r[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3245eft(0)/lut4(0)/lut(1)"names
+“
+ i140/cpu1/u0/Read_To_Reg_r[3]~FFeftlogic"8
+ i140/cpu1/u0/Read_To_Reg_r[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3246eft(0)/lut4(0)/lut(1)"names
+“
+ i140/cpu1/u0/Read_To_Reg_r[4]~FFeftlogic"8
+ i140/cpu1/u0/Read_To_Reg_r[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3259eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/ALU_Op_r[1]~FFeftlogic"3
+i140/cpu1/u0/ALU_Op_r[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3272eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/ALU_Op_r[2]~FFeftlogic"3
+i140/cpu1/u0/ALU_Op_r[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3276eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/ALU_Op_r[3]~FFeftlogic"3
+i140/cpu1/u0/ALU_Op_r[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3278eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegAddrA_r[1]~FFeftlogic"5
+i140/cpu1/u0/RegAddrA_r[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2485eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegAddrA_r[2]~FFeftlogic"5
+i140/cpu1/u0/RegAddrA_r[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3279eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegAddrB_r[1]~FFeftlogic"5
+i140/cpu1/u0/RegAddrB_r[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2540eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegAddrB_r[2]~FFeftlogic"5
+i140/cpu1/u0/RegAddrB_r[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3280eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/RegAddrC[1]~FFeftlogic"3
+i140/cpu1/u0/RegAddrC[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2258eft(0)/lut4(0)/lut(1)"names
+‰
+i140/cpu1/u0/RegAddrC[2]~FFeftlogic"3
+i140/cpu1/u0/RegAddrC[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3281eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[1]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2009eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[2]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2004eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[3]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1999eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[4]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1974eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[5]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1979eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[6]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1993eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[7]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1987eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[8]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2047eft(0)/lut4(0)/lut(1)"names
+‹
+i140/cpu1/u0/RegBusA_r[9]~FFeftlogic"4
+i140/cpu1/u0/RegBusA_r[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2041eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegBusA_r[10]~FFeftlogic"5
+i140/cpu1/u0/RegBusA_r[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2035eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegBusA_r[11]~FFeftlogic"5
+i140/cpu1/u0/RegBusA_r[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2060eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegBusA_r[12]~FFeftlogic"5
+i140/cpu1/u0/RegBusA_r[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2168eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegBusA_r[13]~FFeftlogic"5
+i140/cpu1/u0/RegBusA_r[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2177eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegBusA_r[14]~FFeftlogic"5
+i140/cpu1/u0/RegBusA_r[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2182eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/RegBusA_r[15]~FFeftlogic"5
+i140/cpu1/u0/RegBusA_r[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__2590eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[1]~FFeftlogic"/
+i140/cpu1/u0/BusB[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3293eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[2]~FFeftlogic"/
+i140/cpu1/u0/BusB[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3305eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[3]~FFeftlogic"/
+i140/cpu1/u0/BusB[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3317eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[4]~FFeftlogic"/
+i140/cpu1/u0/BusB[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3334eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[5]~FFeftlogic"/
+i140/cpu1/u0/BusB[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3351eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[6]~FFeftlogic"/
+i140/cpu1/u0/BusB[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3363eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusB[7]~FFeftlogic"/
+i140/cpu1/u0/BusB[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3380eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[1]~FFeftlogic"/
+i140/cpu1/u0/BusA[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3384eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[2]~FFeftlogic"/
+i140/cpu1/u0/BusA[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3388eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[3]~FFeftlogic"/
+i140/cpu1/u0/BusA[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3392eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[4]~FFeftlogic"/
+i140/cpu1/u0/BusA[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3396eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[5]~FFeftlogic"/
+i140/cpu1/u0/BusA[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3400eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[6]~FFeftlogic"/
+i140/cpu1/u0/BusA[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3404eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/BusA[7]~FFeftlogic"/
+i140/cpu1/u0/BusA[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3408eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/MCycle[1]~FFeftlogic".
+i140/cpu1/MCycle[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3411eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/MCycle[2]~FFeftlogic".
+i140/cpu1/MCycle[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3414eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/TState[1]~FFeftlogic".
+i140/cpu1/TState[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3415eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/TState[2]~FFeftlogic".
+i140/cpu1/TState[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3416eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/Pre_XY_F_M[1]~FFeftlogic"5
+i140/cpu1/u0/Pre_XY_F_M[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3417eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/Pre_XY_F_M[2]~FFeftlogic"5
+i140/cpu1/u0/Pre_XY_F_M[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3418eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[1]~FFeftlogic"-
+i140/cpu1/u0/PC[1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3426eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[2]~FFeftlogic"-
+i140/cpu1/u0/PC[2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3434eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[3]~FFeftlogic"-
+i140/cpu1/u0/PC[3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3443eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[4]~FFeftlogic"-
+i140/cpu1/u0/PC[4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3451eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[5]~FFeftlogic"-
+i140/cpu1/u0/PC[5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3461eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[6]~FFeftlogic"-
+i140/cpu1/u0/PC[6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3469eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[7]~FFeftlogic"-
+i140/cpu1/u0/PC[7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3477eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[8]~FFeftlogic"-
+i140/cpu1/u0/PC[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3487eft(0)/lut4(0)/lut(1)"names
+}
+i140/cpu1/u0/PC[9]~FFeftlogic"-
+i140/cpu1/u0/PC[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3495eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/PC[10]~FFeftlogic".
+i140/cpu1/u0/PC[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3503eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/PC[11]~FFeftlogic".
+i140/cpu1/u0/PC[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3513eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/PC[12]~FFeftlogic".
+i140/cpu1/u0/PC[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3521eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/PC[13]~FFeftlogic".
+i140/cpu1/u0/PC[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3529eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/PC[14]~FFeftlogic".
+i140/cpu1/u0/PC[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3539eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/u0/PC[15]~FFeftlogic".
+i140/cpu1/u0/PC[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3547eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[1]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[1]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3550eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[2]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[2]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3553eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[3]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[3]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3556eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[4]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[4]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3559eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[5]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[5]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3562eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[6]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[6]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3565eft(0)/lut4(0)/lut(1)"names
+ƒ
+i140/cpu1/u0/ACC[7]_2~FFeftlogic"0
+i140/cpu1/u0/ACC[7]_2~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3568eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[1]~FFeftlogic".
+i140/cpu1/DI_Reg[1]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i2eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[2]~FFeftlogic"7
+cpuInMux/dlatchrs_65/i3eft(0)/lut4(0)/lut(1)"names".
+i140/cpu1/DI_Reg[2]~FFeft(0)/ff(0)"EFX_FF
+
+i140/cpu1/DI_Reg[3]~FFeftlogic".
+i140/cpu1/DI_Reg[3]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i4eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[4]~FFeftlogic".
+i140/cpu1/DI_Reg[4]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i5eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[5]~FFeftlogic".
+i140/cpu1/DI_Reg[5]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i6eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[6]~FFeftlogic".
+i140/cpu1/DI_Reg[6]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i7eft(0)/lut4(0)/lut(1)"names
+
+i140/cpu1/DI_Reg[7]~FFeftlogic".
+i140/cpu1/DI_Reg[7]~FFeft(0)/ff(0)"EFX_FF"7
+cpuInMux/dlatchrs_65/i8eft(0)/lut4(0)/lut(1)"names
+„
+i140/cpuClkCount[1]~FFeft
+arithmetic".
+i140/cpuClkCount[1]~FFeft(0)/ff(1)"EFX_FF")
+i140/add_8/i2eft(0)/adder(1)"EFX_ADD
+„
+i140/cpuClkCount[2]~FFeft
+arithmetic".
+i140/cpuClkCount[2]~FFeft(0)/ff(1)"EFX_FF")
+i140/add_8/i3eft(0)/adder(1)"EFX_ADD
+B
+s100_sHLTA~FFeftlogic"%
+s100_sHLTA~FFeft(0)/ff(0)"EFX_FF
+k
+s100_sOUT~FFeftlogic"$
+s100_sOUT~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3590eft(0)/lut4(0)/lut(1)"names
+k
+s100_sINP~FFeftlogic"$
+s100_sINP~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3569eft(0)/lut4(0)/lut(1)"names
+m
+s100_sMEMR~FFeftlogic"%
+s100_sMEMR~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1783eft(0)/lut4(0)/lut(1)"names
+B
+s100_n_sWO~FFeftlogic"%
+s100_n_sWO~FFeft(0)/ff(0)"EFX_FF
+>
+s100_sM1~FFeftlogic"#
+s100_sM1~FFeft(0)/ff(0)"EFX_FF
+m
+s100_sINTA~FFeftlogic"%
+s100_sINTA~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1795eft(0)/lut4(0)/lut(1)"names
+J
+S100adr0_15[0]~FFeftlogic")
+S100adr0_15[0]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[1]~FFeftlogic")
+S100adr0_15[1]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[2]~FFeftlogic")
+S100adr0_15[2]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[3]~FFeftlogic")
+S100adr0_15[3]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[4]~FFeftlogic")
+S100adr0_15[4]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[5]~FFeftlogic")
+S100adr0_15[5]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[6]~FFeftlogic")
+S100adr0_15[6]~FFeft(0)/ff(0)"EFX_FF
+J
+S100adr0_15[7]~FFeftlogic")
+S100adr0_15[7]~FFeft(0)/ff(0)"EFX_FF
+u
+S100adr0_15[8]~FFeftlogic")
+S100adr0_15[8]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3591eft(0)/lut4(0)/lut(1)"names
+u
+S100adr0_15[9]~FFeftlogic")
+S100adr0_15[9]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1776eft(0)/lut4(0)/lut(1)"names
+w
+S100adr0_15[10]~FFeftlogic"*
+S100adr0_15[10]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1775eft(0)/lut4(0)/lut(1)"names
+w
+S100adr0_15[11]~FFeftlogic"*
+S100adr0_15[11]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1778eft(0)/lut4(0)/lut(1)"names
+w
+S100adr0_15[12]~FFeftlogic"*
+S100adr0_15[12]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1777eft(0)/lut4(0)/lut(1)"names
+w
+S100adr0_15[13]~FFeftlogic"*
+S100adr0_15[13]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1781eft(0)/lut4(0)/lut(1)"names
+w
+S100adr0_15[14]~FFeftlogic"*
+S100adr0_15[14]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1780eft(0)/lut4(0)/lut(1)"names
+w
+S100adr0_15[15]~FFeftlogic"*
+S100adr0_15[15]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__1782eft(0)/lut4(0)/lut(1)"names
+
+%i193/i140/cpu1/u0/Regs/RegsH[0][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3593eft(0)/lut4(0)/lut(1)"names
+@
+out255[0]~FFeftlogic"$
+out255[0]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[1]~FFeftlogic"$
+out255[1]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[2]~FFeftlogic"$
+out255[2]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[3]~FFeftlogic"$
+out255[3]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[4]~FFeftlogic"$
+out255[4]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[5]~FFeftlogic"$
+out255[5]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[6]~FFeftlogic"$
+out255[6]~FFeft(0)/ff(0)"EFX_FF
+@
+out255[7]~FFeftlogic"$
+out255[7]~FFeft(0)/ff(0)"EFX_FF
+8
+liorq~FFeftlogic" 
+liorq~FFeft(0)/ff(0)"EFX_FF
+
+%i193/i140/cpu1/u0/Regs/RegsH[1][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3599eft(0)/lut4(0)/lut(1)"names
+>
+psyncend~FFeftlogic"#
+psyncend~FFeft(0)/ff(0)"EFX_FF
+e
+spare_P32~FFeftlogic"#
+GNDeft(0)/lut4(0)/lut(1)"names"$
+spare_P32~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[1][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][6]~FFeft(0)/ff(0)"EFX_FF
+J
+z80_n_HoldIn_2~FFeftlogic")
+z80_n_HoldIn_2~FFeft(0)/ff(0)"EFX_FF
+D
+statDisable~FFeftlogic"&
+statDisable~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[1][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][5]~FFeft(0)/ff(0)"EFX_FF
+m
+ctlDisable~FFeftlogic"%
+ctlDisable~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3600eft(0)/lut4(0)/lut(1)"names
+i
+s100_PHI~FFeftlogic"#
+s100_PHI~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3602eft(0)/lut4(0)/lut(1)"names
+
+%i193/i140/cpu1/u0/Regs/RegsH[1][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3604eft(0)/lut4(0)/lut(1)"names
+r
+%i193/i140/cpu1/u0/Regs/RegsH[1][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[1][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[1][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[0][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][7]~FFeft(0)/ff(0)"EFX_FF
+o
+counter[1]~FFeft
+arithmetic"%
+counter[1]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i2eft(0)/adder(1)"EFX_ADD
+o
+counter[2]~FFeft
+arithmetic"%
+counter[2]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i3eft(0)/adder(1)"EFX_ADD
+o
+counter[3]~FFeft
+arithmetic"%
+counter[3]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i4eft(0)/adder(1)"EFX_ADD
+o
+counter[4]~FFeft
+arithmetic"%
+counter[4]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i5eft(0)/adder(1)"EFX_ADD
+o
+counter[5]~FFeft
+arithmetic"%
+counter[5]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i6eft(0)/adder(1)"EFX_ADD
+o
+counter[6]~FFeft
+arithmetic"%
+counter[6]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i7eft(0)/adder(1)"EFX_ADD
+o
+counter[7]~FFeft
+arithmetic"%
+counter[7]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i8eft(0)/adder(1)"EFX_ADD
+o
+counter[8]~FFeft
+arithmetic"%
+counter[8]~FFeft(0)/ff(1)"EFX_FF"&
+
+add_136/i9eft(0)/adder(1)"EFX_ADD
+p
+counter[9]~FFeft
+arithmetic"%
+counter[9]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i10eft(0)/adder(1)"EFX_ADD
+r
+counter[10]~FFeft
+arithmetic"&
+counter[10]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i11eft(0)/adder(1)"EFX_ADD
+r
+counter[11]~FFeft
+arithmetic"&
+counter[11]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i12eft(0)/adder(1)"EFX_ADD
+n
+outPrn[0]~FFeft
+arithmetic"$
+outPrn[0]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i13eft(0)/adder(1)"EFX_ADD
+n
+outPrn[1]~FFeft
+arithmetic"$
+outPrn[1]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i14eft(0)/adder(1)"EFX_ADD
+n
+outPrn[2]~FFeft
+arithmetic"$
+outPrn[2]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i15eft(0)/adder(1)"EFX_ADD
+n
+outPrn[3]~FFeft
+arithmetic"$
+outPrn[3]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i16eft(0)/adder(1)"EFX_ADD
+n
+outPrn[4]~FFeft
+arithmetic"$
+outPrn[4]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i17eft(0)/adder(1)"EFX_ADD
+n
+outPrn[5]~FFeft
+arithmetic"$
+outPrn[5]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i18eft(0)/adder(1)"EFX_ADD
+n
+outPrn[6]~FFeft
+arithmetic"$
+outPrn[6]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i19eft(0)/adder(1)"EFX_ADD
+n
+outPrn[7]~FFeft
+arithmetic"$
+outPrn[7]~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i20eft(0)/adder(1)"EFX_ADD
+t
+outPrnStrobe~FFeft
+arithmetic"'
+outPrnStrobe~FFeft(0)/ff(1)"EFX_FF"'
+add_136/i21eft(0)/adder(1)"EFX_ADD
+r
+%i193/i140/cpu1/u0/Regs/RegsH[0][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[0][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[2][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[2][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[3][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[3][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[4][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[4][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[5][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[5][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[6][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[6][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][0]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][1]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][2]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][3]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][4]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][5]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][6]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i193/i140/cpu1/u0/Regs/RegsH[7][7]~FFeftlogic"=
+%i193/i140/cpu1/u0/Regs/RegsH[7][7]~FFeft(0)/ff(0)"EFX_FF
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][0]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3612eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][1]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3618eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][2]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3623eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][3]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3627eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][4]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3631eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][5]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3634eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][6]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3637eft(0)/lut4(0)/lut(1)"names
+
+%i194/i140/cpu1/u0/Regs/RegsL[0][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[0][7]~FFeft(0)/ff(0)"EFX_FF")
+	LUT__3642eft(0)/lut4(0)/lut(1)"names
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[1][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[1][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[2][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[2][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[3][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[3][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[4][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[4][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[5][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[5][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[6][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[6][7]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][0]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][0]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][1]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][1]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][2]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][2]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][3]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][3]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][4]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][4]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][5]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][5]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][6]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][6]~FFeft(0)/ff(0)"EFX_FF
+r
+%i194/i140/cpu1/u0/Regs/RegsL[7][7]~FFeftlogic"=
+%i194/i140/cpu1/u0/Regs/RegsL[7][7]~FFeft(0)/ff(0)"EFX_FF
+:
+	pll0_2MHzioinpad""
+	pll0_2MHzio(0)/inpad(0)"input
+>
+pll0_100MHzioinpad"$
+pll0_100MHzio(0)/inpad(0)"input
+@
+s100_n_RESETioinpad"%
+s100_n_RESETio(0)/inpad(0)"input
+<
+
+s100_DI[7]ioinpad"#
+
+s100_DI[7]io(0)/inpad(0)"input
+<
+
+s100_DI[6]ioinpad"#
+
+s100_DI[6]io(0)/inpad(0)"input
+<
+
+s100_DI[5]ioinpad"#
+
+s100_DI[5]io(0)/inpad(0)"input
+<
+
+s100_DI[4]ioinpad"#
+
+s100_DI[4]io(0)/inpad(0)"input
+<
+
+s100_DI[3]ioinpad"#
+
+s100_DI[3]io(0)/inpad(0)"input
+<
+
+s100_DI[2]ioinpad"#
+
+s100_DI[2]io(0)/inpad(0)"input
+<
+
+s100_DI[1]ioinpad"#
+
+s100_DI[1]io(0)/inpad(0)"input
+<
+
+s100_DI[0]ioinpad"#
+
+s100_DI[0]io(0)/inpad(0)"input
+:
+	s100_xrdyioinpad""
+	s100_xrdyio(0)/inpad(0)"input
+8
+s100_rdyioinpad"!
+s100_rdyio(0)/inpad(0)"input
+:
+	s100_HOLDioinpad""
+	s100_HOLDio(0)/inpad(0)"input
+I
+S100adr0_15[15]iooutpad"*
+S100adr0_15[15]io(0)/outpad(1)"output
+I
+S100adr0_15[14]iooutpad"*
+S100adr0_15[14]io(0)/outpad(1)"output
+I
+S100adr0_15[13]iooutpad"*
+S100adr0_15[13]io(0)/outpad(1)"output
+I
+S100adr0_15[12]iooutpad"*
+S100adr0_15[12]io(0)/outpad(1)"output
+I
+S100adr0_15[11]iooutpad"*
+S100adr0_15[11]io(0)/outpad(1)"output
+I
+S100adr0_15[10]iooutpad"*
+S100adr0_15[10]io(0)/outpad(1)"output
+G
+S100adr0_15[9]iooutpad")
+S100adr0_15[9]io(0)/outpad(1)"output
+G
+S100adr0_15[8]iooutpad")
+S100adr0_15[8]io(0)/outpad(1)"output
+G
+S100adr0_15[7]iooutpad")
+S100adr0_15[7]io(0)/outpad(1)"output
+G
+S100adr0_15[6]iooutpad")
+S100adr0_15[6]io(0)/outpad(1)"output
+G
+S100adr0_15[5]iooutpad")
+S100adr0_15[5]io(0)/outpad(1)"output
+G
+S100adr0_15[4]iooutpad")
+S100adr0_15[4]io(0)/outpad(1)"output
+G
+S100adr0_15[3]iooutpad")
+S100adr0_15[3]io(0)/outpad(1)"output
+G
+S100adr0_15[2]iooutpad")
+S100adr0_15[2]io(0)/outpad(1)"output
+G
+S100adr0_15[1]iooutpad")
+S100adr0_15[1]io(0)/outpad(1)"output
+G
+S100adr0_15[0]iooutpad")
+S100adr0_15[0]io(0)/outpad(1)"output
+I
+S100adr16_19[3]iooutpad"*
+S100adr16_19[3]io(0)/outpad(1)"output
+I
+S100adr16_19[2]iooutpad"*
+S100adr16_19[2]io(0)/outpad(1)"output
+I
+S100adr16_19[1]iooutpad"*
+S100adr16_19[1]io(0)/outpad(1)"output
+I
+S100adr16_19[0]iooutpad"*
+S100adr16_19[0]io(0)/outpad(1)"output
+?
+
+s100_DO[7]iooutpad"%
+
+s100_DO[7]io(0)/outpad(1)"output
+?
+
+s100_DO[6]iooutpad"%
+
+s100_DO[6]io(0)/outpad(1)"output
+?
+
+s100_DO[5]iooutpad"%
+
+s100_DO[5]io(0)/outpad(1)"output
+?
+
+s100_DO[4]iooutpad"%
+
+s100_DO[4]io(0)/outpad(1)"output
+?
+
+s100_DO[3]iooutpad"%
+
+s100_DO[3]io(0)/outpad(1)"output
+?
+
+s100_DO[2]iooutpad"%
+
+s100_DO[2]io(0)/outpad(1)"output
+?
+
+s100_DO[1]iooutpad"%
+
+s100_DO[1]io(0)/outpad(1)"output
+?
+
+s100_DO[0]iooutpad"%
+
+s100_DO[0]io(0)/outpad(1)"output
+?
+
+s100_pDBINiooutpad"%
+
+s100_pDBINio(0)/outpad(1)"output
+?
+
+s100_pSYNCiooutpad"%
+
+s100_pSYNCio(0)/outpad(1)"output
+A
+s100_pSTVALiooutpad"&
+s100_pSTVALio(0)/outpad(1)"output
+?
+
+s100_n_pWRiooutpad"%
+
+s100_n_pWRio(0)/outpad(1)"output
+?
+
+s100_sMWRTiooutpad"%
+
+s100_sMWRTio(0)/outpad(1)"output
+?
+
+s100_pHLDAiooutpad"%
+
+s100_pHLDAio(0)/outpad(1)"output
+;
+s100_PHIiooutpad"#
+s100_PHIio(0)/outpad(1)"output
+?
+
+s100_CLOCKiooutpad"%
+
+s100_CLOCKio(0)/outpad(1)"output
+?
+
+s100_sHLTAiooutpad"%
+
+s100_sHLTAio(0)/outpad(1)"output
+?
+
+s100_sINTAiooutpad"%
+
+s100_sINTAio(0)/outpad(1)"output
+?
+
+s100_n_sWOiooutpad"%
+
+s100_n_sWOio(0)/outpad(1)"output
+?
+
+s100_sMEMRiooutpad"%
+
+s100_sMEMRio(0)/outpad(1)"output
+=
+	s100_sINPiooutpad"$
+	s100_sINPio(0)/outpad(1)"output
+=
+	s100_sOUTiooutpad"$
+	s100_sOUTio(0)/outpad(1)"output
+;
+s100_sM1iooutpad"#
+s100_sM1io(0)/outpad(1)"output
+C
+s100_PHANTOMiooutpad"'
+s100_PHANTOMio(0)/outpad(1)"output
+=
+	s100_ADSBiooutpad"$
+	s100_ADSBio(0)/outpad(1)"output
+=
+	s100_CDSBiooutpad"$
+	s100_CDSBio(0)/outpad(1)"output
+A
+SBC_LEDs[7]iooutpad"&
+SBC_LEDs[7]io(0)/outpad(1)"output
+A
+SBC_LEDs[6]iooutpad"&
+SBC_LEDs[6]io(0)/outpad(1)"output
+A
+SBC_LEDs[5]iooutpad"&
+SBC_LEDs[5]io(0)/outpad(1)"output
+A
+SBC_LEDs[4]iooutpad"&
+SBC_LEDs[4]io(0)/outpad(1)"output
+A
+SBC_LEDs[3]iooutpad"&
+SBC_LEDs[3]io(0)/outpad(1)"output
+A
+SBC_LEDs[2]iooutpad"&
+SBC_LEDs[2]io(0)/outpad(1)"output
+A
+SBC_LEDs[1]iooutpad"&
+SBC_LEDs[1]io(0)/outpad(1)"output
+A
+SBC_LEDs[0]iooutpad"&
+SBC_LEDs[0]io(0)/outpad(1)"output
+@
+sw_IOBYTE[7]ioinpad"%
+sw_IOBYTE[7]io(0)/inpad(0)"input
+@
+sw_IOBYTE[6]ioinpad"%
+sw_IOBYTE[6]io(0)/inpad(0)"input
+@
+sw_IOBYTE[5]ioinpad"%
+sw_IOBYTE[5]io(0)/inpad(0)"input
+@
+sw_IOBYTE[4]ioinpad"%
+sw_IOBYTE[4]io(0)/inpad(0)"input
+=
+	outPrn[7]iooutpad"$
+	outPrn[7]io(0)/outpad(1)"output
+=
+	outPrn[6]iooutpad"$
+	outPrn[6]io(0)/outpad(1)"output
+=
+	outPrn[5]iooutpad"$
+	outPrn[5]io(0)/outpad(1)"output
+=
+	outPrn[4]iooutpad"$
+	outPrn[4]io(0)/outpad(1)"output
+=
+	outPrn[3]iooutpad"$
+	outPrn[3]io(0)/outpad(1)"output
+=
+	outPrn[2]iooutpad"$
+	outPrn[2]io(0)/outpad(1)"output
+=
+	outPrn[1]iooutpad"$
+	outPrn[1]io(0)/outpad(1)"output
+=
+	outPrn[0]iooutpad"$
+	outPrn[0]io(0)/outpad(1)"output
+C
+outPrnStrobeiooutpad"'
+outPrnStrobeio(0)/outpad(1)"output
+C
+out8255_n_csiooutpad"'
+out8255_n_csio(0)/outpad(1)"output
+E
+idePorts_n_rdiooutpad"(
+idePorts_n_rdio(0)/outpad(1)"output
+E
+idePorts_n_wriooutpad"(
+idePorts_n_wrio(0)/outpad(1)"output
+A
+outIDE_n_rdiooutpad"&
+outIDE_n_rdio(0)/outpad(1)"output
+A
+outIDE_n_wriooutpad"&
+outIDE_n_wrio(0)/outpad(1)"output
+E
+cpuClkOut_P19iooutpad"(
+cpuClkOut_P19io(0)/outpad(1)"output
+;
+spare_P1iooutpad"#
+spare_P1io(0)/outpad(1)"output
+=
+	spare_P17iooutpad"$
+	spare_P17io(0)/outpad(1)"output
+=
+	spare_P32iooutpad"$
+	spare_P32io(0)/outpad(1)"output
+=
+	spare_P33iooutpad"$
+	spare_P33io(0)/outpad(1)"output
+9
+ram_A16iooutpad""
+ram_A16io(0)/outpad(1)"output
+9
+ram_A17iooutpad""
+ram_A17io(0)/outpad(1)"output
+9
+ram_A18iooutpad""
+ram_A18io(0)/outpad(1)"output
+;
+ram_n_csiooutpad"#
+ram_n_csio(0)/outpad(1)"output
+;
+ram_n_oeiooutpad"#
+ram_n_oeio(0)/outpad(1)"output
+;
+ram_n_wriooutpad"#
+ram_n_wrio(0)/outpad(1)"output
+@
+biData_IN[7]ioinpad"%
+biData_IN[7]io(0)/inpad(0)"input
+@
+biData_IN[6]ioinpad"%
+biData_IN[6]io(0)/inpad(0)"input
+@
+biData_IN[5]ioinpad"%
+biData_IN[5]io(0)/inpad(0)"input
+@
+biData_IN[4]ioinpad"%
+biData_IN[4]io(0)/inpad(0)"input
+@
+biData_IN[3]ioinpad"%
+biData_IN[3]io(0)/inpad(0)"input
+@
+biData_IN[2]ioinpad"%
+biData_IN[2]io(0)/inpad(0)"input
+@
+biData_IN[1]ioinpad"%
+biData_IN[1]io(0)/inpad(0)"input
+@
+biData_IN[0]ioinpad"%
+biData_IN[0]io(0)/inpad(0)"input
+E
+biData_OUT[7]iooutpad"(
+biData_OUT[7]io(0)/outpad(1)"output
+E
+biData_OUT[6]iooutpad"(
+biData_OUT[6]io(0)/outpad(1)"output
+E
+biData_OUT[5]iooutpad"(
+biData_OUT[5]io(0)/outpad(1)"output
+E
+biData_OUT[4]iooutpad"(
+biData_OUT[4]io(0)/outpad(1)"output
+E
+biData_OUT[3]iooutpad"(
+biData_OUT[3]io(0)/outpad(1)"output
+E
+biData_OUT[2]iooutpad"(
+biData_OUT[2]io(0)/outpad(1)"output
+E
+biData_OUT[1]iooutpad"(
+biData_OUT[1]io(0)/outpad(1)"output
+E
+biData_OUT[0]iooutpad"(
+biData_OUT[0]io(0)/outpad(1)"output
+C
+biData_OE[7]iooutpad"'
+biData_OE[7]io(0)/outpad(1)"output
+C
+biData_OE[6]iooutpad"'
+biData_OE[6]io(0)/outpad(1)"output
+C
+biData_OE[5]iooutpad"'
+biData_OE[5]io(0)/outpad(1)"output
+C
+biData_OE[4]iooutpad"'
+biData_OE[4]io(0)/outpad(1)"output
+C
+biData_OE[3]iooutpad"'
+biData_OE[3]io(0)/outpad(1)"output
+C
+biData_OE[2]iooutpad"'
+biData_OE[2]io(0)/outpad(1)"output
+C
+biData_OE[1]iooutpad"'
+biData_OE[1]io(0)/outpad(1)"output
+C
+biData_OE[0]iooutpad"'
+biData_OE[0]io(0)/outpad(1)"output
+;
+test_OUTiooutpad"#
+test_OUTio(0)/outpad(1)"output
+9
+test_OEiooutpad""
+test_OEio(0)/outpad(1)"output
+9
+seg7[6]iooutpad""
+seg7[6]io(0)/outpad(1)"output
+9
+seg7[5]iooutpad""
+seg7[5]io(0)/outpad(1)"output
+9
+seg7[4]iooutpad""
+seg7[4]io(0)/outpad(1)"output
+9
+seg7[3]iooutpad""
+seg7[3]io(0)/outpad(1)"output
+9
+seg7[2]iooutpad""
+seg7[2]io(0)/outpad(1)"output
+9
+seg7[1]iooutpad""
+seg7[1]io(0)/outpad(1)"output
+9
+seg7[0]iooutpad""
+seg7[0]io(0)/outpad(1)"output
+9
+seg7_dpiooutpad""
+seg7_dpio(0)/outpad(1)"output
+A
+boardActiveiooutpad"&
+boardActiveio(0)/outpad(1)"output
+9
+diagLEDiooutpad""
+diagLEDio(0)/outpad(1)"output
+?
+
+highRomLEDiooutpad"%
+
+highRomLEDio(0)/outpad(1)"output
+=
+	lowRomLEDiooutpad"$
+	lowRomLEDio(0)/outpad(1)"output
+?
+
+highRamLEDiooutpad"%
+
+highRamLEDio(0)/outpad(1)"output
+G
+s100PhantomLEDiooutpad")
+s100PhantomLEDio(0)/outpad(1)"output
+=
+	prnAckLEDiooutpad"$
+	prnAckLEDio(0)/outpad(1)"output
+C
+usbTXbusyLEDiooutpad"'
+usbTXbusyLEDio(0)/outpad(1)"output
+C
+usbRXbusyLEDiooutpad"'
+usbRXbusyLEDio(0)/outpad(1)"output
+;
+F_add_oeiooutpad"#
+F_add_oeio(0)/outpad(1)"output
+E
+F_bus_stat_oeiooutpad"(
+F_bus_stat_oeio(0)/outpad(1)"output
+A
+F_out_DO_oeiooutpad"&
+F_out_DO_oeio(0)/outpad(1)"output
+A
+F_out_DI_oeiooutpad"&
+F_out_DI_oeio(0)/outpad(1)"output
+C
+F_bus_ctl_oeiooutpad"'
+F_bus_ctl_oeio(0)/outpad(1)"output
+6
+VCCefllogic"#
+VCCefl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1761efllogic")
+	LUT__1761efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1762efllogic")
+	LUT__1762efl(0)/lut4(0)/lut(1)"names
+_
+i140/cpu1/u0/add_155/i1efl
+arithmetic"3
+i140/cpu1/u0/add_155/i1efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i1efl
+arithmetic"3
+i140/cpu1/u0/add_170/i1efl(0)/adder(1)"EFX_ADD
+e
+i140/cpu1/u0/alu/add_17/i5efl
+arithmetic"6
+i140/cpu1/u0/alu/add_17/i5efl(0)/adder(1)"EFX_ADD
+e
+i140/cpu1/u0/alu/add_17/i4efl
+arithmetic"6
+i140/cpu1/u0/alu/add_17/i4efl(0)/adder(1)"EFX_ADD
+e
+i140/cpu1/u0/alu/add_17/i3efl
+arithmetic"6
+i140/cpu1/u0/alu/add_17/i3efl(0)/adder(1)"EFX_ADD
+e
+i140/cpu1/u0/alu/add_17/i2efl
+arithmetic"6
+i140/cpu1/u0/alu/add_17/i2efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i16efl
+arithmetic"4
+i140/cpu1/u0/add_170/i16efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i15efl
+arithmetic"4
+i140/cpu1/u0/add_170/i15efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i14efl
+arithmetic"4
+i140/cpu1/u0/add_170/i14efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i13efl
+arithmetic"4
+i140/cpu1/u0/add_170/i13efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i12efl
+arithmetic"4
+i140/cpu1/u0/add_170/i12efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i11efl
+arithmetic"4
+i140/cpu1/u0/add_170/i11efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_170/i10efl
+arithmetic"4
+i140/cpu1/u0/add_170/i10efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i9efl
+arithmetic"3
+i140/cpu1/u0/add_170/i9efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i8efl
+arithmetic"3
+i140/cpu1/u0/add_170/i8efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i7efl
+arithmetic"3
+i140/cpu1/u0/add_170/i7efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i6efl
+arithmetic"3
+i140/cpu1/u0/add_170/i6efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i5efl
+arithmetic"3
+i140/cpu1/u0/add_170/i5efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i4efl
+arithmetic"3
+i140/cpu1/u0/add_170/i4efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i3efl
+arithmetic"3
+i140/cpu1/u0/add_170/i3efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_170/i2efl
+arithmetic"3
+i140/cpu1/u0/add_170/i2efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i16efl
+arithmetic"4
+i140/cpu1/u0/add_155/i16efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i15efl
+arithmetic"4
+i140/cpu1/u0/add_155/i15efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i14efl
+arithmetic"4
+i140/cpu1/u0/add_155/i14efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i13efl
+arithmetic"4
+i140/cpu1/u0/add_155/i13efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i12efl
+arithmetic"4
+i140/cpu1/u0/add_155/i12efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i11efl
+arithmetic"4
+i140/cpu1/u0/add_155/i11efl(0)/adder(1)"EFX_ADD
+a
+i140/cpu1/u0/add_155/i10efl
+arithmetic"4
+i140/cpu1/u0/add_155/i10efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i9efl
+arithmetic"3
+i140/cpu1/u0/add_155/i9efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i8efl
+arithmetic"3
+i140/cpu1/u0/add_155/i8efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i7efl
+arithmetic"3
+i140/cpu1/u0/add_155/i7efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i6efl
+arithmetic"3
+i140/cpu1/u0/add_155/i6efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i5efl
+arithmetic"3
+i140/cpu1/u0/add_155/i5efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i4efl
+arithmetic"3
+i140/cpu1/u0/add_155/i4efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i3efl
+arithmetic"3
+i140/cpu1/u0/add_155/i3efl(0)/adder(1)"EFX_ADD
+_
+i140/cpu1/u0/add_155/i2efl
+arithmetic"3
+i140/cpu1/u0/add_155/i2efl(0)/adder(1)"EFX_ADD
+g
+test_rom/rom__D$2memorybram"D
+test_rom/rom__D$2#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+k
+test_rom/rom__D$b12memorybram"F
+test_rom/rom__D$b12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+i
+test_rom/rom__D$12memorybram"E
+test_rom/rom__D$12#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+i
+test_rom/rom__D$c1memorybram"E
+test_rom/rom__D$c1#memory(0)/mem_blk(0)/ram_4096x20(0)"
+EFX_RAM_5K
+B
+	LUT__1763efllogic")
+	LUT__1763efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1764efllogic")
+	LUT__1764efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1765efllogic")
+	LUT__1765efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1766efllogic")
+	LUT__1766efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1767efllogic")
+	LUT__1767efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1768efllogic")
+	LUT__1768efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1769efllogic")
+	LUT__1769efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1770efllogic")
+	LUT__1770efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1771efllogic")
+	LUT__1771efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1772efllogic")
+	LUT__1772efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1773efllogic")
+	LUT__1773efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1774efllogic")
+	LUT__1774efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1779efllogic")
+	LUT__1779efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1784efllogic")
+	LUT__1784efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1785efllogic")
+	LUT__1785efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1786efllogic")
+	LUT__1786efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1787efllogic")
+	LUT__1787efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1788efllogic")
+	LUT__1788efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1789efllogic")
+	LUT__1789efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1790efllogic")
+	LUT__1790efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1791efllogic")
+	LUT__1791efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1792efllogic")
+	LUT__1792efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1793efllogic")
+	LUT__1793efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1794efllogic")
+	LUT__1794efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1796efllogic")
+	LUT__1796efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1797efllogic")
+	LUT__1797efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1798efllogic")
+	LUT__1798efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1799efllogic")
+	LUT__1799efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1800efllogic")
+	LUT__1800efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1801efllogic")
+	LUT__1801efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1802efllogic")
+	LUT__1802efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1803efllogic")
+	LUT__1803efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1804efllogic")
+	LUT__1804efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1805efllogic")
+	LUT__1805efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1806efllogic")
+	LUT__1806efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1807efllogic")
+	LUT__1807efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1808efllogic")
+	LUT__1808efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1809efllogic")
+	LUT__1809efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1810efllogic")
+	LUT__1810efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1811efllogic")
+	LUT__1811efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1812efllogic")
+	LUT__1812efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1813efllogic")
+	LUT__1813efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1814efllogic")
+	LUT__1814efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1815efllogic")
+	LUT__1815efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1816efllogic")
+	LUT__1816efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1817efllogic")
+	LUT__1817efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1818efllogic")
+	LUT__1818efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1819efllogic")
+	LUT__1819efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1820efllogic")
+	LUT__1820efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1821efllogic")
+	LUT__1821efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1822efllogic")
+	LUT__1822efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1823efllogic")
+	LUT__1823efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1824efllogic")
+	LUT__1824efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1825efllogic")
+	LUT__1825efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1826efllogic")
+	LUT__1826efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1827efllogic")
+	LUT__1827efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1828efllogic")
+	LUT__1828efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1829efllogic")
+	LUT__1829efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1830efllogic")
+	LUT__1830efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1831efllogic")
+	LUT__1831efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1832efllogic")
+	LUT__1832efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1833efllogic")
+	LUT__1833efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1834efllogic")
+	LUT__1834efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1835efllogic")
+	LUT__1835efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1836efllogic")
+	LUT__1836efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1837efllogic")
+	LUT__1837efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1838efllogic")
+	LUT__1838efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1839efllogic")
+	LUT__1839efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1840efllogic")
+	LUT__1840efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1841efllogic")
+	LUT__1841efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1842efllogic")
+	LUT__1842efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1843efllogic")
+	LUT__1843efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1844efllogic")
+	LUT__1844efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1845efllogic")
+	LUT__1845efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1846efllogic")
+	LUT__1846efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1847efllogic")
+	LUT__1847efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1849efllogic")
+	LUT__1849efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1850efllogic")
+	LUT__1850efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1851efllogic")
+	LUT__1851efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1853efllogic")
+	LUT__1853efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1854efllogic")
+	LUT__1854efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1855efllogic")
+	LUT__1855efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1856efllogic")
+	LUT__1856efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1857efllogic")
+	LUT__1857efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1858efllogic")
+	LUT__1858efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1859efllogic")
+	LUT__1859efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1860efllogic")
+	LUT__1860efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1861efllogic")
+	LUT__1861efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1862efllogic")
+	LUT__1862efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1863efllogic")
+	LUT__1863efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1864efllogic")
+	LUT__1864efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1865efllogic")
+	LUT__1865efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1866efllogic")
+	LUT__1866efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1867efllogic")
+	LUT__1867efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1868efllogic")
+	LUT__1868efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1869efllogic")
+	LUT__1869efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1870efllogic")
+	LUT__1870efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1871efllogic")
+	LUT__1871efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1873efllogic")
+	LUT__1873efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1874efllogic")
+	LUT__1874efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1875efllogic")
+	LUT__1875efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1877efllogic")
+	LUT__1877efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1878efllogic")
+	LUT__1878efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1879efllogic")
+	LUT__1879efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1880efllogic")
+	LUT__1880efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1881efllogic")
+	LUT__1881efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1882efllogic")
+	LUT__1882efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1883efllogic")
+	LUT__1883efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1884efllogic")
+	LUT__1884efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1885efllogic")
+	LUT__1885efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1886efllogic")
+	LUT__1886efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1889efllogic")
+	LUT__1889efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1891efllogic")
+	LUT__1891efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1892efllogic")
+	LUT__1892efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1893efllogic")
+	LUT__1893efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1894efllogic")
+	LUT__1894efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1895efllogic")
+	LUT__1895efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1896efllogic")
+	LUT__1896efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1897efllogic")
+	LUT__1897efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1898efllogic")
+	LUT__1898efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1899efllogic")
+	LUT__1899efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1900efllogic")
+	LUT__1900efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1901efllogic")
+	LUT__1901efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1902efllogic")
+	LUT__1902efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1903efllogic")
+	LUT__1903efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1904efllogic")
+	LUT__1904efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1905efllogic")
+	LUT__1905efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1906efllogic")
+	LUT__1906efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1907efllogic")
+	LUT__1907efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1908efllogic")
+	LUT__1908efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1909efllogic")
+	LUT__1909efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1910efllogic")
+	LUT__1910efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1911efllogic")
+	LUT__1911efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1912efllogic")
+	LUT__1912efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1913efllogic")
+	LUT__1913efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1914efllogic")
+	LUT__1914efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1915efllogic")
+	LUT__1915efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1916efllogic")
+	LUT__1916efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1917efllogic")
+	LUT__1917efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1918efllogic")
+	LUT__1918efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1919efllogic")
+	LUT__1919efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1920efllogic")
+	LUT__1920efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1921efllogic")
+	LUT__1921efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1922efllogic")
+	LUT__1922efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1923efllogic")
+	LUT__1923efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1924efllogic")
+	LUT__1924efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1925efllogic")
+	LUT__1925efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1926efllogic")
+	LUT__1926efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1927efllogic")
+	LUT__1927efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1928efllogic")
+	LUT__1928efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1929efllogic")
+	LUT__1929efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1930efllogic")
+	LUT__1930efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1931efllogic")
+	LUT__1931efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1932efllogic")
+	LUT__1932efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1933efllogic")
+	LUT__1933efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1934efllogic")
+	LUT__1934efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1935efllogic")
+	LUT__1935efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1936efllogic")
+	LUT__1936efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1937efllogic")
+	LUT__1937efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1938efllogic")
+	LUT__1938efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1939efllogic")
+	LUT__1939efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1940efllogic")
+	LUT__1940efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1941efllogic")
+	LUT__1941efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1942efllogic")
+	LUT__1942efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1943efllogic")
+	LUT__1943efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1944efllogic")
+	LUT__1944efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1945efllogic")
+	LUT__1945efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1946efllogic")
+	LUT__1946efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1947efllogic")
+	LUT__1947efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1948efllogic")
+	LUT__1948efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1949efllogic")
+	LUT__1949efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1950efllogic")
+	LUT__1950efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1951efllogic")
+	LUT__1951efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1952efllogic")
+	LUT__1952efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1953efllogic")
+	LUT__1953efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1954efllogic")
+	LUT__1954efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1955efllogic")
+	LUT__1955efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1956efllogic")
+	LUT__1956efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1957efllogic")
+	LUT__1957efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1958efllogic")
+	LUT__1958efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1959efllogic")
+	LUT__1959efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1960efllogic")
+	LUT__1960efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1961efllogic")
+	LUT__1961efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1962efllogic")
+	LUT__1962efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1963efllogic")
+	LUT__1963efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1964efllogic")
+	LUT__1964efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1965efllogic")
+	LUT__1965efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1966efllogic")
+	LUT__1966efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1967efllogic")
+	LUT__1967efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1968efllogic")
+	LUT__1968efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1969efllogic")
+	LUT__1969efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1970efllogic")
+	LUT__1970efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1971efllogic")
+	LUT__1971efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1972efllogic")
+	LUT__1972efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1973efllogic")
+	LUT__1973efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1975efllogic")
+	LUT__1975efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1976efllogic")
+	LUT__1976efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1977efllogic")
+	LUT__1977efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1978efllogic")
+	LUT__1978efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1980efllogic")
+	LUT__1980efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1981efllogic")
+	LUT__1981efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1982efllogic")
+	LUT__1982efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1983efllogic")
+	LUT__1983efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1984efllogic")
+	LUT__1984efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1985efllogic")
+	LUT__1985efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1986efllogic")
+	LUT__1986efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1988efllogic")
+	LUT__1988efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1989efllogic")
+	LUT__1989efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1990efllogic")
+	LUT__1990efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1991efllogic")
+	LUT__1991efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1992efllogic")
+	LUT__1992efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1994efllogic")
+	LUT__1994efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1995efllogic")
+	LUT__1995efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1996efllogic")
+	LUT__1996efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1997efllogic")
+	LUT__1997efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__1998efllogic")
+	LUT__1998efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2000efllogic")
+	LUT__2000efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2001efllogic")
+	LUT__2001efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2002efllogic")
+	LUT__2002efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2003efllogic")
+	LUT__2003efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2005efllogic")
+	LUT__2005efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2006efllogic")
+	LUT__2006efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2007efllogic")
+	LUT__2007efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2008efllogic")
+	LUT__2008efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2010efllogic")
+	LUT__2010efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2011efllogic")
+	LUT__2011efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2012efllogic")
+	LUT__2012efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2013efllogic")
+	LUT__2013efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2014efllogic")
+	LUT__2014efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2015efllogic")
+	LUT__2015efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2016efllogic")
+	LUT__2016efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2017efllogic")
+	LUT__2017efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2018efllogic")
+	LUT__2018efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2019efllogic")
+	LUT__2019efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2020efllogic")
+	LUT__2020efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2021efllogic")
+	LUT__2021efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2022efllogic")
+	LUT__2022efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2023efllogic")
+	LUT__2023efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2024efllogic")
+	LUT__2024efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2025efllogic")
+	LUT__2025efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2026efllogic")
+	LUT__2026efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2027efllogic")
+	LUT__2027efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2028efllogic")
+	LUT__2028efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2029efllogic")
+	LUT__2029efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2030efllogic")
+	LUT__2030efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2031efllogic")
+	LUT__2031efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2032efllogic")
+	LUT__2032efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2033efllogic")
+	LUT__2033efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2034efllogic")
+	LUT__2034efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2036efllogic")
+	LUT__2036efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2037efllogic")
+	LUT__2037efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2038efllogic")
+	LUT__2038efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2039efllogic")
+	LUT__2039efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2040efllogic")
+	LUT__2040efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2042efllogic")
+	LUT__2042efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2043efllogic")
+	LUT__2043efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2044efllogic")
+	LUT__2044efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2045efllogic")
+	LUT__2045efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2046efllogic")
+	LUT__2046efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2048efllogic")
+	LUT__2048efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2049efllogic")
+	LUT__2049efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2050efllogic")
+	LUT__2050efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2051efllogic")
+	LUT__2051efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2052efllogic")
+	LUT__2052efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2053efllogic")
+	LUT__2053efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2054efllogic")
+	LUT__2054efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2055efllogic")
+	LUT__2055efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2056efllogic")
+	LUT__2056efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2057efllogic")
+	LUT__2057efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2058efllogic")
+	LUT__2058efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2059efllogic")
+	LUT__2059efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2061efllogic")
+	LUT__2061efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2062efllogic")
+	LUT__2062efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2063efllogic")
+	LUT__2063efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2064efllogic")
+	LUT__2064efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2065efllogic")
+	LUT__2065efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2066efllogic")
+	LUT__2066efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2067efllogic")
+	LUT__2067efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2068efllogic")
+	LUT__2068efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2069efllogic")
+	LUT__2069efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2071efllogic")
+	LUT__2071efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2072efllogic")
+	LUT__2072efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2073efllogic")
+	LUT__2073efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2074efllogic")
+	LUT__2074efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2075efllogic")
+	LUT__2075efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2076efllogic")
+	LUT__2076efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2077efllogic")
+	LUT__2077efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2078efllogic")
+	LUT__2078efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2079efllogic")
+	LUT__2079efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2080efllogic")
+	LUT__2080efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2081efllogic")
+	LUT__2081efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2082efllogic")
+	LUT__2082efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2083efllogic")
+	LUT__2083efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2084efllogic")
+	LUT__2084efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2085efllogic")
+	LUT__2085efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2086efllogic")
+	LUT__2086efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2087efllogic")
+	LUT__2087efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2088efllogic")
+	LUT__2088efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2089efllogic")
+	LUT__2089efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2090efllogic")
+	LUT__2090efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2091efllogic")
+	LUT__2091efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2092efllogic")
+	LUT__2092efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2093efllogic")
+	LUT__2093efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2094efllogic")
+	LUT__2094efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2095efllogic")
+	LUT__2095efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2096efllogic")
+	LUT__2096efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2097efllogic")
+	LUT__2097efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2098efllogic")
+	LUT__2098efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2099efllogic")
+	LUT__2099efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2100efllogic")
+	LUT__2100efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2101efllogic")
+	LUT__2101efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2102efllogic")
+	LUT__2102efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2103efllogic")
+	LUT__2103efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2104efllogic")
+	LUT__2104efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2105efllogic")
+	LUT__2105efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2106efllogic")
+	LUT__2106efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2107efllogic")
+	LUT__2107efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2108efllogic")
+	LUT__2108efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2109efllogic")
+	LUT__2109efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2110efllogic")
+	LUT__2110efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2111efllogic")
+	LUT__2111efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2113efllogic")
+	LUT__2113efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2114efllogic")
+	LUT__2114efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2115efllogic")
+	LUT__2115efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2116efllogic")
+	LUT__2116efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2117efllogic")
+	LUT__2117efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2118efllogic")
+	LUT__2118efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2119efllogic")
+	LUT__2119efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2120efllogic")
+	LUT__2120efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2121efllogic")
+	LUT__2121efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2122efllogic")
+	LUT__2122efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2123efllogic")
+	LUT__2123efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2124efllogic")
+	LUT__2124efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2125efllogic")
+	LUT__2125efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2126efllogic")
+	LUT__2126efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2127efllogic")
+	LUT__2127efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2128efllogic")
+	LUT__2128efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2129efllogic")
+	LUT__2129efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2130efllogic")
+	LUT__2130efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2131efllogic")
+	LUT__2131efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2132efllogic")
+	LUT__2132efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2133efllogic")
+	LUT__2133efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2134efllogic")
+	LUT__2134efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2136efllogic")
+	LUT__2136efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2137efllogic")
+	LUT__2137efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2138efllogic")
+	LUT__2138efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2139efllogic")
+	LUT__2139efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2140efllogic")
+	LUT__2140efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2141efllogic")
+	LUT__2141efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2142efllogic")
+	LUT__2142efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2143efllogic")
+	LUT__2143efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2144efllogic")
+	LUT__2144efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2145efllogic")
+	LUT__2145efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2146efllogic")
+	LUT__2146efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2147efllogic")
+	LUT__2147efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2148efllogic")
+	LUT__2148efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2149efllogic")
+	LUT__2149efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2150efllogic")
+	LUT__2150efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2151efllogic")
+	LUT__2151efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2152efllogic")
+	LUT__2152efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2153efllogic")
+	LUT__2153efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2154efllogic")
+	LUT__2154efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2155efllogic")
+	LUT__2155efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2156efllogic")
+	LUT__2156efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2157efllogic")
+	LUT__2157efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2158efllogic")
+	LUT__2158efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2159efllogic")
+	LUT__2159efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2160efllogic")
+	LUT__2160efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2161efllogic")
+	LUT__2161efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2162efllogic")
+	LUT__2162efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2163efllogic")
+	LUT__2163efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2164efllogic")
+	LUT__2164efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2165efllogic")
+	LUT__2165efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2166efllogic")
+	LUT__2166efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2167efllogic")
+	LUT__2167efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2169efllogic")
+	LUT__2169efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2170efllogic")
+	LUT__2170efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2171efllogic")
+	LUT__2171efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2172efllogic")
+	LUT__2172efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2173efllogic")
+	LUT__2173efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2174efllogic")
+	LUT__2174efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2175efllogic")
+	LUT__2175efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2176efllogic")
+	LUT__2176efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2178efllogic")
+	LUT__2178efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2179efllogic")
+	LUT__2179efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2180efllogic")
+	LUT__2180efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2181efllogic")
+	LUT__2181efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2183efllogic")
+	LUT__2183efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2185efllogic")
+	LUT__2185efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2186efllogic")
+	LUT__2186efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2187efllogic")
+	LUT__2187efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2188efllogic")
+	LUT__2188efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2189efllogic")
+	LUT__2189efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2190efllogic")
+	LUT__2190efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2191efllogic")
+	LUT__2191efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2192efllogic")
+	LUT__2192efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2193efllogic")
+	LUT__2193efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2194efllogic")
+	LUT__2194efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2195efllogic")
+	LUT__2195efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2196efllogic")
+	LUT__2196efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2197efllogic")
+	LUT__2197efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2198efllogic")
+	LUT__2198efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2199efllogic")
+	LUT__2199efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2200efllogic")
+	LUT__2200efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2201efllogic")
+	LUT__2201efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2202efllogic")
+	LUT__2202efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2203efllogic")
+	LUT__2203efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2204efllogic")
+	LUT__2204efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2205efllogic")
+	LUT__2205efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2207efllogic")
+	LUT__2207efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2208efllogic")
+	LUT__2208efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2209efllogic")
+	LUT__2209efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2210efllogic")
+	LUT__2210efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2211efllogic")
+	LUT__2211efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2212efllogic")
+	LUT__2212efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2213efllogic")
+	LUT__2213efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2214efllogic")
+	LUT__2214efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2215efllogic")
+	LUT__2215efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2216efllogic")
+	LUT__2216efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2217efllogic")
+	LUT__2217efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2218efllogic")
+	LUT__2218efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2219efllogic")
+	LUT__2219efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2220efllogic")
+	LUT__2220efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2221efllogic")
+	LUT__2221efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2222efllogic")
+	LUT__2222efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2223efllogic")
+	LUT__2223efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2224efllogic")
+	LUT__2224efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2225efllogic")
+	LUT__2225efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2226efllogic")
+	LUT__2226efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2227efllogic")
+	LUT__2227efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2228efllogic")
+	LUT__2228efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2229efllogic")
+	LUT__2229efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2230efllogic")
+	LUT__2230efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2231efllogic")
+	LUT__2231efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2232efllogic")
+	LUT__2232efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2233efllogic")
+	LUT__2233efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2234efllogic")
+	LUT__2234efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2235efllogic")
+	LUT__2235efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2236efllogic")
+	LUT__2236efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2237efllogic")
+	LUT__2237efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2238efllogic")
+	LUT__2238efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2239efllogic")
+	LUT__2239efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2240efllogic")
+	LUT__2240efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2241efllogic")
+	LUT__2241efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2242efllogic")
+	LUT__2242efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2243efllogic")
+	LUT__2243efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2244efllogic")
+	LUT__2244efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2245efllogic")
+	LUT__2245efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2246efllogic")
+	LUT__2246efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2247efllogic")
+	LUT__2247efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2248efllogic")
+	LUT__2248efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2249efllogic")
+	LUT__2249efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2250efllogic")
+	LUT__2250efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2251efllogic")
+	LUT__2251efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2252efllogic")
+	LUT__2252efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2253efllogic")
+	LUT__2253efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2254efllogic")
+	LUT__2254efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2255efllogic")
+	LUT__2255efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2256efllogic")
+	LUT__2256efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2257efllogic")
+	LUT__2257efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2259efllogic")
+	LUT__2259efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2260efllogic")
+	LUT__2260efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2261efllogic")
+	LUT__2261efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2262efllogic")
+	LUT__2262efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2263efllogic")
+	LUT__2263efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2264efllogic")
+	LUT__2264efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2265efllogic")
+	LUT__2265efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2266efllogic")
+	LUT__2266efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2267efllogic")
+	LUT__2267efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2268efllogic")
+	LUT__2268efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2269efllogic")
+	LUT__2269efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2270efllogic")
+	LUT__2270efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2271efllogic")
+	LUT__2271efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2272efllogic")
+	LUT__2272efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2273efllogic")
+	LUT__2273efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2274efllogic")
+	LUT__2274efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2275efllogic")
+	LUT__2275efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2276efllogic")
+	LUT__2276efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2277efllogic")
+	LUT__2277efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2278efllogic")
+	LUT__2278efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2279efllogic")
+	LUT__2279efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2280efllogic")
+	LUT__2280efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2281efllogic")
+	LUT__2281efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2282efllogic")
+	LUT__2282efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2283efllogic")
+	LUT__2283efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2285efllogic")
+	LUT__2285efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2286efllogic")
+	LUT__2286efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2287efllogic")
+	LUT__2287efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2288efllogic")
+	LUT__2288efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2289efllogic")
+	LUT__2289efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2290efllogic")
+	LUT__2290efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2291efllogic")
+	LUT__2291efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2292efllogic")
+	LUT__2292efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2293efllogic")
+	LUT__2293efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2294efllogic")
+	LUT__2294efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2295efllogic")
+	LUT__2295efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2296efllogic")
+	LUT__2296efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2297efllogic")
+	LUT__2297efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2298efllogic")
+	LUT__2298efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2299efllogic")
+	LUT__2299efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2300efllogic")
+	LUT__2300efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2301efllogic")
+	LUT__2301efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2302efllogic")
+	LUT__2302efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2303efllogic")
+	LUT__2303efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2304efllogic")
+	LUT__2304efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2305efllogic")
+	LUT__2305efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2306efllogic")
+	LUT__2306efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2307efllogic")
+	LUT__2307efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2308efllogic")
+	LUT__2308efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2309efllogic")
+	LUT__2309efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2310efllogic")
+	LUT__2310efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2311efllogic")
+	LUT__2311efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2312efllogic")
+	LUT__2312efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2313efllogic")
+	LUT__2313efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2314efllogic")
+	LUT__2314efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2315efllogic")
+	LUT__2315efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2316efllogic")
+	LUT__2316efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2317efllogic")
+	LUT__2317efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2318efllogic")
+	LUT__2318efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2319efllogic")
+	LUT__2319efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2320efllogic")
+	LUT__2320efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2321efllogic")
+	LUT__2321efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2322efllogic")
+	LUT__2322efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2323efllogic")
+	LUT__2323efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2324efllogic")
+	LUT__2324efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2325efllogic")
+	LUT__2325efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2326efllogic")
+	LUT__2326efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2327efllogic")
+	LUT__2327efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2328efllogic")
+	LUT__2328efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2329efllogic")
+	LUT__2329efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2330efllogic")
+	LUT__2330efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2331efllogic")
+	LUT__2331efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2332efllogic")
+	LUT__2332efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2333efllogic")
+	LUT__2333efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2334efllogic")
+	LUT__2334efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2335efllogic")
+	LUT__2335efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2336efllogic")
+	LUT__2336efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2337efllogic")
+	LUT__2337efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2338efllogic")
+	LUT__2338efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2339efllogic")
+	LUT__2339efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2340efllogic")
+	LUT__2340efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2341efllogic")
+	LUT__2341efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2342efllogic")
+	LUT__2342efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2343efllogic")
+	LUT__2343efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2344efllogic")
+	LUT__2344efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2345efllogic")
+	LUT__2345efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2346efllogic")
+	LUT__2346efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2347efllogic")
+	LUT__2347efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2348efllogic")
+	LUT__2348efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2349efllogic")
+	LUT__2349efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2350efllogic")
+	LUT__2350efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2351efllogic")
+	LUT__2351efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2352efllogic")
+	LUT__2352efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2354efllogic")
+	LUT__2354efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2355efllogic")
+	LUT__2355efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2356efllogic")
+	LUT__2356efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2358efllogic")
+	LUT__2358efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2359efllogic")
+	LUT__2359efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2360efllogic")
+	LUT__2360efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2362efllogic")
+	LUT__2362efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2363efllogic")
+	LUT__2363efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2365efllogic")
+	LUT__2365efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2366efllogic")
+	LUT__2366efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2367efllogic")
+	LUT__2367efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2368efllogic")
+	LUT__2368efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2369efllogic")
+	LUT__2369efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2370efllogic")
+	LUT__2370efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2371efllogic")
+	LUT__2371efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2372efllogic")
+	LUT__2372efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2373efllogic")
+	LUT__2373efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2374efllogic")
+	LUT__2374efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2375efllogic")
+	LUT__2375efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2377efllogic")
+	LUT__2377efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2378efllogic")
+	LUT__2378efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2379efllogic")
+	LUT__2379efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2380efllogic")
+	LUT__2380efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2381efllogic")
+	LUT__2381efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2383efllogic")
+	LUT__2383efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2384efllogic")
+	LUT__2384efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2385efllogic")
+	LUT__2385efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2386efllogic")
+	LUT__2386efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2387efllogic")
+	LUT__2387efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2388efllogic")
+	LUT__2388efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2389efllogic")
+	LUT__2389efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2390efllogic")
+	LUT__2390efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2391efllogic")
+	LUT__2391efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2392efllogic")
+	LUT__2392efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2393efllogic")
+	LUT__2393efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2394efllogic")
+	LUT__2394efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2395efllogic")
+	LUT__2395efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2396efllogic")
+	LUT__2396efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2397efllogic")
+	LUT__2397efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2398efllogic")
+	LUT__2398efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2399efllogic")
+	LUT__2399efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2400efllogic")
+	LUT__2400efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2401efllogic")
+	LUT__2401efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2403efllogic")
+	LUT__2403efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2404efllogic")
+	LUT__2404efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2405efllogic")
+	LUT__2405efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2406efllogic")
+	LUT__2406efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2407efllogic")
+	LUT__2407efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2408efllogic")
+	LUT__2408efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2409efllogic")
+	LUT__2409efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2410efllogic")
+	LUT__2410efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2411efllogic")
+	LUT__2411efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2413efllogic")
+	LUT__2413efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2414efllogic")
+	LUT__2414efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2415efllogic")
+	LUT__2415efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2416efllogic")
+	LUT__2416efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2418efllogic")
+	LUT__2418efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2419efllogic")
+	LUT__2419efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2420efllogic")
+	LUT__2420efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2421efllogic")
+	LUT__2421efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2422efllogic")
+	LUT__2422efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2423efllogic")
+	LUT__2423efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2424efllogic")
+	LUT__2424efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2425efllogic")
+	LUT__2425efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2426efllogic")
+	LUT__2426efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2427efllogic")
+	LUT__2427efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2428efllogic")
+	LUT__2428efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2429efllogic")
+	LUT__2429efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2430efllogic")
+	LUT__2430efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2431efllogic")
+	LUT__2431efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2432efllogic")
+	LUT__2432efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2433efllogic")
+	LUT__2433efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2434efllogic")
+	LUT__2434efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2435efllogic")
+	LUT__2435efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2436efllogic")
+	LUT__2436efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2437efllogic")
+	LUT__2437efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2438efllogic")
+	LUT__2438efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2439efllogic")
+	LUT__2439efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2440efllogic")
+	LUT__2440efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2441efllogic")
+	LUT__2441efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2442efllogic")
+	LUT__2442efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2443efllogic")
+	LUT__2443efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2444efllogic")
+	LUT__2444efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2445efllogic")
+	LUT__2445efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2446efllogic")
+	LUT__2446efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2448efllogic")
+	LUT__2448efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2449efllogic")
+	LUT__2449efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2450efllogic")
+	LUT__2450efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2451efllogic")
+	LUT__2451efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2452efllogic")
+	LUT__2452efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2453efllogic")
+	LUT__2453efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2454efllogic")
+	LUT__2454efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2455efllogic")
+	LUT__2455efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2456efllogic")
+	LUT__2456efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2457efllogic")
+	LUT__2457efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2458efllogic")
+	LUT__2458efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2459efllogic")
+	LUT__2459efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2461efllogic")
+	LUT__2461efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2462efllogic")
+	LUT__2462efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2464efllogic")
+	LUT__2464efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2465efllogic")
+	LUT__2465efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2466efllogic")
+	LUT__2466efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2468efllogic")
+	LUT__2468efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2469efllogic")
+	LUT__2469efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2470efllogic")
+	LUT__2470efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2471efllogic")
+	LUT__2471efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2472efllogic")
+	LUT__2472efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2473efllogic")
+	LUT__2473efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2474efllogic")
+	LUT__2474efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2475efllogic")
+	LUT__2475efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2476efllogic")
+	LUT__2476efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2477efllogic")
+	LUT__2477efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2478efllogic")
+	LUT__2478efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2479efllogic")
+	LUT__2479efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2480efllogic")
+	LUT__2480efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2481efllogic")
+	LUT__2481efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2482efllogic")
+	LUT__2482efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2483efllogic")
+	LUT__2483efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2484efllogic")
+	LUT__2484efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2486efllogic")
+	LUT__2486efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2487efllogic")
+	LUT__2487efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2488efllogic")
+	LUT__2488efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2489efllogic")
+	LUT__2489efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2490efllogic")
+	LUT__2490efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2491efllogic")
+	LUT__2491efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2492efllogic")
+	LUT__2492efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2493efllogic")
+	LUT__2493efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2494efllogic")
+	LUT__2494efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2495efllogic")
+	LUT__2495efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2496efllogic")
+	LUT__2496efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2497efllogic")
+	LUT__2497efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2498efllogic")
+	LUT__2498efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2499efllogic")
+	LUT__2499efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2500efllogic")
+	LUT__2500efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2502efllogic")
+	LUT__2502efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2503efllogic")
+	LUT__2503efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2504efllogic")
+	LUT__2504efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2505efllogic")
+	LUT__2505efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2506efllogic")
+	LUT__2506efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2507efllogic")
+	LUT__2507efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2508efllogic")
+	LUT__2508efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2509efllogic")
+	LUT__2509efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2510efllogic")
+	LUT__2510efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2512efllogic")
+	LUT__2512efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2514efllogic")
+	LUT__2514efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2515efllogic")
+	LUT__2515efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2516efllogic")
+	LUT__2516efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2517efllogic")
+	LUT__2517efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2518efllogic")
+	LUT__2518efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2519efllogic")
+	LUT__2519efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2520efllogic")
+	LUT__2520efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2521efllogic")
+	LUT__2521efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2522efllogic")
+	LUT__2522efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2523efllogic")
+	LUT__2523efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2524efllogic")
+	LUT__2524efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2525efllogic")
+	LUT__2525efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2526efllogic")
+	LUT__2526efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2527efllogic")
+	LUT__2527efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2528efllogic")
+	LUT__2528efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2529efllogic")
+	LUT__2529efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2530efllogic")
+	LUT__2530efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2531efllogic")
+	LUT__2531efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2532efllogic")
+	LUT__2532efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2533efllogic")
+	LUT__2533efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2534efllogic")
+	LUT__2534efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2535efllogic")
+	LUT__2535efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2536efllogic")
+	LUT__2536efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2537efllogic")
+	LUT__2537efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2538efllogic")
+	LUT__2538efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2539efllogic")
+	LUT__2539efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2541efllogic")
+	LUT__2541efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2542efllogic")
+	LUT__2542efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2543efllogic")
+	LUT__2543efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2544efllogic")
+	LUT__2544efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2545efllogic")
+	LUT__2545efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2546efllogic")
+	LUT__2546efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2547efllogic")
+	LUT__2547efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2548efllogic")
+	LUT__2548efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2549efllogic")
+	LUT__2549efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2550efllogic")
+	LUT__2550efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2551efllogic")
+	LUT__2551efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2552efllogic")
+	LUT__2552efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2553efllogic")
+	LUT__2553efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2554efllogic")
+	LUT__2554efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2555efllogic")
+	LUT__2555efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2556efllogic")
+	LUT__2556efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2557efllogic")
+	LUT__2557efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2558efllogic")
+	LUT__2558efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2559efllogic")
+	LUT__2559efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2561efllogic")
+	LUT__2561efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2562efllogic")
+	LUT__2562efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2565efllogic")
+	LUT__2565efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2566efllogic")
+	LUT__2566efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2567efllogic")
+	LUT__2567efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2568efllogic")
+	LUT__2568efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2569efllogic")
+	LUT__2569efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2570efllogic")
+	LUT__2570efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2571efllogic")
+	LUT__2571efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2572efllogic")
+	LUT__2572efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2573efllogic")
+	LUT__2573efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2574efllogic")
+	LUT__2574efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2575efllogic")
+	LUT__2575efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2576efllogic")
+	LUT__2576efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2577efllogic")
+	LUT__2577efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2578efllogic")
+	LUT__2578efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2579efllogic")
+	LUT__2579efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2580efllogic")
+	LUT__2580efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2581efllogic")
+	LUT__2581efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2582efllogic")
+	LUT__2582efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2583efllogic")
+	LUT__2583efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2584efllogic")
+	LUT__2584efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2585efllogic")
+	LUT__2585efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2586efllogic")
+	LUT__2586efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2587efllogic")
+	LUT__2587efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2588efllogic")
+	LUT__2588efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2589efllogic")
+	LUT__2589efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2591efllogic")
+	LUT__2591efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2592efllogic")
+	LUT__2592efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2593efllogic")
+	LUT__2593efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2594efllogic")
+	LUT__2594efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2595efllogic")
+	LUT__2595efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2596efllogic")
+	LUT__2596efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2597efllogic")
+	LUT__2597efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2598efllogic")
+	LUT__2598efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2599efllogic")
+	LUT__2599efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2600efllogic")
+	LUT__2600efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2601efllogic")
+	LUT__2601efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2602efllogic")
+	LUT__2602efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2603efllogic")
+	LUT__2603efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2604efllogic")
+	LUT__2604efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2605efllogic")
+	LUT__2605efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2606efllogic")
+	LUT__2606efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2607efllogic")
+	LUT__2607efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2608efllogic")
+	LUT__2608efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2609efllogic")
+	LUT__2609efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2610efllogic")
+	LUT__2610efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2611efllogic")
+	LUT__2611efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2612efllogic")
+	LUT__2612efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2613efllogic")
+	LUT__2613efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2614efllogic")
+	LUT__2614efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2615efllogic")
+	LUT__2615efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2616efllogic")
+	LUT__2616efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2617efllogic")
+	LUT__2617efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2618efllogic")
+	LUT__2618efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2619efllogic")
+	LUT__2619efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2620efllogic")
+	LUT__2620efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2621efllogic")
+	LUT__2621efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2622efllogic")
+	LUT__2622efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2623efllogic")
+	LUT__2623efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2624efllogic")
+	LUT__2624efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2625efllogic")
+	LUT__2625efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2626efllogic")
+	LUT__2626efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2627efllogic")
+	LUT__2627efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2628efllogic")
+	LUT__2628efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2629efllogic")
+	LUT__2629efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2630efllogic")
+	LUT__2630efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2631efllogic")
+	LUT__2631efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2632efllogic")
+	LUT__2632efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2633efllogic")
+	LUT__2633efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2634efllogic")
+	LUT__2634efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2635efllogic")
+	LUT__2635efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2636efllogic")
+	LUT__2636efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2637efllogic")
+	LUT__2637efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2638efllogic")
+	LUT__2638efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2639efllogic")
+	LUT__2639efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2640efllogic")
+	LUT__2640efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2641efllogic")
+	LUT__2641efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2642efllogic")
+	LUT__2642efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2644efllogic")
+	LUT__2644efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2645efllogic")
+	LUT__2645efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2646efllogic")
+	LUT__2646efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2647efllogic")
+	LUT__2647efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2648efllogic")
+	LUT__2648efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2649efllogic")
+	LUT__2649efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2650efllogic")
+	LUT__2650efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2651efllogic")
+	LUT__2651efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2652efllogic")
+	LUT__2652efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2653efllogic")
+	LUT__2653efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2654efllogic")
+	LUT__2654efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2655efllogic")
+	LUT__2655efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2656efllogic")
+	LUT__2656efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2657efllogic")
+	LUT__2657efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2658efllogic")
+	LUT__2658efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2659efllogic")
+	LUT__2659efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2660efllogic")
+	LUT__2660efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2661efllogic")
+	LUT__2661efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2662efllogic")
+	LUT__2662efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2663efllogic")
+	LUT__2663efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2664efllogic")
+	LUT__2664efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2665efllogic")
+	LUT__2665efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2666efllogic")
+	LUT__2666efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2667efllogic")
+	LUT__2667efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2668efllogic")
+	LUT__2668efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2669efllogic")
+	LUT__2669efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2670efllogic")
+	LUT__2670efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2671efllogic")
+	LUT__2671efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2672efllogic")
+	LUT__2672efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2673efllogic")
+	LUT__2673efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2674efllogic")
+	LUT__2674efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2675efllogic")
+	LUT__2675efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2676efllogic")
+	LUT__2676efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2677efllogic")
+	LUT__2677efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2678efllogic")
+	LUT__2678efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2679efllogic")
+	LUT__2679efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2680efllogic")
+	LUT__2680efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2681efllogic")
+	LUT__2681efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2682efllogic")
+	LUT__2682efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2683efllogic")
+	LUT__2683efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2684efllogic")
+	LUT__2684efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2685efllogic")
+	LUT__2685efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2686efllogic")
+	LUT__2686efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2687efllogic")
+	LUT__2687efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2688efllogic")
+	LUT__2688efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2690efllogic")
+	LUT__2690efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2691efllogic")
+	LUT__2691efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2692efllogic")
+	LUT__2692efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2693efllogic")
+	LUT__2693efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2694efllogic")
+	LUT__2694efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2695efllogic")
+	LUT__2695efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2696efllogic")
+	LUT__2696efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2697efllogic")
+	LUT__2697efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2699efllogic")
+	LUT__2699efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2700efllogic")
+	LUT__2700efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2701efllogic")
+	LUT__2701efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2702efllogic")
+	LUT__2702efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2703efllogic")
+	LUT__2703efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2704efllogic")
+	LUT__2704efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2705efllogic")
+	LUT__2705efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2706efllogic")
+	LUT__2706efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2707efllogic")
+	LUT__2707efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2709efllogic")
+	LUT__2709efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2711efllogic")
+	LUT__2711efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2715efllogic")
+	LUT__2715efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2716efllogic")
+	LUT__2716efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2717efllogic")
+	LUT__2717efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2718efllogic")
+	LUT__2718efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2719efllogic")
+	LUT__2719efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2721efllogic")
+	LUT__2721efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2724efllogic")
+	LUT__2724efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2725efllogic")
+	LUT__2725efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2726efllogic")
+	LUT__2726efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2728efllogic")
+	LUT__2728efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2729efllogic")
+	LUT__2729efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2730efllogic")
+	LUT__2730efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2731efllogic")
+	LUT__2731efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2732efllogic")
+	LUT__2732efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2733efllogic")
+	LUT__2733efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2734efllogic")
+	LUT__2734efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2735efllogic")
+	LUT__2735efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2736efllogic")
+	LUT__2736efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2737efllogic")
+	LUT__2737efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2738efllogic")
+	LUT__2738efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2739efllogic")
+	LUT__2739efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2740efllogic")
+	LUT__2740efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2741efllogic")
+	LUT__2741efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2742efllogic")
+	LUT__2742efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2743efllogic")
+	LUT__2743efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2744efllogic")
+	LUT__2744efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2745efllogic")
+	LUT__2745efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2746efllogic")
+	LUT__2746efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2747efllogic")
+	LUT__2747efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2748efllogic")
+	LUT__2748efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2750efllogic")
+	LUT__2750efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2751efllogic")
+	LUT__2751efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2752efllogic")
+	LUT__2752efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2753efllogic")
+	LUT__2753efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2754efllogic")
+	LUT__2754efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2755efllogic")
+	LUT__2755efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2756efllogic")
+	LUT__2756efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2757efllogic")
+	LUT__2757efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2759efllogic")
+	LUT__2759efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2760efllogic")
+	LUT__2760efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2761efllogic")
+	LUT__2761efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2762efllogic")
+	LUT__2762efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2763efllogic")
+	LUT__2763efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2764efllogic")
+	LUT__2764efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2765efllogic")
+	LUT__2765efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2766efllogic")
+	LUT__2766efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2767efllogic")
+	LUT__2767efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2768efllogic")
+	LUT__2768efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2769efllogic")
+	LUT__2769efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2770efllogic")
+	LUT__2770efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2771efllogic")
+	LUT__2771efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2772efllogic")
+	LUT__2772efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2773efllogic")
+	LUT__2773efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2774efllogic")
+	LUT__2774efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2776efllogic")
+	LUT__2776efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2777efllogic")
+	LUT__2777efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2778efllogic")
+	LUT__2778efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2779efllogic")
+	LUT__2779efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2780efllogic")
+	LUT__2780efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2781efllogic")
+	LUT__2781efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2782efllogic")
+	LUT__2782efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2783efllogic")
+	LUT__2783efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2784efllogic")
+	LUT__2784efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2785efllogic")
+	LUT__2785efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2786efllogic")
+	LUT__2786efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2787efllogic")
+	LUT__2787efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2788efllogic")
+	LUT__2788efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2790efllogic")
+	LUT__2790efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2791efllogic")
+	LUT__2791efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2792efllogic")
+	LUT__2792efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2793efllogic")
+	LUT__2793efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2794efllogic")
+	LUT__2794efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2795efllogic")
+	LUT__2795efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2796efllogic")
+	LUT__2796efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2797efllogic")
+	LUT__2797efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2798efllogic")
+	LUT__2798efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2799efllogic")
+	LUT__2799efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2800efllogic")
+	LUT__2800efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2801efllogic")
+	LUT__2801efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2802efllogic")
+	LUT__2802efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2804efllogic")
+	LUT__2804efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2805efllogic")
+	LUT__2805efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2806efllogic")
+	LUT__2806efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2807efllogic")
+	LUT__2807efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2808efllogic")
+	LUT__2808efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2809efllogic")
+	LUT__2809efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2810efllogic")
+	LUT__2810efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2811efllogic")
+	LUT__2811efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2812efllogic")
+	LUT__2812efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2813efllogic")
+	LUT__2813efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2814efllogic")
+	LUT__2814efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2815efllogic")
+	LUT__2815efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2816efllogic")
+	LUT__2816efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2817efllogic")
+	LUT__2817efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2818efllogic")
+	LUT__2818efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2820efllogic")
+	LUT__2820efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2821efllogic")
+	LUT__2821efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2822efllogic")
+	LUT__2822efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2823efllogic")
+	LUT__2823efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2824efllogic")
+	LUT__2824efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2825efllogic")
+	LUT__2825efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2826efllogic")
+	LUT__2826efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2827efllogic")
+	LUT__2827efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2828efllogic")
+	LUT__2828efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2829efllogic")
+	LUT__2829efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2830efllogic")
+	LUT__2830efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2831efllogic")
+	LUT__2831efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2832efllogic")
+	LUT__2832efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2833efllogic")
+	LUT__2833efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2835efllogic")
+	LUT__2835efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2836efllogic")
+	LUT__2836efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2837efllogic")
+	LUT__2837efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2838efllogic")
+	LUT__2838efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2839efllogic")
+	LUT__2839efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2840efllogic")
+	LUT__2840efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2841efllogic")
+	LUT__2841efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2842efllogic")
+	LUT__2842efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2843efllogic")
+	LUT__2843efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2844efllogic")
+	LUT__2844efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2845efllogic")
+	LUT__2845efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2846efllogic")
+	LUT__2846efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2847efllogic")
+	LUT__2847efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2849efllogic")
+	LUT__2849efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2850efllogic")
+	LUT__2850efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2851efllogic")
+	LUT__2851efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2852efllogic")
+	LUT__2852efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2853efllogic")
+	LUT__2853efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2854efllogic")
+	LUT__2854efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2855efllogic")
+	LUT__2855efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2856efllogic")
+	LUT__2856efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2857efllogic")
+	LUT__2857efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2858efllogic")
+	LUT__2858efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2859efllogic")
+	LUT__2859efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2860efllogic")
+	LUT__2860efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2861efllogic")
+	LUT__2861efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2863efllogic")
+	LUT__2863efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2864efllogic")
+	LUT__2864efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2865efllogic")
+	LUT__2865efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2866efllogic")
+	LUT__2866efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2867efllogic")
+	LUT__2867efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2868efllogic")
+	LUT__2868efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2869efllogic")
+	LUT__2869efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2870efllogic")
+	LUT__2870efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2871efllogic")
+	LUT__2871efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2872efllogic")
+	LUT__2872efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2873efllogic")
+	LUT__2873efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2874efllogic")
+	LUT__2874efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2875efllogic")
+	LUT__2875efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2876efllogic")
+	LUT__2876efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2877efllogic")
+	LUT__2877efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2878efllogic")
+	LUT__2878efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2880efllogic")
+	LUT__2880efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2881efllogic")
+	LUT__2881efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2882efllogic")
+	LUT__2882efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2883efllogic")
+	LUT__2883efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2884efllogic")
+	LUT__2884efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2885efllogic")
+	LUT__2885efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2886efllogic")
+	LUT__2886efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2887efllogic")
+	LUT__2887efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2888efllogic")
+	LUT__2888efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2889efllogic")
+	LUT__2889efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2890efllogic")
+	LUT__2890efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2891efllogic")
+	LUT__2891efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2892efllogic")
+	LUT__2892efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2893efllogic")
+	LUT__2893efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2894efllogic")
+	LUT__2894efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2896efllogic")
+	LUT__2896efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2897efllogic")
+	LUT__2897efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2898efllogic")
+	LUT__2898efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2899efllogic")
+	LUT__2899efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2900efllogic")
+	LUT__2900efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2901efllogic")
+	LUT__2901efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2902efllogic")
+	LUT__2902efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2903efllogic")
+	LUT__2903efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2904efllogic")
+	LUT__2904efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2905efllogic")
+	LUT__2905efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2906efllogic")
+	LUT__2906efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2907efllogic")
+	LUT__2907efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2908efllogic")
+	LUT__2908efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2909efllogic")
+	LUT__2909efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2910efllogic")
+	LUT__2910efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2912efllogic")
+	LUT__2912efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2913efllogic")
+	LUT__2913efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2914efllogic")
+	LUT__2914efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2915efllogic")
+	LUT__2915efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2916efllogic")
+	LUT__2916efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2917efllogic")
+	LUT__2917efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2918efllogic")
+	LUT__2918efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2919efllogic")
+	LUT__2919efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2920efllogic")
+	LUT__2920efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2921efllogic")
+	LUT__2921efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2922efllogic")
+	LUT__2922efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2923efllogic")
+	LUT__2923efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2924efllogic")
+	LUT__2924efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2925efllogic")
+	LUT__2925efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2926efllogic")
+	LUT__2926efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2928efllogic")
+	LUT__2928efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2929efllogic")
+	LUT__2929efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2930efllogic")
+	LUT__2930efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2931efllogic")
+	LUT__2931efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2932efllogic")
+	LUT__2932efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2933efllogic")
+	LUT__2933efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2934efllogic")
+	LUT__2934efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2935efllogic")
+	LUT__2935efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2936efllogic")
+	LUT__2936efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2937efllogic")
+	LUT__2937efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2938efllogic")
+	LUT__2938efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2939efllogic")
+	LUT__2939efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2940efllogic")
+	LUT__2940efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2941efllogic")
+	LUT__2941efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2942efllogic")
+	LUT__2942efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2944efllogic")
+	LUT__2944efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2945efllogic")
+	LUT__2945efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2946efllogic")
+	LUT__2946efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2947efllogic")
+	LUT__2947efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2948efllogic")
+	LUT__2948efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2949efllogic")
+	LUT__2949efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2950efllogic")
+	LUT__2950efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2951efllogic")
+	LUT__2951efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2952efllogic")
+	LUT__2952efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2953efllogic")
+	LUT__2953efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2954efllogic")
+	LUT__2954efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2955efllogic")
+	LUT__2955efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2956efllogic")
+	LUT__2956efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2957efllogic")
+	LUT__2957efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2958efllogic")
+	LUT__2958efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2960efllogic")
+	LUT__2960efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2961efllogic")
+	LUT__2961efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2962efllogic")
+	LUT__2962efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2963efllogic")
+	LUT__2963efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2964efllogic")
+	LUT__2964efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2965efllogic")
+	LUT__2965efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2966efllogic")
+	LUT__2966efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2967efllogic")
+	LUT__2967efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2968efllogic")
+	LUT__2968efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2969efllogic")
+	LUT__2969efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2970efllogic")
+	LUT__2970efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2971efllogic")
+	LUT__2971efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2972efllogic")
+	LUT__2972efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2973efllogic")
+	LUT__2973efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2974efllogic")
+	LUT__2974efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2976efllogic")
+	LUT__2976efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2977efllogic")
+	LUT__2977efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2978efllogic")
+	LUT__2978efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2979efllogic")
+	LUT__2979efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2980efllogic")
+	LUT__2980efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2981efllogic")
+	LUT__2981efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2982efllogic")
+	LUT__2982efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2983efllogic")
+	LUT__2983efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2984efllogic")
+	LUT__2984efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2985efllogic")
+	LUT__2985efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2986efllogic")
+	LUT__2986efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2987efllogic")
+	LUT__2987efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2988efllogic")
+	LUT__2988efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2989efllogic")
+	LUT__2989efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2990efllogic")
+	LUT__2990efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2994efllogic")
+	LUT__2994efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2996efllogic")
+	LUT__2996efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__2998efllogic")
+	LUT__2998efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3002efllogic")
+	LUT__3002efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3003efllogic")
+	LUT__3003efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3005efllogic")
+	LUT__3005efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3022efllogic")
+	LUT__3022efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3023efllogic")
+	LUT__3023efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3024efllogic")
+	LUT__3024efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3025efllogic")
+	LUT__3025efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3026efllogic")
+	LUT__3026efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3027efllogic")
+	LUT__3027efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3028efllogic")
+	LUT__3028efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3029efllogic")
+	LUT__3029efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3030efllogic")
+	LUT__3030efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3031efllogic")
+	LUT__3031efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3032efllogic")
+	LUT__3032efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3033efllogic")
+	LUT__3033efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3034efllogic")
+	LUT__3034efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3036efllogic")
+	LUT__3036efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3037efllogic")
+	LUT__3037efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3038efllogic")
+	LUT__3038efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3039efllogic")
+	LUT__3039efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3040efllogic")
+	LUT__3040efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3042efllogic")
+	LUT__3042efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3044efllogic")
+	LUT__3044efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3046efllogic")
+	LUT__3046efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3048efllogic")
+	LUT__3048efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3049efllogic")
+	LUT__3049efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3050efllogic")
+	LUT__3050efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3051efllogic")
+	LUT__3051efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3052efllogic")
+	LUT__3052efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3053efllogic")
+	LUT__3053efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3054efllogic")
+	LUT__3054efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3055efllogic")
+	LUT__3055efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3056efllogic")
+	LUT__3056efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3058efllogic")
+	LUT__3058efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3059efllogic")
+	LUT__3059efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3060efllogic")
+	LUT__3060efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3061efllogic")
+	LUT__3061efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3062efllogic")
+	LUT__3062efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3063efllogic")
+	LUT__3063efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3064efllogic")
+	LUT__3064efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3065efllogic")
+	LUT__3065efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3067efllogic")
+	LUT__3067efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3069efllogic")
+	LUT__3069efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3070efllogic")
+	LUT__3070efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3071efllogic")
+	LUT__3071efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3072efllogic")
+	LUT__3072efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3073efllogic")
+	LUT__3073efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3074efllogic")
+	LUT__3074efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3075efllogic")
+	LUT__3075efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3076efllogic")
+	LUT__3076efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3078efllogic")
+	LUT__3078efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3079efllogic")
+	LUT__3079efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3080efllogic")
+	LUT__3080efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3081efllogic")
+	LUT__3081efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3082efllogic")
+	LUT__3082efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3083efllogic")
+	LUT__3083efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3084efllogic")
+	LUT__3084efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3086efllogic")
+	LUT__3086efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3087efllogic")
+	LUT__3087efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3088efllogic")
+	LUT__3088efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3089efllogic")
+	LUT__3089efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3090efllogic")
+	LUT__3090efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3091efllogic")
+	LUT__3091efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3092efllogic")
+	LUT__3092efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3093efllogic")
+	LUT__3093efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3094efllogic")
+	LUT__3094efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3095efllogic")
+	LUT__3095efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3096efllogic")
+	LUT__3096efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3097efllogic")
+	LUT__3097efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3098efllogic")
+	LUT__3098efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3099efllogic")
+	LUT__3099efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3100efllogic")
+	LUT__3100efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3101efllogic")
+	LUT__3101efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3102efllogic")
+	LUT__3102efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3103efllogic")
+	LUT__3103efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3104efllogic")
+	LUT__3104efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3105efllogic")
+	LUT__3105efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3106efllogic")
+	LUT__3106efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3107efllogic")
+	LUT__3107efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3108efllogic")
+	LUT__3108efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3109efllogic")
+	LUT__3109efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3110efllogic")
+	LUT__3110efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3111efllogic")
+	LUT__3111efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3112efllogic")
+	LUT__3112efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3113efllogic")
+	LUT__3113efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3114efllogic")
+	LUT__3114efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3115efllogic")
+	LUT__3115efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3117efllogic")
+	LUT__3117efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3118efllogic")
+	LUT__3118efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3119efllogic")
+	LUT__3119efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3120efllogic")
+	LUT__3120efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3121efllogic")
+	LUT__3121efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3122efllogic")
+	LUT__3122efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3123efllogic")
+	LUT__3123efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3124efllogic")
+	LUT__3124efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3125efllogic")
+	LUT__3125efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3126efllogic")
+	LUT__3126efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3127efllogic")
+	LUT__3127efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3128efllogic")
+	LUT__3128efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3130efllogic")
+	LUT__3130efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3131efllogic")
+	LUT__3131efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3132efllogic")
+	LUT__3132efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3133efllogic")
+	LUT__3133efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3134efllogic")
+	LUT__3134efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3135efllogic")
+	LUT__3135efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3136efllogic")
+	LUT__3136efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3137efllogic")
+	LUT__3137efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3138efllogic")
+	LUT__3138efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3140efllogic")
+	LUT__3140efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3141efllogic")
+	LUT__3141efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3142efllogic")
+	LUT__3142efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3143efllogic")
+	LUT__3143efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3144efllogic")
+	LUT__3144efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3145efllogic")
+	LUT__3145efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3146efllogic")
+	LUT__3146efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3147efllogic")
+	LUT__3147efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3148efllogic")
+	LUT__3148efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3149efllogic")
+	LUT__3149efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3151efllogic")
+	LUT__3151efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3152efllogic")
+	LUT__3152efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3153efllogic")
+	LUT__3153efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3154efllogic")
+	LUT__3154efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3155efllogic")
+	LUT__3155efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3157efllogic")
+	LUT__3157efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3158efllogic")
+	LUT__3158efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3159efllogic")
+	LUT__3159efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3160efllogic")
+	LUT__3160efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3161efllogic")
+	LUT__3161efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3162efllogic")
+	LUT__3162efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3163efllogic")
+	LUT__3163efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3165efllogic")
+	LUT__3165efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3166efllogic")
+	LUT__3166efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3168efllogic")
+	LUT__3168efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3170efllogic")
+	LUT__3170efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3172efllogic")
+	LUT__3172efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3174efllogic")
+	LUT__3174efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3176efllogic")
+	LUT__3176efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3178efllogic")
+	LUT__3178efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3179efllogic")
+	LUT__3179efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3180efllogic")
+	LUT__3180efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3182efllogic")
+	LUT__3182efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3183efllogic")
+	LUT__3183efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3184efllogic")
+	LUT__3184efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3185efllogic")
+	LUT__3185efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3187efllogic")
+	LUT__3187efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3188efllogic")
+	LUT__3188efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3190efllogic")
+	LUT__3190efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3191efllogic")
+	LUT__3191efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3192efllogic")
+	LUT__3192efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3193efllogic")
+	LUT__3193efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3195efllogic")
+	LUT__3195efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3196efllogic")
+	LUT__3196efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3197efllogic")
+	LUT__3197efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3198efllogic")
+	LUT__3198efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3200efllogic")
+	LUT__3200efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3201efllogic")
+	LUT__3201efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3202efllogic")
+	LUT__3202efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3203efllogic")
+	LUT__3203efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3205efllogic")
+	LUT__3205efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3206efllogic")
+	LUT__3206efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3208efllogic")
+	LUT__3208efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3209efllogic")
+	LUT__3209efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3210efllogic")
+	LUT__3210efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3211efllogic")
+	LUT__3211efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3212efllogic")
+	LUT__3212efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3213efllogic")
+	LUT__3213efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3215efllogic")
+	LUT__3215efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3216efllogic")
+	LUT__3216efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3217efllogic")
+	LUT__3217efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3219efllogic")
+	LUT__3219efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3220efllogic")
+	LUT__3220efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3221efllogic")
+	LUT__3221efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3222efllogic")
+	LUT__3222efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3223efllogic")
+	LUT__3223efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3225efllogic")
+	LUT__3225efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3226efllogic")
+	LUT__3226efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3228efllogic")
+	LUT__3228efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3229efllogic")
+	LUT__3229efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3230efllogic")
+	LUT__3230efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3231efllogic")
+	LUT__3231efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3233efllogic")
+	LUT__3233efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3234efllogic")
+	LUT__3234efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3235efllogic")
+	LUT__3235efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3236efllogic")
+	LUT__3236efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3238efllogic")
+	LUT__3238efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3239efllogic")
+	LUT__3239efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3241efllogic")
+	LUT__3241efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3242efllogic")
+	LUT__3242efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3247efllogic")
+	LUT__3247efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3248efllogic")
+	LUT__3248efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3249efllogic")
+	LUT__3249efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3250efllogic")
+	LUT__3250efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3251efllogic")
+	LUT__3251efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3252efllogic")
+	LUT__3252efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3253efllogic")
+	LUT__3253efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3254efllogic")
+	LUT__3254efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3255efllogic")
+	LUT__3255efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3256efllogic")
+	LUT__3256efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3257efllogic")
+	LUT__3257efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3258efllogic")
+	LUT__3258efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3260efllogic")
+	LUT__3260efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3261efllogic")
+	LUT__3261efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3262efllogic")
+	LUT__3262efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3263efllogic")
+	LUT__3263efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3264efllogic")
+	LUT__3264efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3265efllogic")
+	LUT__3265efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3266efllogic")
+	LUT__3266efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3267efllogic")
+	LUT__3267efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3268efllogic")
+	LUT__3268efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3269efllogic")
+	LUT__3269efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3270efllogic")
+	LUT__3270efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3271efllogic")
+	LUT__3271efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3273efllogic")
+	LUT__3273efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3274efllogic")
+	LUT__3274efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3275efllogic")
+	LUT__3275efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3277efllogic")
+	LUT__3277efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3282efllogic")
+	LUT__3282efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3283efllogic")
+	LUT__3283efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3284efllogic")
+	LUT__3284efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3285efllogic")
+	LUT__3285efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3286efllogic")
+	LUT__3286efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3287efllogic")
+	LUT__3287efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3288efllogic")
+	LUT__3288efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3289efllogic")
+	LUT__3289efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3290efllogic")
+	LUT__3290efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3291efllogic")
+	LUT__3291efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3292efllogic")
+	LUT__3292efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3294efllogic")
+	LUT__3294efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3295efllogic")
+	LUT__3295efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3296efllogic")
+	LUT__3296efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3297efllogic")
+	LUT__3297efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3298efllogic")
+	LUT__3298efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3299efllogic")
+	LUT__3299efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3300efllogic")
+	LUT__3300efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3301efllogic")
+	LUT__3301efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3302efllogic")
+	LUT__3302efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3303efllogic")
+	LUT__3303efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3304efllogic")
+	LUT__3304efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3306efllogic")
+	LUT__3306efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3307efllogic")
+	LUT__3307efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3308efllogic")
+	LUT__3308efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3309efllogic")
+	LUT__3309efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3310efllogic")
+	LUT__3310efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3311efllogic")
+	LUT__3311efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3312efllogic")
+	LUT__3312efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3313efllogic")
+	LUT__3313efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3314efllogic")
+	LUT__3314efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3315efllogic")
+	LUT__3315efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3316efllogic")
+	LUT__3316efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3318efllogic")
+	LUT__3318efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3319efllogic")
+	LUT__3319efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3320efllogic")
+	LUT__3320efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3321efllogic")
+	LUT__3321efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3322efllogic")
+	LUT__3322efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3323efllogic")
+	LUT__3323efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3324efllogic")
+	LUT__3324efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3325efllogic")
+	LUT__3325efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3326efllogic")
+	LUT__3326efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3327efllogic")
+	LUT__3327efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3328efllogic")
+	LUT__3328efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3329efllogic")
+	LUT__3329efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3330efllogic")
+	LUT__3330efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3331efllogic")
+	LUT__3331efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3332efllogic")
+	LUT__3332efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3333efllogic")
+	LUT__3333efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3335efllogic")
+	LUT__3335efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3336efllogic")
+	LUT__3336efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3337efllogic")
+	LUT__3337efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3338efllogic")
+	LUT__3338efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3339efllogic")
+	LUT__3339efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3340efllogic")
+	LUT__3340efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3341efllogic")
+	LUT__3341efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3342efllogic")
+	LUT__3342efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3343efllogic")
+	LUT__3343efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3344efllogic")
+	LUT__3344efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3345efllogic")
+	LUT__3345efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3346efllogic")
+	LUT__3346efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3347efllogic")
+	LUT__3347efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3348efllogic")
+	LUT__3348efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3349efllogic")
+	LUT__3349efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3350efllogic")
+	LUT__3350efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3352efllogic")
+	LUT__3352efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3353efllogic")
+	LUT__3353efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3354efllogic")
+	LUT__3354efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3355efllogic")
+	LUT__3355efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3356efllogic")
+	LUT__3356efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3357efllogic")
+	LUT__3357efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3358efllogic")
+	LUT__3358efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3359efllogic")
+	LUT__3359efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3360efllogic")
+	LUT__3360efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3361efllogic")
+	LUT__3361efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3362efllogic")
+	LUT__3362efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3364efllogic")
+	LUT__3364efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3365efllogic")
+	LUT__3365efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3366efllogic")
+	LUT__3366efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3367efllogic")
+	LUT__3367efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3368efllogic")
+	LUT__3368efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3369efllogic")
+	LUT__3369efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3370efllogic")
+	LUT__3370efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3371efllogic")
+	LUT__3371efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3372efllogic")
+	LUT__3372efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3373efllogic")
+	LUT__3373efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3374efllogic")
+	LUT__3374efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3375efllogic")
+	LUT__3375efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3376efllogic")
+	LUT__3376efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3377efllogic")
+	LUT__3377efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3378efllogic")
+	LUT__3378efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3379efllogic")
+	LUT__3379efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3381efllogic")
+	LUT__3381efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3382efllogic")
+	LUT__3382efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3383efllogic")
+	LUT__3383efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3385efllogic")
+	LUT__3385efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3386efllogic")
+	LUT__3386efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3387efllogic")
+	LUT__3387efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3389efllogic")
+	LUT__3389efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3390efllogic")
+	LUT__3390efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3391efllogic")
+	LUT__3391efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3393efllogic")
+	LUT__3393efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3394efllogic")
+	LUT__3394efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3395efllogic")
+	LUT__3395efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3397efllogic")
+	LUT__3397efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3398efllogic")
+	LUT__3398efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3399efllogic")
+	LUT__3399efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3401efllogic")
+	LUT__3401efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3402efllogic")
+	LUT__3402efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3403efllogic")
+	LUT__3403efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3405efllogic")
+	LUT__3405efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3406efllogic")
+	LUT__3406efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3407efllogic")
+	LUT__3407efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3409efllogic")
+	LUT__3409efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3410efllogic")
+	LUT__3410efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3412efllogic")
+	LUT__3412efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3413efllogic")
+	LUT__3413efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3419efllogic")
+	LUT__3419efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3420efllogic")
+	LUT__3420efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3421efllogic")
+	LUT__3421efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3422efllogic")
+	LUT__3422efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3423efllogic")
+	LUT__3423efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3424efllogic")
+	LUT__3424efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3425efllogic")
+	LUT__3425efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3427efllogic")
+	LUT__3427efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3428efllogic")
+	LUT__3428efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3429efllogic")
+	LUT__3429efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3430efllogic")
+	LUT__3430efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3431efllogic")
+	LUT__3431efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3432efllogic")
+	LUT__3432efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3433efllogic")
+	LUT__3433efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3435efllogic")
+	LUT__3435efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3436efllogic")
+	LUT__3436efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3437efllogic")
+	LUT__3437efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3438efllogic")
+	LUT__3438efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3439efllogic")
+	LUT__3439efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3440efllogic")
+	LUT__3440efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3441efllogic")
+	LUT__3441efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3442efllogic")
+	LUT__3442efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3444efllogic")
+	LUT__3444efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3445efllogic")
+	LUT__3445efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3446efllogic")
+	LUT__3446efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3447efllogic")
+	LUT__3447efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3448efllogic")
+	LUT__3448efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3449efllogic")
+	LUT__3449efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3450efllogic")
+	LUT__3450efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3452efllogic")
+	LUT__3452efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3453efllogic")
+	LUT__3453efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3454efllogic")
+	LUT__3454efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3455efllogic")
+	LUT__3455efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3456efllogic")
+	LUT__3456efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3457efllogic")
+	LUT__3457efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3458efllogic")
+	LUT__3458efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3459efllogic")
+	LUT__3459efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3460efllogic")
+	LUT__3460efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3462efllogic")
+	LUT__3462efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3463efllogic")
+	LUT__3463efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3464efllogic")
+	LUT__3464efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3465efllogic")
+	LUT__3465efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3466efllogic")
+	LUT__3466efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3467efllogic")
+	LUT__3467efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3468efllogic")
+	LUT__3468efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3470efllogic")
+	LUT__3470efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3471efllogic")
+	LUT__3471efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3472efllogic")
+	LUT__3472efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3473efllogic")
+	LUT__3473efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3474efllogic")
+	LUT__3474efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3475efllogic")
+	LUT__3475efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3476efllogic")
+	LUT__3476efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3478efllogic")
+	LUT__3478efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3479efllogic")
+	LUT__3479efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3480efllogic")
+	LUT__3480efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3481efllogic")
+	LUT__3481efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3482efllogic")
+	LUT__3482efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3483efllogic")
+	LUT__3483efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3484efllogic")
+	LUT__3484efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3485efllogic")
+	LUT__3485efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3486efllogic")
+	LUT__3486efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3488efllogic")
+	LUT__3488efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3489efllogic")
+	LUT__3489efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3490efllogic")
+	LUT__3490efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3491efllogic")
+	LUT__3491efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3492efllogic")
+	LUT__3492efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3493efllogic")
+	LUT__3493efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3494efllogic")
+	LUT__3494efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3496efllogic")
+	LUT__3496efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3497efllogic")
+	LUT__3497efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3498efllogic")
+	LUT__3498efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3499efllogic")
+	LUT__3499efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3500efllogic")
+	LUT__3500efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3501efllogic")
+	LUT__3501efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3502efllogic")
+	LUT__3502efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3504efllogic")
+	LUT__3504efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3505efllogic")
+	LUT__3505efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3506efllogic")
+	LUT__3506efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3507efllogic")
+	LUT__3507efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3508efllogic")
+	LUT__3508efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3509efllogic")
+	LUT__3509efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3510efllogic")
+	LUT__3510efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3511efllogic")
+	LUT__3511efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3512efllogic")
+	LUT__3512efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3514efllogic")
+	LUT__3514efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3515efllogic")
+	LUT__3515efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3516efllogic")
+	LUT__3516efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3517efllogic")
+	LUT__3517efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3518efllogic")
+	LUT__3518efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3519efllogic")
+	LUT__3519efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3520efllogic")
+	LUT__3520efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3522efllogic")
+	LUT__3522efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3523efllogic")
+	LUT__3523efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3524efllogic")
+	LUT__3524efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3525efllogic")
+	LUT__3525efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3526efllogic")
+	LUT__3526efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3527efllogic")
+	LUT__3527efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3528efllogic")
+	LUT__3528efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3530efllogic")
+	LUT__3530efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3531efllogic")
+	LUT__3531efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3532efllogic")
+	LUT__3532efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3533efllogic")
+	LUT__3533efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3534efllogic")
+	LUT__3534efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3535efllogic")
+	LUT__3535efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3536efllogic")
+	LUT__3536efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3537efllogic")
+	LUT__3537efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3538efllogic")
+	LUT__3538efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3540efllogic")
+	LUT__3540efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3541efllogic")
+	LUT__3541efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3542efllogic")
+	LUT__3542efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3543efllogic")
+	LUT__3543efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3544efllogic")
+	LUT__3544efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3545efllogic")
+	LUT__3545efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3546efllogic")
+	LUT__3546efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3548efllogic")
+	LUT__3548efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3549efllogic")
+	LUT__3549efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3551efllogic")
+	LUT__3551efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3552efllogic")
+	LUT__3552efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3554efllogic")
+	LUT__3554efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3555efllogic")
+	LUT__3555efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3557efllogic")
+	LUT__3557efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3558efllogic")
+	LUT__3558efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3560efllogic")
+	LUT__3560efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3561efllogic")
+	LUT__3561efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3563efllogic")
+	LUT__3563efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3564efllogic")
+	LUT__3564efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3566efllogic")
+	LUT__3566efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3567efllogic")
+	LUT__3567efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3570efllogic")
+	LUT__3570efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3571efllogic")
+	LUT__3571efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3572efllogic")
+	LUT__3572efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3573efllogic")
+	LUT__3573efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3574efllogic")
+	LUT__3574efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3575efllogic")
+	LUT__3575efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3576efllogic")
+	LUT__3576efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3577efllogic")
+	LUT__3577efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3578efllogic")
+	LUT__3578efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3579efllogic")
+	LUT__3579efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3580efllogic")
+	LUT__3580efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3581efllogic")
+	LUT__3581efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3582efllogic")
+	LUT__3582efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3583efllogic")
+	LUT__3583efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3584efllogic")
+	LUT__3584efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3585efllogic")
+	LUT__3585efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3586efllogic")
+	LUT__3586efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3587efllogic")
+	LUT__3587efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3588efllogic")
+	LUT__3588efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3589efllogic")
+	LUT__3589efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3592efllogic")
+	LUT__3592efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3594efllogic")
+	LUT__3594efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3595efllogic")
+	LUT__3595efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3596efllogic")
+	LUT__3596efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3597efllogic")
+	LUT__3597efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3598efllogic")
+	LUT__3598efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3601efllogic")
+	LUT__3601efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3603efllogic")
+	LUT__3603efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3605efllogic")
+	LUT__3605efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3606efllogic")
+	LUT__3606efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3607efllogic")
+	LUT__3607efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3608efllogic")
+	LUT__3608efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3609efllogic")
+	LUT__3609efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3610efllogic")
+	LUT__3610efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3611efllogic")
+	LUT__3611efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3613efllogic")
+	LUT__3613efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3614efllogic")
+	LUT__3614efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3615efllogic")
+	LUT__3615efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3616efllogic")
+	LUT__3616efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3617efllogic")
+	LUT__3617efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3619efllogic")
+	LUT__3619efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3620efllogic")
+	LUT__3620efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3621efllogic")
+	LUT__3621efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3622efllogic")
+	LUT__3622efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3624efllogic")
+	LUT__3624efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3625efllogic")
+	LUT__3625efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3626efllogic")
+	LUT__3626efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3628efllogic")
+	LUT__3628efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3629efllogic")
+	LUT__3629efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3630efllogic")
+	LUT__3630efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3632efllogic")
+	LUT__3632efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3633efllogic")
+	LUT__3633efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3635efllogic")
+	LUT__3635efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3636efllogic")
+	LUT__3636efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3638efllogic")
+	LUT__3638efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3639efllogic")
+	LUT__3639efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3640efllogic")
+	LUT__3640efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3641efllogic")
+	LUT__3641efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3643efllogic")
+	LUT__3643efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3644efllogic")
+	LUT__3644efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3645efllogic")
+	LUT__3645efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3646efllogic")
+	LUT__3646efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3647efllogic")
+	LUT__3647efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3648efllogic")
+	LUT__3648efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3649efllogic")
+	LUT__3649efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3650efllogic")
+	LUT__3650efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3651efllogic")
+	LUT__3651efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3652efllogic")
+	LUT__3652efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3653efllogic")
+	LUT__3653efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3654efllogic")
+	LUT__3654efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3655efllogic")
+	LUT__3655efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3692efllogic")
+	LUT__3692efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3693efllogic")
+	LUT__3693efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3694efllogic")
+	LUT__3694efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3695efllogic")
+	LUT__3695efl(0)/lut4(0)/lut(1)"names
+B
+	LUT__3696efllogic")
+	LUT__3696efl(0)/lut4(0)/lut(1)"names
+S
+	CLKBUF__4
+gbuf_block
+gbuf_block".
+	CLKBUF__4gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+S
+	CLKBUF__3
+gbuf_block
+gbuf_block".
+	CLKBUF__3gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+S
+	CLKBUF__2
+gbuf_block
+gbuf_block".
+	CLKBUF__2gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+S
+	CLKBUF__1
+gbuf_block
+gbuf_block".
+	CLKBUF__1gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+S
+	CLKBUF__0
+gbuf_block
+gbuf_block".
+	CLKBUF__0gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE
+}
+&AUX_ADD_CI__i140/cpu1/u0/alu/add_17/i2efl
+arithmetic"B
+&AUX_ADD_CI__i140/cpu1/u0/alu/add_17/i2efl(0)/adder(1)"EFX_ADD
+}
+&AUX_ADD_CO__i140/cpu1/u0/alu/add_17/i5efl
+arithmetic"B
+&AUX_ADD_CO__i140/cpu1/u0/alu/add_17/i5efl(0)/adder(1)"EFX_ADD

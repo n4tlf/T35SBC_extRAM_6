@@ -1,0 +1,207 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Compiled: Aug 29 2022.
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T35F400" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/s100projects/T35SBC_extRAM_6/T35SBC_extRAM_6.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.053609 seconds.
+	VDB Netlist Checker took 0.046875 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 15.508 MB, end = 15.524 MB, delta = 0.016 MB
+	VDB Netlist Checker peak virtual memory usage = 51.716 MB
+VDB Netlist Checker resident set memory usage: begin = 25.908 MB, end = 26.136 MB, delta = 0.228 MB
+	VDB Netlist Checker peak resident set memory usage = 60.56 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.interface.csv'.
+Successfully processed interface constraints file "C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #0(pll0_LOCKED) has no fanout.
+Removing input.
+logical_block #73(sw_IOBYTE[3]) has no fanout.
+Removing input.
+logical_block #74(sw_IOBYTE[2]) has no fanout.
+Removing input.
+logical_block #75(sw_IOBYTE[1]) has no fanout.
+Removing input.
+logical_block #76(sw_IOBYTE[0]) has no fanout.
+Removing input.
+logical_block #126(test_IN) has no fanout.
+Removing input.
+Pass 0: Swept away 6 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 6 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 6 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/s100projects/T35SBC_extRAM_6/T35SBC_extRAM_6.vdb".
+Netlist pre-processing took 0.143667 seconds.
+	Netlist pre-processing took 0.109375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 11.672 MB, end = 19.136 MB, delta = 7.464 MB
+	Netlist pre-processing peak virtual memory usage = 51.716 MB
+Netlist pre-processing resident set memory usage: begin = 21.648 MB, end = 29.884 MB, delta = 8.236 MB
+	Netlist pre-processing peak resident set memory usage = 60.56 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/s100projects/T35SBC_extRAM_6/work_pnr\T35SBC_extRAM_6.net_proto" took 0.005 seconds
+Creating IO constraints file 'C:/s100projects/T35SBC_extRAM_6/work_pnr\T35SBC_extRAM_6.io_place'
+Packing took 0.029702 seconds.
+	Packing took 0.015625 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 24.152 MB, end = 25.66 MB, delta = 1.508 MB
+	Packing peak virtual memory usage = 51.716 MB
+Packing resident set memory usage: begin = 35.004 MB, end = 36.672 MB, delta = 1.668 MB
+	Packing peak resident set memory usage = 60.56 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/s100projects/T35SBC_extRAM_6/work_pnr\T35SBC_extRAM_6.net_proto
+Read proto netlist for file "C:/s100projects/T35SBC_extRAM_6/work_pnr\T35SBC_extRAM_6.net_proto" took 0.006 seconds
+Setup net and block data structure took 0.1 seconds
+Packed netlist loading took 0.128749 seconds.
+	Packed netlist loading took 0.09375 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 25.66 MB, end = 47.364 MB, delta = 21.704 MB
+	Packed netlist loading peak virtual memory usage = 86.552 MB
+Packed netlist loading resident set memory usage: begin = 36.684 MB, end = 57.728 MB, delta = 21.044 MB
+	Packed netlist loading peak resident set memory usage = 96.768 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+Found potential clock source s100_PHI
+Found potential clock source z80_n_mreq
+Found potential clock source z80_n_rfsh
+Found potential clock source liorq
+Found potential clock source psyncend
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.interface.csv'.
+Successfully processed interface constraints file "C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.interface.csv".
+Writing IO placement constraints to 'C:/s100projects/T35SBC_extRAM_6/outflow\T35SBC_extRAM_6.interface.io'.
+
+Reading placement constraints from 'C:/s100projects/T35SBC_extRAM_6/outflow\T35SBC_extRAM_6.interface.io'.
+
+Reading placement constraints from 'C:/s100projects/T35SBC_extRAM_6/work_pnr\T35SBC_extRAM_6.io_place'.
+WARNING(1): Clock driver, pll0_2MHz, should not directly drive output pad, s100_CLOCK, in the core. Use the 'clkout' mode in GPIO instead.
+WARNING(2): Clock input pad, pll0_2MHz, of net, s100_CLOCK, drives both clock buffer and logic. Expect extra clock skew.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create C:/s100projects/T35SBC_extRAM_6/outflow\T35SBC_extRAM_6_after_qp.qdelay
+NumRegions 1
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[7]~FF:O to i140/cpu1/DI_Reg[7]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[6]~FF:O to i140/cpu1/DI_Reg[6]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[5]~FF:O to i140/cpu1/DI_Reg[5]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[4]~FF:O to i140/cpu1/DI_Reg[4]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[3]~FF:O to i140/cpu1/DI_Reg[3]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[2]~FF:O to i140/cpu1/DI_Reg[2]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[1]~FF:O to i140/cpu1/DI_Reg[1]~FF:I[1]
+Timer::BuildGraph: ============ Cutting edge BACK edge from i140/cpu1/DI_Reg[0]~FF:I[1] to i140/cpu1/DI_Reg[0]~FF:O
+Starting Global Placer with 8 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      170994           -4378         6.6%
+          2      113126           -4399         9.7%
+          3      110284           -4928        11.8%
+          4       94294           -5265        14.7%
+          5       99314           -4910        17.7%
+          6      116878           -6767        23.3%
+          7       98163          -10494        36.8%
+          8       76484          -13946        56.4%
+          9       83620          -13097        68.2%
+         10       80054          -13555        73.0%
+         11      100997          -12788        77.2%
+         12       84990          -12660        77.2%
+         13      100322          -12854        80.3%
+         14       91723          -12945        80.3%
+         15      109604          -13401        83.5%
+         16       95337          -13204        83.5%
+         17      110333          -13007        85.4%
+         18      104005          -13143        85.4%
+         19      115720          -12688        86.0%
+         20      106696          -13581        86.0%
+         21       94514          -13649        90.4%
+         22       90315          -14799        90.4%
+         23       95470          -13957        90.8%
+         24       93917          -14549        90.8%
+         25       94006          -14131        91.4%
+         26       94599          -14252        91.9%
+         27       97121          -14388        93.5%
+         28       94318          -14653        93.7%
+         29       93757          -14260        95.3%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       94514           18786        30.0
+          1       56678           18646        30.0
+          2       32035           18098        30.0
+          3       31429           17019        30.0
+          4       29753           15795        30.0
+          5       28938           14894        30.0
+          6       28429           14356        30.0
+          7       28144           14045        30.0
+          8       28143           14432        30.0
+          9       28020           13775        29.7
+         10       27560           13574        29.0
+         11       27258           13788        28.4
+         12       27072           13561        27.5
+         13       26832           13636        26.5
+         14       26398           13314        25.4
+         15       25968           13245        24.4
+         16       25570           13018        23.3
+         17       25349           12938        22.1
+         18       25099           13296        20.9
+         19       25020           12822        19.7
+         20       24828           12943        18.5
+         21       24743           12927        17.4
+         22       24589           13192        16.3
+         23       24266           12894        15.4
+         24       24026           12680        14.4
+         25       23754           12513        13.5
+         26       23544           12864        12.6
+         27       23509           12546        11.8
+         28       23361           12839        11.0
+         29       23254           12847        10.3
+         30       23133           12798         9.6
+         31       23008           13015         9.0
+         32       22627           12792         8.1
+Generate C:/s100projects/T35SBC_extRAM_6/outflow\T35SBC_extRAM_6_after_qp.qdelay
+Placement successful: 2139 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.146573 at 52,90
+Congestion-weighted HPWL per net: 8.68152
+
+Reading placement constraints from 'C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.qplace'.
+Finished Realigning Types (946 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/s100projects/T35SBC_extRAM_6/outflow/T35SBC_extRAM_6.place'
+Placement took 14.9533 seconds.
+	Placement took 15.625 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 47.364 MB, end = 70.088 MB, delta = 22.724 MB
+	Placement peak virtual memory usage = 244.388 MB
+Placement resident set memory usage: begin = 57.74 MB, end = 75.34 MB, delta = 17.6 MB
+	Placement peak resident set memory usage = 246.9 MB
+***** Ending stage placement *****
+
